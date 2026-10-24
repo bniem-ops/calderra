@@ -6,6 +6,8 @@ import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
+import { marked } from "marked";
+import { mkdirSync, rmSync } from "node:fs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const p = (...parts) => join(ROOT, ...parts);
@@ -165,10 +167,93 @@ for (const [label, text] of privateTexts) {
 const FORBIDDEN_KEYS = ["outcome", "ripples", "reason", "known_by", "changes", "standing"];
 JSON.stringify(out, (k, v) => { if (FORBIDDEN_KEYS.includes(k)) errors.push(`LEAK: private key "${k}" in map data`); return v; });
 
+// ---------- Player guides (unlisted pages) ----------
+// Guides in players/*.md with ready: true become map/peoples/<id>.html. Nothing links to them;
+// the DM shares each link with the player who picks that people.
+const secretBlocks = (text) => [...text.matchAll(/<!-- secret -->([\s\S]*?)<!-- \/secret -->/g)].map((m) => m[1]);
+const secretTerms = [];
+const guideSecrets = [];
+const pushSecret = (label, t) => { if (t) guideSecrets.push([label, String(t)]); };
+for (const dir of ["world", "world/factions", "world/regions"]) {
+  for (const f of mdFiles(p(dir))) {
+    const text = readFileSync(p(dir, f), "utf8");
+    secretBlocks(text).forEach((b) => pushSecret(`${dir}/${f} (secret block)`, b));
+    if (dir === "world/factions") secretTerms.push(...(readFrontMatter(p(dir, f)).data.secret_terms || []).map((t) => [f, t]));
+  }
+}
+pushSecret("world/sunfire-crown.md", readFileSync(p("world/sunfire-crown.md"), "utf8"));
+for (const a of adventures) pushSecret(`adventures/${a.folder} body`, a.body.replace(/^#.*$/gm, ""));
+for (const s of sessions) { pushSecret(`ledger/sessions/${s.file} body`, s.body); pushSecret(`ledger/sessions/${s.file} outcome`, s.data.outcome); (s.data.ripples || []).forEach((r) => pushSecret(`ledger/sessions/${s.file} ripples`, r)); }
+for (const [id, g] of Object.entries(state.gems || {})) if (!g.revealed) pushSecret(`ledger/state.yaml gems.${id}.location`, g.location);
+
+function leakScan(outputText, sources, where) {
+  const hay = norm(outputText);
+  for (const [label, text] of sources) {
+    for (const piece of text.split(/(?<=[.!?:;])\s+|\n+|—|\s-\s/).map(norm).filter((x) => x.length >= 28)) {
+      if (hay.includes(piece)) errors.push(`LEAK in ${where}: text from ${label}: "${piece.slice(0, 80)}…"`);
+    }
+  }
+}
+// Secret terms are checked everywhere players can see.
+for (const [file, term] of secretTerms) {
+  if (new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(JSON.stringify(out))) errors.push(`LEAK in map data: secret term "${term}" from world/factions/${file}`);
+}
+
+const guides = mdFiles(p("players")).map((f) => ({ file: f, ...readFrontMatter(p("players", f)) }));
+const guideOut = [];
+for (const g of guides) {
+  if (!g.data.id || !g.data.title) { errors.push(`players/${g.file}: needs id and title`); continue; }
+  if (g.data.faction && !factionsCanon.some((f) => f.data.id === g.data.faction)) errors.push(`players/${g.file}: faction "${g.data.faction}" doesn't exist`);
+  if (!g.data.ready) continue;
+  const html = marked.parse(g.body);
+  leakScan(g.body, guideSecrets, `players/${g.file}`);
+  for (const [file, term] of secretTerms) {
+    if (new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(g.body)) errors.push(`LEAK in players/${g.file}: secret term "${term}" (listed in world/factions/${file})`);
+  }
+  guideOut.push({ id: g.data.id, html: guidePage(g.data, html) });
+}
+
+function guidePage(d, body) {
+  const e = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>${e(d.title)} · Calderra</title>
+<link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap guide-wrap">
+  <header class="top">
+    <div>
+      <p class="eyebrow">Peoples of Calderra</p>
+      <h1>${e(d.title)}</h1>
+      ${d.subtitle ? `<p class="sub">${e(d.subtitle)}</p>` : ""}
+    </div>
+  </header>
+  <article class="panel guide">
+${body}
+  </article>
+  <footer class="note">A player's guide for Calderra. <a href="../">Open the campaign map</a></footer>
+</div>
+</body>
+</html>
+`;
+}
+
 if (errors.length) {
   console.error("\nBuild failed:\n" + errors.map((e) => "  • " + e).join("\n") + "\n");
   process.exit(1);
 }
 writeFileSync(p("map/data.json"), JSON.stringify(out, null, 2) + "\n");
+rmSync(p("map/peoples"), { recursive: true, force: true });
+if (guideOut.length) mkdirSync(p("map/peoples"), { recursive: true });
+for (const g of guideOut) writeFileSync(p("map/peoples", g.id + ".html"), g.html);
 const played = out.sessions.filter((s) => s.status === "played").length;
-console.log(`map/data.json written: ${out.sessions.length} sessions (${played} played), next: ${out.next_session ?? "none"}. Leak check passed.`);
+console.log(`map/data.json written: ${out.sessions.length} sessions (${played} played), next: ${out.next_session ?? "none"}. Guides: ${guideOut.map((g) => "peoples/" + g.id + ".html").join(", ") || "none"}. Leak check passed.`);

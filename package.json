@@ -9,6 +9,7 @@
     "preview": "node scripts/preview.mjs"
   },
   "devDependencies": {
+    "marked": "^12.0.2",
     "yaml": "2.5.1"
   },
   "engines": {
