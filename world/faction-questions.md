@@ -7,7 +7,7 @@ Factions are built in the order they arrived in Calderra, so later ones can fill
 | 1 | Stonecrown Holds | Before the empire; the oldest people in Calderra | Done |
 | 2 | House Ironhart | The march-lords who built and held the Thornwall | Done |
 | 3 | The Regency | The imperial court in Solace | Done |
-| 4 | Saltreach Compact | The newest power: merchants grown rich in the empire's last century | To do |
+| 4 | Saltreach Compact | The newest power: merchants grown rich in the empire's last century | Draft |
 | 5 | The Ashen Pretender | Exiled heir, built to exploit everyone's weak points | To do |
 | 6 | Order of the Dawn Lantern | Sworn to the realm; ties everything together | To do |
 
@@ -71,3 +71,4 @@ Answer these in the faction's file under `world/factions/`, in the markdown body
 | Stonecrown Holds | `peoples/holdfast.html` |
 | House Ironhart | `peoples/marcher.html` |
 | The Regency | `peoples/solari.html` |
+| Saltreach Compact | `peoples/reacher.html` |

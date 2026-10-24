@@ -9,4 +9,4 @@ rumour: "The Compact will pay a fortune for anyone who can sink the Black Gull."
 
 # The Saltreach Coast
 
-Setting for The Black Gull.
+Setting for The Black Gull. See `factions/saltreach.md` for the Tide Table, the Old Houses and their secrets.

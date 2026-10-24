@@ -185,6 +185,8 @@ For the last eight years of his reign, the Last Sun was **sun-sick**: lost to a 
 
 Lysander chose bread over walls. With the grain tax falling and the treasury thin, he held the Morning Price down and cut the March's pay. And he **kept paying** the dragon tribute to the dwarves after he learned it was a fraud, because stopping would have told the Holds he knew. So part of what starved the Thornwall went straight into the Stonecrown vaults, to protect his leverage. And another part, booked as pay for a frontier garrison, went west to buy the silence of the emperor's exiled son.
 
+And when even that wasn't enough, he borrowed. The treasury sold **Sun Bonds** to the Old Houses of Saltreach to keep the Granaries full. The empire now owes them more than it could repay in a century (see `saltreach.md`).
+
 ### The Heart gem
 
 On the night the Last Sun died, Lysander was alone at the bedside. The Crown shattered; he caught one gem before the light faded. He hid it in the vault beneath the palace, and keeps the fake crown on its cushion in the throne room so everyone knows not to trust it.
