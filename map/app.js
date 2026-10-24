@@ -137,7 +137,10 @@ function select(id, { updateHash = true } = {}) {
       <span class="chip">${esc(actShort(s.act))}</span>
     </div>
     <p class="label">Where</p><p>${esc(s.location)}</p>`;
-  if (region && region.held_by) html += `<p class="region-note">${esc(region.name)} · held by ${esc(region.held_by)}</p>`;
+  if (region && region.held_by) {
+    const prefix = s.location.includes(region.name) ? "" : `${esc(region.name)} · `;
+    html += `<p class="region-note">${prefix}Held by ${esc(region.held_by)}</p>`;
+  }
   html += `<p class="label">What kind of night</p><p>${esc(s.genre)} · spotlight: ${esc(s.spotlight)}</p>`;
   if (s.status === "played") {
     html += `<p class="label">What happened</p><p>${esc(s.public_record)}</p>`;
@@ -190,7 +193,7 @@ const next = data.sessions.find((s) => s.status === "next");
 const paras = [
   data.intro,
   ...played.map((s) => s.public_record).filter(Boolean),
-  next ? `The Order of the Dawn Lantern is gathering heroes for its next task: ${next.title}, in ${next.location}.` : "The Council of Banners has met. Calderra's future is decided.",
+  next ? `The Order of the Dawn Lantern is gathering heroes for its next task: ${next.title}${next.title.includes(next.location.split(",")[0]) ? `, in ${next.region}` : `, in ${next.location}`}.` : "The Council of Banners has met. Calderra's future is decided.",
 ].filter(Boolean);
 $("story").innerHTML = paras.map((t) => `<p>${esc(t)}</p>`).join("");
 $("copy-recap").addEventListener("click", () => {

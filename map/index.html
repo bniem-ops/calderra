@@ -25,57 +25,59 @@
     <p class="sub" id="synced"></p>
   </header>
 
-  <div class="main">
-    <figure class="map">
-      <div class="map-frame">
-        <svg id="map" viewBox="0 0 1000 700" role="group" aria-label="Map of Calderra with a pin for each one-shot"></svg>
-      </div>
-      <figcaption class="legend">
-        <span><i class="dot played"></i>Played</span>
-        <span><i class="dot next"></i>Up next</span>
-        <span><i class="dot planned"></i>Planned</span>
-        <span>Tap a pin for details</span>
-      </figcaption>
-    </figure>
+  <!-- Two independent columns so uneven panels never leave gaps. On phones the
+       columns dissolve and panels follow the order set in styles.css. -->
+  <div class="board">
+    <div class="col col-main">
+      <figure class="map o-map">
+        <div class="map-frame">
+          <svg id="map" viewBox="0 0 1000 700" role="group" aria-label="Map of Calderra with a pin for each one-shot"></svg>
+        </div>
+        <figcaption class="legend">
+          <span><i class="dot played"></i>Played</span>
+          <span><i class="dot next"></i>Up next</span>
+          <span><i class="dot planned"></i>Planned</span>
+          <span>Tap a pin for details</span>
+        </figcaption>
+      </figure>
 
-    <aside class="rail">
-      <section class="panel detail" id="detail" aria-live="polite"><p class="empty">Loading the realm…</p></section>
-      <section class="panel">
+      <section class="panel story o-story">
+        <h2>The Story So Far</h2>
+        <div id="story"></div>
+        <div class="recap-tools"><button type="button" id="copy-recap">Copy recap</button><span class="copied" id="copied" hidden>Copied</span></div>
+      </section>
+
+      <section class="panel o-road">
+        <h2>The Road to the Council</h2>
+        <ol class="timeline" id="timeline"></ol>
+      </section>
+    </div>
+
+    <aside class="col col-side">
+      <section class="panel detail o-detail" id="detail" aria-live="polite"><p class="empty">Loading the realm…</p></section>
+
+      <section class="panel o-peace">
         <h2>The Realm's Peace</h2>
         <div class="peace-row"><span class="peace-num" id="peace-num"></span><span class="peace-word" id="peace-word"></span></div>
         <div class="meter" id="meter" aria-hidden="true"></div>
         <div class="meter-scale"><span>Civil war</span><span>Peace</span></div>
       </section>
-    </aside>
-  </div>
 
-  <div class="chronicle">
-    <section class="panel story">
-      <h2>The Story So Far</h2>
-      <div id="story"></div>
-      <div class="recap-tools"><button type="button" id="copy-recap">Copy recap</button><span class="copied" id="copied" hidden>Copied</span></div>
-    </section>
-    <div class="rail">
-      <section class="panel">
+      <section class="panel o-banners">
         <h2>Banners of Calderra</h2>
         <ul class="factions" id="factions"></ul>
       </section>
-      <section class="panel">
+
+      <section class="panel o-crown">
         <h2>The Sunfire Crown</h2>
         <ul class="gems" id="gems"></ul>
       </section>
-    </div>
-  </div>
 
-  <div class="chronicle">
-    <section class="panel">
-      <h2>The Road to the Council</h2>
-      <ol class="timeline" id="timeline"></ol>
-    </section>
-    <section class="panel">
-      <h2>Legacy Heroes</h2>
-      <div id="legacy"></div>
-    </section>
+      <section class="panel o-legacy">
+        <h2>Legacy Heroes</h2>
+        <div id="legacy"></div>
+      </section>
+    </aside>
   </div>
 
   <footer class="note">Kept by the DM. Reputations and records update after each session.</footer>
