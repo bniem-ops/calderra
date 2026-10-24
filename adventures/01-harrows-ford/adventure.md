@@ -32,6 +32,10 @@ Spare or kill the defeated champion. Sparing him creates a future orc ally again
 
 Your Gauntlet-style skill challenge turned into battle prep, then a big heroic fight. The players feel clever before they feel strong.
 
+## Open question
+
+Should the warband's champion be **war-mother Ushra's son**, who tells the heroes about the Thorn Pact if spared? See `world/factions/ironhart.md`. Decide when building this adventure out.
+
 ## Status
 
 Outline only. Flesh out with the one-shot template in `world/dm-notes.md`.
