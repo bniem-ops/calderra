@@ -10,7 +10,7 @@ secret_terms: ["Sun Bonds", "Sun Bond", "imperial debt", "bondholders", "bondhol
 
 # Saltreach Compact
 
-> **Status: draft.** Built fourth: the newest power in Calderra, merchants who grew rich in the empire's last century. Items marked **(DM call)** are open choices.
+> **Status: done.** Built fourth: the newest power in Calderra, merchants who grew rich in the empire's last century.
 
 ## Who's who (quick reference)
 
@@ -204,7 +204,7 @@ Their richest families quietly fund whichever claimant will pay their debts, and
 
 ## Hooks for one-shots
 
-- **The Black Gull:** **(DM call)** keep the existing twist (a Vareth prince funds the piracy to drive up prices), or deepen it: Captain Jory Vane takes Vareth's money but chooses his own targets, and he has been sinking the Old Houses' secret arms ships to the Pretender. The captain's log then holds the cove's location, and the heroes must decide who to tell: Odessa, Hargrove, or the world.
+- **The Black Gull:** two twist options, kept open until earlier one-shots have been played (see the adventure): keep the existing twist (a Vareth prince funds the piracy to drive up prices), or deepen it: Captain Jory Vane takes Vareth's money but chooses his own targets, and he has been sinking the Old Houses' secret arms ships to the Pretender. The captain's log then holds the cove's location, and the heroes must decide who to tell: Odessa, Hargrove, or the world.
 - **The Feast of Banners:** Odessa and Hargrove both attend, and each tries to recruit the heroes to watch the other.
 - **The Council of Banners:** the Sun Bonds are laid on the table. Cancel them, and the empire can be rebuilt clean; honour them, and the Old Houses own whoever wins.
 - **The Millhaven Harvest:** a Reacher buyer offers Millhaven a better price than either army. Taking it keeps the village out of the war, and angers everyone else.
