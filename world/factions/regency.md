@@ -5,7 +5,7 @@ seat: "The Heartlands"
 face: "Regent Lysander Vael"
 public_blurb: "The late emperor's chancellor, holding the capital and calling for the empire to stay whole under a council."
 # Words that must never appear in player guides or on the map.
-secret_terms: ["acknowledgement", "acknowledged the boy", "Heart gem", "Sun-Sickness", "sun-sick", "ruled in his name", "the eight dark years", "dark years", "exile order", "the Quiet Seal", "tribute ledgers", "kept paying"]
+secret_terms: ["stipend", "frontier garrison", "hush money", "acknowledgement", "acknowledged the boy", "Heart gem", "Sun-Sickness", "sun-sick", "ruled in his name", "the eight dark years", "dark years", "exile order", "the Quiet Seal", "tribute ledgers", "kept paying"]
 ---
 
 # The Regency
@@ -183,7 +183,7 @@ For the last eight years of his reign, the Last Sun was **sun-sick**: lost to a 
 
 ### Why the wall pay ran short
 
-Lysander chose bread over walls. With the grain tax falling and the treasury thin, he held the Morning Price down and cut the March's pay. And he **kept paying** the dragon tribute to the dwarves after he learned it was a fraud, because stopping would have told the Holds he knew. So part of what starved the Thornwall went straight into the Stonecrown vaults, to protect his leverage.
+Lysander chose bread over walls. With the grain tax falling and the treasury thin, he held the Morning Price down and cut the March's pay. And he **kept paying** the dragon tribute to the dwarves after he learned it was a fraud, because stopping would have told the Holds he knew. So part of what starved the Thornwall went straight into the Stonecrown vaults, to protect his leverage. And another part, booked as pay for a frontier garrison, went west to buy the silence of the emperor's exiled son.
 
 ### The Heart gem
 
@@ -195,6 +195,9 @@ On the night the Last Sun died, Lysander was alone at the bedside. The Crown sha
 - **When:** in the third of the eight dark years. A woman from the provinces came to court with a boy of about sixteen and a ring the Last Sun had given her, asking for the boy to be recognised.
 - **Why Lysander did it:** an audience would have shown the court the emperor was sun-sick. And in a rare lucid hour the Last Sun *did* know them, wept, and wrote a few lines acknowledging the boy as his son.
 - **What Lysander did:** he signed the **exile order** under the Quiet Seal and had mother and son taken to the far west, to the ruined frontier. The Solari never burn documents, so he kept the emperor's acknowledgement too. **It's in the vault beneath the palace, beside the Heart gem.**
+- **The hush money.** Exile alone wasn't enough; a desperate woman with a ring and a story could still talk. So Lysander paid them to stay silent: a yearly stipend in imperial gold, sent west under the Quiet Seal and hidden in the treasury books as upkeep for a **frontier garrison** that doesn't exist. Officially, it was wall pay.
+- The mother spent almost none of it. For five years she saved every coin.
+- When the Last Sun died, the stipend stopped. Within a month her son had used the hoard to hire his first mercenaries and buy the loyalty of the first monster clans. **The Regency's own gold paid for the start of the Pretender's war.**
 - So Lysander knows the Pretender's claim is real, and that his own forged order created the war's greatest enemy. The boy would be about twenty-one now.
 - The rest of the Pretender's story (his mother's fate, how he came to lead monsters) is built with the Pretender.
 
@@ -205,7 +208,7 @@ On the night the Last Sun died, Lysander was alone at the bedside. The Crown sha
 
 ## Hooks for one-shots
 
-- **The Regent's Vault:** the heroes come for the Heart gem, and also find the vault's archive: the emperor's sickbed records, the Quiet Seal, Lysander's ledger of what he paid the dwarves, and **the Last Sun's acknowledgement of his son**. The real choice becomes *what to take*.
+- **The Regent's Vault:** the heroes come for the Heart gem, and also find the vault's archive: the emperor's sickbed records, the Quiet Seal, Lysander's ledger of what he paid the dwarves and the exiles, and **the Last Sun's acknowledgement of his son**. The real choice becomes *what to take*.
 - **The Feast of Banners:** Lady Corisande wants Lysander dead before the Council. The poison was meant for him, and hit someone else.
 - **The Millhaven Harvest:** one of the two armies wanting Millhaven's grain could be the Regency's, desperate to refill the Granaries.
 - **The Council of Banners:** the High Prelate demands the gems be laid on the table. Lysander has to decide whether to reveal his.

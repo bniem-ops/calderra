@@ -21,7 +21,7 @@ cold_open: "The Order believes one of the Crown gems is under the Regent's palac
 
 ## What's in the vault
 
-The Heart gem, and the Regent's archive: the Last Sun's sickbed records, the Quiet Seal, the ledger of dragon tribute paid to the dwarves, and the Last Sun's written acknowledgement of his son (the Ashen Pretender). See `world/factions/regency.md`.
+The Heart gem, and the Regent's archive: the Last Sun's sickbed records, the Quiet Seal, the ledger of dragon tribute paid to the dwarves and the hush money paid west to the exiles, and the Last Sun's written acknowledgement of his son (the Ashen Pretender). See `world/factions/regency.md`.
 
 ## The choice
 
