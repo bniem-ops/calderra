@@ -9,4 +9,4 @@ rumour: "The Regent keeps a crown on a cushion in the throne room. Everyone know
 
 # The Heartlands
 
-The capital, Solace, sits here. See `factions/regency.md` for the court, the sun-loaf and the Regent's secrets.
+The capital, Solace, sits here. See `factions/regency.md` for the court, the Granaries and the Regent's secrets.

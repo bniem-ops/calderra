@@ -11,7 +11,7 @@ This is what your character knows growing up in the capital. It's your people's 
 
 ## Who you are
 
-You are **Solari**, "the sun's people," a citizen of **Solace**, the marble capital on the southern bay. If you grew up on the farms around it, you're a **Heartlander**. Provincials call you **"the Gilt"** or **"bread-eaters,"** and you've learned to smile when they do.
+You are **Solari**, "the sun's people," a citizen of **Solace**, the marble capital on the southern bay. If you grew up on the farms around it, you're a **Heartlander**. Provincials call you **"the Gilt"** or **"bread-masters,"** and you've learned to smile when they do.
 
 Before the empire there were only warring kingdoms. Then the Sun came down to earth as the first emperor and lit the world. Solace was built where the light first touched the ground, and for three hundred years every emperor was the Sun reborn. Where the empire went, came roads, law, coin and peace.
 
@@ -21,7 +21,7 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 
 - **Solace** is the greatest city in Calderra: white walls, gold domes, a harbour full of ships, and every road in the land meeting at its gates.
 - The **palace dome** holds the Temple of the Unsetting Sun's eternal flame. It has never gone out.
-- Every morning, every citizen collects a free **sun-loaf** at the nearest bread-hall. The city has more people than the Heartlands can feed, so the grain comes from Greenhollow. Lately the loaves have been getting smaller.
+- **Bread is the empire's business.** Grain from Greenhollow fills the **imperial granaries**, imperial mills grind it, and only bakers with a **Granary licence** may sell it. Every dawn a crier on every corner announces the **Morning Price** of a loaf. Lately it has been going up.
 - **Emperor Castellan VII, the Last Sun,** died six months ago without an heir. The night he died, the Sunfire Crown shattered and the pieces vanished. The city has been holding its breath ever since.
 
 ## How you're governed
@@ -37,7 +37,7 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 
 - **The Sun.** The emperor was the Sun on earth. The faithful rise into its light when they die, and emperors become the sun itself.
 - **Law and records.** If it isn't written down, it didn't happen. A wedding isn't legal until it's in the city register.
-- **The sun-loaf.** Wasting bread is shameful. Refusing it is an insult.
+- **Bread.** Wasting it is shameful. Hoarding grain is a crime; only the Granaries may store it.
 - **Never say the emperor is dead.** You say **"the Sun rests."**
 
 **Your virtue:** order. Civilisation is keeping things running.
@@ -45,9 +45,9 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 
 ## Life, food and ceremony
 
-- **A normal day:** temple bells at dawn, the sun-loaf queue, work at the Quill, the docks, the markets or a noble house. Afternoons at the **public baths**, where all the real politics happens. Evenings at the theatre or a wine shop.
+- **A normal day:** temple bells at dawn, the crier calling the Morning Price (the whole city does the sum before breakfast), work at the Quill, the docks, the markets or a noble house. Afternoons at the **public baths**, where all the real politics happens. Evenings at the theatre or a wine shop.
 - **Masks:** everyone wears a small mask at public events. It's an old court custom. These days it mostly hides who's meeting whom.
-- **A feast:** white bread (a luxury; the sun-loaf is brown), honeyed figs, olives, roast fish from the bay, saffron rice, spiced wine, and **sun-cakes**, little gold-glazed cakes stamped with the sun.
+- **A feast:** white bread (a luxury; everyday Granary bread is brown), honeyed figs, olives, roast fish from the bay, saffron rice, spiced wine, and **sun-cakes**, little gold-glazed cakes stamped with the sun.
 - **A wedding:** at dawn on the temple steps, followed by both partners signing the city register. Guests throw grain, which provincials find appalling.
 - **A funeral:** the body is burned on the hilltop pyres at sunset, so the soul rises with the smoke toward the sun, and the name is written in the temple's Book of Light.
 
@@ -66,11 +66,11 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 **Superstitions**
 - Never let your shadow fall on a sun-mark.
 - If the temple flame flickers, someone important will die before the week is out.
-- Never refuse a sun-loaf.
+- On a feast day, tear bread, never cut it. A cut loaf means a cut price, and cheap bread is a bad omen.
 
 ## What you think of everyone else
 
-- **Greenhollow:** somewhere to the west, where bread comes from. You've never been. Most Solari haven't.
+- **Greenhollow:** somewhere to the west, where the grain comes from. You've never been. Most Solari haven't.
 - **House Ironhart:** brave, grim soldiers on a cold wall, forever complaining about their pay. Duchess Brenna wants the throne, and would rule it like a fortress.
 - **The dwarves of the Ironspine:** rich, stubborn and behind on their taxes. They want out of the empire, as if the empire's roads hadn't carried their iron for three hundred years.
 - **The Saltreach Compact:** jumped-up merchants who declared themselves a republic the moment the Sun rested. Their ships bring everything you import. Insufferable.
@@ -83,7 +83,7 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 - **A Quill clerk** who passed the exams, saw something in the archives they weren't meant to, and decided the road was safer than the office.
 - **A younger child of a Sunward House** with a famous name, no inheritance and something to prove.
 - **A temple acolyte** sent by the High Prelate to look for the lost pieces of the Crown.
-- **A dockworker's kid** from the lower city who grew up on sun-loaves and knows exactly what happens when they run out.
+- **A dockworker's kid** from the lower city who learned arithmetic from the Morning Price and knows exactly what happens when it doubles.
 - **A masked-ball spy** who has sold secrets to three claimants and is beginning to worry they'll compare notes.
 
 **Rules fit (no new rules needed)**

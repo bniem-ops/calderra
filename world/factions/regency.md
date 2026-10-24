@@ -21,7 +21,8 @@ secret_terms: ["Heart gem", "Sun-Sickness", "sun-sick", "ruled in his name", "th
 | **The Quill** | The imperial civil service: clerks, tax-assessors, archivists. Promotion by exam, not birth. Lysander rose through it. |
 | **The Sunward Houses** | The old noble families of Solace. Rich, proud, and with no army to speak of. |
 | **The Temple of the Unsetting Sun** | The imperial faith. Teaches that the emperor is the Sun on earth. Led by the **High Prelate**. |
-| **The sun-loaf** | Free bread handed out to every citizen of Solace every morning. Made from Greenhollow grain. |
+| **The Granaries** | The imperial granaries, mills and licensed bakeries. The Regency owns the whole chain from Greenhollow's fields to the baker's oven, and sets the price of bread. |
+| **The Morning Price** | The price of a loaf, read out on the palace steps at dawn. The Regency's main tool of power. |
 | **Prince Aurel** | A nine-year-old great-nephew of the late emperor. The Regency's figurehead. |
 
 **Names to remember (five):** Regent Lysander Vael, Prince Aurel (the child), Lady Corisande (his mother), High Prelate Ondine Marr (the temple), and Emperor Castellan VII, the Last Sun (dead).
@@ -35,7 +36,7 @@ flowchart TD
         Q["The Quill<br/>civil service"]
         SH["The Sunward Houses<br/>old nobility"]
         T["Temple of the Unsetting Sun<br/>High Prelate Ondine Marr"]
-        P["The people<br/>fed by the sun-loaf"]
+        P["The people<br/>pay the Morning Price"]
         L --> Q
         L -.-> |guardian of| A
         SH -.-> |want a real emperor| A
@@ -56,7 +57,7 @@ flowchart TD
 
 **Names.**
 - They call themselves **Solari**, "the sun's people."
-- Provincials call them **"the Gilt"**, or "bread-eaters," because Solace eats free bread the provinces grow.
+- Provincials call them **"the Gilt"**, or "bread-masters," because Solace decides what everyone else pays for bread.
 - Imperial documents call everyone outside Solace "the provinces", which everyone outside Solace hates.
 
 **Defining trait.** They'd say: **we are civilisation.** Outsiders would say: **they think the world owes them breakfast.**
@@ -65,11 +66,11 @@ flowchart TD
 
 **What the Heartlands give:** a great harbour on the southern bay, every road in Calderra meeting at one city, marble quarries, vineyards and olives, scholars, banks and the imperial mint.
 
-**What they withhold:** enough food. Solace has more people than the Heartlands can feed. For three hundred years the city has lived on Greenhollow's grain, collected as tax and handed back as the **sun-loaf**.
+**What they withhold:** enough food. Solace has more people than the Heartlands can feed. For three hundred years the empire has bought, taxed and stored Greenhollow's grain in the **imperial granaries**, milled it in imperial mills, and sold it through bakeries that hold a Granary licence. No one in the Heartlands bakes for sale without one.
 
 **Who does the hard labour.** Heartland tenant farmers, dockworkers on the bay, and the city's servants. The Solari themselves are clerks, priests, artisans, traders and idle nobles.
 
-**Biggest threat.** Hunger. Without the grain tax the sun-loaf shrinks, and a hungry Solace riots. Every regent before Lysander knew the rule: *keep the bread coming and the city will forgive you anything.*
+**Biggest threat.** Hunger, and losing control of the bread. The Granaries are how the Regency rules: towns that stay loyal get a low price, towns that don't get a high one, and rebels get none. If grain stops arriving, or someone else starts selling bread cheaper, the Regency's power goes with it. Every regent before Lysander knew the rule: *whoever sets the price of bread rules Solace.*
 
 ## Power and structure
 
@@ -79,7 +80,7 @@ flowchart TD
 
 **How power passes.** Officially, by blood: the Sun passes father to child. But the Last Sun died without a legitimate heir, so the Council of Banners must choose. Lysander wants the Council to become **permanent**, a council ruling in Aurel's name for good. The Sunward Houses want Aurel crowned. The Temple wants the Crown made whole first.
 
-**Who's at the bottom.** The city's poor and the Heartland tenant farmers. They put up with it because of the sun-loaf. As long as there is free bread every morning, Solace is loyal.
+**Who's at the bottom.** The city's poor and the Heartland tenant farmers. They put up with it because the Regency keeps the Morning Price low for them, low enough to live on. Raise it a copper and the lower city starts to murmur; raise it a silver and it riots.
 
 **Breaking the rules.**
 - Crimes against citizens: fines and the stocks, judged by Quill magistrates. The empire's law is fair, written and slow.
@@ -91,7 +92,7 @@ flowchart TD
 **Sacred:**
 - **The Sun.** The emperor was the Sun on earth; the Temple of the Unsetting Sun keeps an eternal flame in the palace dome.
 - **Law and records.** If it isn't written down, it didn't happen.
-- **The sun-loaf.** Wasting bread is shameful. Refusing it is an insult.
+- **Bread.** Wasting it is shameful. Hoarding it is a crime: only the Granaries may store grain.
 
 **Taboo:**
 - Saying the emperor is **dead**. The Solari say "**the Sun rests**."
@@ -118,14 +119,14 @@ flowchart TD
 
 **What they misunderstand:**
 - They think the provinces love the empire. The provinces paid for it.
-- They think the sun-loaf is a gift. Greenhollow thinks of it as stolen bread.
+- They think the Granaries keep Calderra fed. Greenhollow thinks the empire buys its grain cheap and sells it back dear.
 - They think the Age of Banners is a pause. It's the end.
 
 ## Internal tension
 
 **What they argue about.**
 - **A council or a crown.** Lysander and much of the Quill want a permanent council. The Sunward Houses want Aurel crowned emperor. The Temple wants the Crown made whole first, which means finding the gems.
-- **Bread or walls.** The treasury can't pay for both the sun-loaf and the March. For years, it has quietly chosen bread.
+- **Bread or walls.** The treasury can't afford both a low Morning Price and the March's wall pay. For years, it has quietly chosen bread.
 - **Commoners and nobles.** The Quill is the one place a nobody can rise. The Sunward Houses want it back under their control.
 
 **Ideals vs. behaviour.** They are the people of law, records and order.
@@ -136,13 +137,14 @@ For the last eight years of his reign, the Last Sun was **sun-sick**: lost to a 
 **Who's unhappy, and what they'd do with power.**
 - **High Prelate Ondine Marr.** A true believer who thinks the Sun will only rise again when the Crown is whole and on a blood heir's head. With power she'd crown Aurel at once and send the Temple's agents after every gem, no matter whose. She suspects Lysander is hiding something about the gems.
 - **Lady Corisande**, Prince Aurel's mother, of the Sunward Houses. Wants her son crowned and Lysander gone, and is courting House Ironhart's soldiers to make it happen. **(DM call:** a good assassin-hirer for the Feast of Banners.)
-- **The Solace poor.** If the sun-loaf shrinks any further, they'll follow anyone who promises bread.
+- **The Solace poor.** If the Morning Price climbs much further, they'll follow anyone who promises cheaper bread.
+- **Unlicensed bakers.** Small ovens in the lower city baking without a Granary licence, on grain smuggled in by Saltreach ships. The Quill fines them; the people love them.
 
 ## Texture
 
-**A typical day.** Morning bells from the temple dome, then the queue for the sun-loaf at the nearest bread-hall. Work at the Quill offices, the docks, the markets or a noble house. Afternoons at the public baths, where all the real politics happens. Evenings at the theatre or a wine shop. Everyone wears a small mask at public events: an old court custom that now hides who's meeting whom.
+**A typical day.** Morning bells from the temple dome; a crier on every corner repeats the **Morning Price**, and the whole city does the same sum before breakfast. Work at the Quill offices, the docks, the markets or a noble house. Afternoons at the public baths, where all the real politics happens. Evenings at the theatre or a wine shop. Everyone wears a small mask at public events: an old court custom that now hides who's meeting whom.
 
-**Celebration food:** white bread (a luxury: the sun-loaf is brown), honeyed figs, olives, roast fish from the bay, saffron rice, spiced wine, and **sun-cakes**, little gold-glazed cakes stamped with the sun.
+**Celebration food:** white bread (a luxury: everyday Granary bread is brown), honeyed figs, olives, roast fish from the bay, saffron rice, spiced wine, and **sun-cakes**, little gold-glazed cakes stamped with the sun.
 
 **Weddings.** The couple is married at dawn at the temple steps, and both sign the city register; a wedding isn't legal until it's written down. Guests throw grain, which provincials find appalling.
 
@@ -161,14 +163,14 @@ For the last eight years of his reign, the Last Sun was **sun-sick**: lost to a 
 **Superstitions**
 - Never let your shadow fall on a sun-mark.
 - If the temple flame flickers, someone important will die before the week is out.
-- Never refuse a sun-loaf. Bad luck, and rude.
+- Never cut bread with a blade on a feast day; tear it. A cut loaf means a cut price, and cheap bread is a bad omen.
 
 ## Story hooks
 
 <!-- secret -->
 **What they want right now.**
 1. To reach the Council of Banners with the empire still whole and Lysander still in charge.
-2. To keep the sun-loaf coming through a year of war.
+2. To keep the Granaries full and the Morning Price steady through a year of war.
 3. To keep the Heart gem hidden until the Council, then use it as the deciding piece.
 
 **What's stopping them:** the treasury is empty; Greenhollow's grain tax isn't arriving reliably; the Temple and the Sunward Houses are working against Lysander; and every claimant has spies in Solace.
@@ -181,7 +183,7 @@ For the last eight years of his reign, the Last Sun was **sun-sick**: lost to a 
 
 ### Why the wall pay ran short
 
-Lysander chose bread over walls. With the grain tax falling and the treasury thin, he kept the sun-loaf full and cut the March's pay. And he **kept paying** the dragon tribute to the dwarves after he learned it was a fraud, because stopping would have told the Holds he knew. So part of what starved the Thornwall went straight into the Stonecrown vaults, to protect his leverage.
+Lysander chose bread over walls. With the grain tax falling and the treasury thin, he held the Morning Price down and cut the March's pay. And he **kept paying** the dragon tribute to the dwarves after he learned it was a fraud, because stopping would have told the Holds he knew. So part of what starved the Thornwall went straight into the Stonecrown vaults, to protect his leverage.
 
 ### The Heart gem
 
@@ -195,23 +197,23 @@ On the night the Last Sun died, Lysander was alone at the bedside. The Crown sha
 ### What would change or destroy them
 
 - **Change:** a real council of all the factions, not just Solace. Lysander might even accept it, if he could stop lying long enough to propose it.
-- **Destroy:** the eight dark years made public; the sun-loaf failing for a week; or the Heart gem stolen before the Council.
+- **Destroy:** the eight dark years made public; the Granaries running empty, or someone else selling bread cheaper; or the Heart gem stolen before the Council.
 
 ## Hooks for one-shots
 
 - **The Regent's Vault:** the heroes come for the Heart gem, and also find the vault's archive: the emperor's sickbed records, the Quiet Seal and Lysander's ledger of what he paid the dwarves. The real choice becomes *what to take*.
 - **The Feast of Banners:** Lady Corisande wants Lysander dead before the Council. The poison was meant for him, and hit someone else.
-- **The Millhaven Harvest:** one of the two armies wanting Millhaven's grain could be the Regency's, desperate to keep the sun-loaf coming.
+- **The Millhaven Harvest:** one of the two armies wanting Millhaven's grain could be the Regency's, desperate to refill the Granaries.
 - **The Council of Banners:** the High Prelate demands the gems be laid on the table. Lysander has to decide whether to reveal his.
 
 ## Private hooks for Solari PCs (hand out in person)
 
 1. **The copyist.** You worked in the Quill copying imperial decrees. Every one from the last eight years was signed in a hand that never shook, even when the court said the emperor was too ill to hold a cup.
 2. **The night servant.** You carried trays to the emperor's chambers in his last years. He called you by your grandmother's name, and once asked you what year it was.
-3. **The bread-hall.** You ran a bread-hall in the lower city. Last month the flour came short, and a Quill clerk paid you in silver to tell no one.
+3. **The Granary count.** You counted sacks in an imperial granary. The tally sent to the palace says the granaries are half full. You've seen the floors. They're nearer a quarter.
 4. **The Prelate's errand.** High Prelate Ondine paid you to find out whether there's anything hidden beneath the palace. You haven't told her what you found: a door with no keyhole, guarded day and night.
 
 ## For the Ashen Pretender
 
-**The weakness he'd exploit: legitimacy and bread.** He is everything Lysander isn't: the Last Sun's own blood. He doesn't need to storm Solace; he needs the city to open its gates. He'll expose the eight dark years (eight years of law signed by a forger), then cut the Greenhollow grain. When the sun-loaf fails, he'll be at the gates with bread and a true heir's face.
+**The weakness he'd exploit: legitimacy and bread.** He is everything Lysander isn't: the Last Sun's own blood. He doesn't need to storm Solace; he needs the city to open its gates. He'll expose the eight dark years (eight years of law signed by a forger), then cut the Greenhollow grain. When the Morning Price doubles, he'll be at the gates selling bread cheap, with a true heir's face.
 <!-- /secret -->
