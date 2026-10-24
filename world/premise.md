@@ -33,8 +33,8 @@ With the Crown shattered and no true heir, it matters on three levels:
 | Stonecrown Holds | Independence | Deepkeepers want to seal the passes; Daylighters know they can't feed themselves alone. |
 | House Ironhart | Reunify under Brenna; the wall needs an empire's treasury | Garrick and the Ford-folk want the March to look after itself. |
 | The Regency | Keep the empire whole under a council | The Sunward Houses and the Temple want a crowned emperor. |
-| Saltreach Compact | Independence (already declared) | To build. |
-| The Ashen Pretender | Reunify by force, under him | To build. |
+| Saltreach Compact | Independence (already declared) | Odessa's free captains want it for real; Hargrove's Old Houses secretly need the empire back. |
+| The Ashen Pretender | Reunify by force, under him | The Host is a dozen peoples held together by one man; some chiefs would take land and go home. |
 
 ## What each faction has, and what it needs
 

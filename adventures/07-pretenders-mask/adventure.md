@@ -22,6 +22,8 @@ cold_open: "The Ashen Pretender's army is two weeks from the capital. Nobody has
 ## Twist
 
 - The Pretender really is of the imperial bloodline.
+- Under the mask: grey ash spreading from his chest (the Will gem is burning him) and his father's face. See `world/factions/ashen-pretender.md`.
+- Watch the Hearth: the one loaf, the names spoken, the Heir carrying water. The heroes should leave unsure who the villain is.
 
 ## The choice
 

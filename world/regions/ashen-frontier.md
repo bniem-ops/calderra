@@ -9,4 +9,4 @@ rumour: "The Pretender's banners carry the old imperial sun — upside down."
 
 # The Ashen Frontier
 
-Setting for The Pretender's Mask.
+Setting for The Pretender's Mask. See `factions/ashen-pretender.md` for the Host, the Heir and his war plan.

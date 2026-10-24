@@ -201,7 +201,7 @@ On the night the Last Sun died, Lysander was alone at the bedside. The Crown sha
 - The mother spent almost none of it. For five years she saved every coin.
 - When the Last Sun died, the stipend stopped. Within a month her son had used the hoard to hire his first mercenaries and buy the loyalty of the first monster clans. **The Regency's own gold paid for the start of the Pretender's war.**
 - So Lysander knows the Pretender's claim is real, and that his own forged order created the war's greatest enemy. The boy would be about twenty-one now.
-- The rest of the Pretender's story (his mother's fate, how he came to lead monsters) is built with the Pretender.
+- **The courier.** The hush money went west every winter with a single Quill courier. Five years ago the courier vanished on the road, and Lysander believes they died. They didn't: the courier is **Kestrel**, the Pretender's herald, and knows every secret of the Regency. See `ashen-pretender.md`.
 
 ### What would change or destroy them
 
