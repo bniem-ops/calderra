@@ -2,7 +2,6 @@
 // and map.config.json (map image, pins, labels). No build step.
 
 const NS = "http://www.w3.org/2000/svg";
-const W = 1000, H = 700; // viewBox; config uses percentages of this
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const tok = (n) => `var(--${n})`;
@@ -12,7 +11,12 @@ const [data, config] = await Promise.all([
   fetch("map.config.json", { cache: "no-cache" }).then((r) => r.json()),
 ]);
 
+// The map is 1000 units wide; its height follows the image's shape (config.imageSize), or 10:7 for the drawn map.
+const W = 1000;
+const H = config.image && config.imageSize ? Math.round((W * config.imageSize.height) / config.imageSize.width) : 700;
 const svg = $("map");
+svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+svg.style.aspectRatio = `${W} / ${H}`;
 const el = (tag, attrs = {}, parent = svg) => {
   const n = document.createElementNS(NS, tag);
   for (const k in attrs) n.setAttribute(k, attrs[k]);
