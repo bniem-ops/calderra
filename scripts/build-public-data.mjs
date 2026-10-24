@@ -146,7 +146,7 @@ for (const s of sessions) {
 }
 for (const [id, f] of Object.entries(state.factions || {})) pushText(`ledger/state.yaml factions.${id}.reason`, f.reason);
 for (const [id, g] of Object.entries(state.gems || {})) {
-  if (!g.revealed) pushText(`ledger/state.yaml gems.${id}.location`, g.location);
+  if (!g.revealed) { pushText(`ledger/state.yaml gems.${id}.location`, g.location); pushText(`ledger/state.yaml gems.${id}.holder`, g.holder); }
   pushText(`ledger/state.yaml gems.${id}.known_by`, g.known_by);
 }
 
@@ -164,7 +164,7 @@ for (const [label, text] of privateTexts) {
     if (haystack.includes(piece)) errors.push(`LEAK: private text from ${label} appears in map data: "${piece.slice(0, 80)}…"`);
   }
 }
-const FORBIDDEN_KEYS = ["outcome", "ripples", "reason", "known_by", "changes", "standing"];
+const FORBIDDEN_KEYS = ["outcome", "ripples", "reason", "known_by", "holder", "changes", "standing"];
 JSON.stringify(out, (k, v) => { if (FORBIDDEN_KEYS.includes(k)) errors.push(`LEAK: private key "${k}" in map data`); return v; });
 
 // ---------- Player guides (unlisted pages) ----------
@@ -184,7 +184,7 @@ for (const dir of ["world", "world/factions", "world/regions"]) {
 pushSecret("world/sunfire-crown.md", readFileSync(p("world/sunfire-crown.md"), "utf8"));
 for (const a of adventures) pushSecret(`adventures/${a.folder} body`, a.body.replace(/^#.*$/gm, ""));
 for (const s of sessions) { pushSecret(`ledger/sessions/${s.file} body`, s.body); pushSecret(`ledger/sessions/${s.file} outcome`, s.data.outcome); (s.data.ripples || []).forEach((r) => pushSecret(`ledger/sessions/${s.file} ripples`, r)); }
-for (const [id, g] of Object.entries(state.gems || {})) if (!g.revealed) pushSecret(`ledger/state.yaml gems.${id}.location`, g.location);
+for (const [id, g] of Object.entries(state.gems || {})) if (!g.revealed) { pushSecret(`ledger/state.yaml gems.${id}.location`, g.location); pushSecret(`ledger/state.yaml gems.${id}.holder`, g.holder); }
 
 function leakScan(outputText, sources, where) {
   const hay = norm(outputText);

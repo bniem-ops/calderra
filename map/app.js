@@ -174,7 +174,7 @@ const anyRevealed = data.gems.some((g) => g.revealed);
 $("gems").innerHTML = data.gems.map((g) => g.revealed
   ? `<li>${gemSvg(true)}<div><strong>${esc(g.name)}</strong><div class="gem-where">${esc(g.location)}</div></div></li>`
   : `<li>${gemSvg(false)}<div><strong>A lost gem</strong><div class="gem-where">Whereabouts unknown</div></div></li>`).join("")
-  + (anyRevealed ? "" : `<li class="gem-where">The Crown shattered into three gems the night the emperor died. None has been found.</li>`);
+  + (anyRevealed ? "" : `<li class="gem-where">The Crown vanished the night the emperor died. Its three gems are said to have survived. None has been found.</li>`);
 
 /* ---------- Timeline ---------- */
 $("timeline").innerHTML = data.acts.map((act) => {
