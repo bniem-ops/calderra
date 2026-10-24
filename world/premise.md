@@ -25,9 +25,11 @@ By imperial law, a new ruler is recognised at the **Council of Banners**, held i
 
 The Lord of the Rings for heroic last stands, Game of Thrones (minus the cruelty) for rival claimants, Pirates of the Caribbean for the coast, The Princess Bride for swashbuckling banter, and Festival of the Accord for village-scale trials.
 
+<!-- secret -->
 ## Buried payoff (don't use for a while)
 
 The Sunfire Crown wasn't only a symbol. Its three gems held shut old cracks to other worlds, which is why strange things (Fey Accords, psionic plant monsters) have started leaking into the provinces since it broke. Drop a hint now and then. Reveal it late, once the players have a reason to care.
+<!-- /secret -->
 
 ## Public intro (shown on the map)
 

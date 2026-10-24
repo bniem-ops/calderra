@@ -4,6 +4,8 @@ name: "Stonecrown Holds"
 seat: "Ironspine Mountains"
 face: "Thane Durgan Stonecrown"
 public_blurb: "The dwarven holds of the Ironspine, who want out of the empire entirely."
+# Words that must never appear in player guides or on the map.
+secret_terms: ["Kharagax", "Deepfall", "Deep Archive", "forged seal", "forged seals", "tribute seal", "tribute seals", "fraud", "dragon egg", "hatchling"]
 ---
 
 # Stonecrown Holds
@@ -56,7 +58,9 @@ flowchart TD
 
 **The story they tell.** The Ironspine dreamed, and its dream was the dwarves. The First Thane woke inside the mountain with a hammer already in her hand, and every clan descends from one of her seven sons. Dwarves did not *arrive* in Calderra; Calderra grew up around them.
 
+<!-- secret -->
 **How true it is.** Half true. The dwarves are older than every lowland kingdom, but they came *up*, not out of the stone. Their oldest records, sealed in the Deep Archive, describe a great flight from lower halls after "the Deepfall", and the hasty sealing of a gate behind them: **the Sealed Door**. The mountain-dream story was written two generations later, so no one would ask what they fled. **Decided:** what's behind the Door stays a mystery. Possible epilogue later; it fits the buried payoff about cracks to other worlds.
+<!-- /secret -->
 
 **Names.**
 - They call themselves **the Holdfast**, and the mountains simply **the Spine**. "Stonecrown" is the ruling clan, not the people.
@@ -120,7 +124,9 @@ flowchart TD
 **What they misunderstand:**
 - They believe lowlanders will always come back begging, because they always have. They don't realise a hungry, war-torn lowland can't buy iron.
 - They think Ironhart's pride is greed. It's duty. Brenna would hold the wall even if no one paid her.
+<!-- secret -->
 - They think the empire never noticed the dragon fraud. **It did:** Regent Lysander found out years ago and is keeping it as leverage (see `regency.md`).
+<!-- /secret -->
 
 ## Internal tension
 
@@ -128,11 +134,15 @@ flowchart TD
 - **The Deepkeepers vs. the Daylighters.** Traditionalists want to close the passes and outwait the Age of Banners. A younger faction wants to go down into the world: sell to every claimant, send a voice to the Council, and stop pretending the Holds don't need bread.
 - **The empty seats.** Two clans are gone. Should the Oathless be allowed to found a new clan and fill a seat? Saying yes would admit the Holds are dying.
 
+<!-- secret -->
 **Ideals vs. behaviour.** They are the people who never break their word, and for forty years they've collected dragon tribute for a dead dragon (see *Secrets*). They justify it the way grudge-keepers always do: the empire owed them.
+<!-- /secret -->
 
 **Who's unhappy, and what they'd do with power.**
+<!-- secret -->
 - **Hilde Stonecrown**, Durgan's niece and his likely successor, leads the Daylighters. Brilliant, impatient, and the first Stonecrown in years to want the Moot to actually choose. With power she'd open the Holds to trade, back a claimant (probably Ironhart), and **open the Sealed Door** for the riches the old records describe.
 - **Torvek Nameless**, spokesman of the Oathless, once a master smith. He knows about the tribute fraud; he was struck for refusing to forge the "tribute seals." With power he'd expose it, and the Oathless would gladly follow a lowland claimant who promised to restore their names.
+<!-- /secret -->
 
 ## Texture
 
@@ -159,6 +169,7 @@ flowchart TD
 - A forge that sputters means someone in the clan has told a lie.
 - Never say the old dragon's name inside the mountain. (This one has a practical reason; see below.)
 
+<!-- secret -->
 ## Story hooks
 
 **What they want right now.**
@@ -190,6 +201,16 @@ flowchart TD
 - **The Feast of Banners:** Hilde Stonecrown comes to the feast instead of Durgan, and wants a private word with Ironhart.
 - **Torvek Nameless** makes a good informant in any Act II one-shot: he wants his name back and knows where the forged seals were made.
 
+## Private hooks for Holdfast PCs (hand out in person)
+
+Pick one for a player who plays a Holdfast dwarf. Tell them privately; never put these in the player guide.
+
+1. **The apprentice's seal.** As an apprentice smith, you struck dozens of identical bronze seals stamped with the imperial sun, under orders, and were told never to speak of it. You never knew what they were for. *(They were the forged tribute seals.)*
+2. **Feeding day.** Once a year in your youth, your clan sent you down a hot tunnel under Mount Kharag with a cart of goat carcasses. You left them at a ledge and ran. You heard breathing. *(The young dragon.)*
+3. **Torvek's student.** You learned your craft from Torvek before he was struck from his clan. You never learned why he refused an order from the Thane. He still sends you a letter every winter.
+4. **Hilde's courier.** Hilde Stonecrown pays you quietly to carry her letters to lowland lords. You don't read them. You're starting to think you should.
+
 ## For the Ashen Pretender
 
 **The weakness he'd exploit: bread.** The Holds can't feed themselves and won't ask for help. The Pretender doesn't need to assault the Spine; he only needs to burn the Greenhollow road and wait for winter. Then he offers grain, and his price is the gold in the vaults, the Oathless as his smiths, and the Holds' silence.
+<!-- /secret -->

@@ -58,3 +58,14 @@ Answer these in the faction's file under `world/factions/`, in the markdown body
 - What would it take to change them, or destroy them?
 
 **For the Pretender (record as each faction is finished):** the one weakness he would exploit, and how.
+
+## Finishing a faction
+
+1. Wrap the secret passages in `<!-- secret -->` … `<!-- /secret -->` and list giveaway words in `secret_terms` in the header.
+2. Add 3–4 **private hooks** for a player of this people (inside a secret block).
+3. Write the **player guide** in `players/<id>.md` (copy `players/holdfast.md`). Set `ready: true` once the DM approves.
+4. `npm run build` — it fails if the guide leaks a secret.
+
+| Faction | Player guide |
+| --- | --- |
+| Stonecrown Holds | `peoples/holdfast.html` |
