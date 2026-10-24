@@ -10,13 +10,53 @@ public_blurb: "The dwarven holds of the Ironspine, who want out of the empire en
 
 > **Status: draft.** Built first: the dwarves were in the Ironspine before anyone else. Items marked **(DM call)** are open choices.
 
+## Who's who (quick reference)
+
+| Term | What it is |
+| --- | --- |
+| **The Holdfast** | The people: every dwarf of the Ironspine. What they call themselves. |
+| **Stonecrown Holds** | What outsiders call the dwarven nation, after the ruling clan. |
+| **The Spine** | The dwarves' name for the Ironspine Mountains. |
+| **A hold** | A city carved into the mountain. Each living clan has one; five in all. The oldest, **the Great Hold**, holds the Moot, the Hall of Names and the Sealed Door. |
+| **A clan** | A family line. Seven were founded by the First Thane's seven sons; five survive. **Clan Stonecrown** is one of them. |
+| **The First Thane** | The legendary founder. Not a living person. |
+| **The Moot** | The council: one seat per clan. Two seats sit empty. |
+| **The Thane** | The ruler, elected by the Moot for life. Currently **Durgan Stonecrown**. |
+| **The Oathless** | Oath-breakers struck from their clans; work the deepest mines. |
+
+**Names to remember (five):** Durgan Stonecrown (the Thane), Hilde Stonecrown (his niece and heir, the reformer), Torvek Nameless (Oathless leader, knows the secret), Kharagax (the dead old dragon), and the Sealed Door. The four other clans and the five holds can stay unnamed until a session needs them.
+
+```mermaid
+flowchart TD
+    FT["The First Thane (legend)"] --> CL
+    subgraph HF["The Holdfast — every dwarf of the Spine"]
+        CL["7 clans founded"]
+        CL --> SC["Clan Stonecrown<br/>ruling clan"]
+        CL --> OC["4 other clans"]
+        CL --> LC["2 lost clans<br/>(died out)"]
+        SC --> MOOT["The Moot<br/>one seat per clan"]
+        OC --> MOOT
+        LC -.-> |empty chairs| MOOT
+        MOOT --> |elects for life| TH["The Thane<br/>Durgan Stonecrown"]
+        TH -.-> |likely heir| HI["Hilde Stonecrown"]
+        OL["The Oathless<br/>struck from their clans<br/>led by Torvek"]
+    end
+    subgraph SP["The Spine — places"]
+        GH["The Great Hold<br/>Moot · Hall of Names"]
+        H4["4 more holds<br/>one per clan"]
+        SD["The Sealed Door<br/>beneath the Great Hold"]
+        MK["Mount Kharag<br/>dead Kharagax · young dragon"]
+        GH --- SD
+    end
+```
+
 **In one breath:** the oldest people in Calderra, who live by the oath and the ledger, believe a name carved in stone is the only afterlife, and have spent forty years quietly cheating the empire out of dragon tribute for a dragon that was already dead.
 
 ## Origins and identity
 
 **The story they tell.** The Ironspine dreamed, and its dream was the dwarves. The First Thane woke inside the mountain with a hammer already in her hand, and every clan descends from one of her seven sons. Dwarves did not *arrive* in Calderra; Calderra grew up around them.
 
-**How true it is.** Half true. The dwarves are older than every lowland kingdom, but they came *up*, not out of the stone. Their oldest records, sealed in the Deep Archive, describe a great flight from lower halls after "the Deepfall", and the hasty sealing of a gate behind them: **the Sealed Door**. The mountain-dream story was written two generations later, so no one would ask what they fled. **(DM call:** what's behind the Door can stay unknown for a long time. It fits the buried payoff about cracks to other worlds if you want it to.)
+**How true it is.** Half true. The dwarves are older than every lowland kingdom, but they came *up*, not out of the stone. Their oldest records, sealed in the Deep Archive, describe a great flight from lower halls after "the Deepfall", and the hasty sealing of a gate behind them: **the Sealed Door**. The mountain-dream story was written two generations later, so no one would ask what they fled. **Decided:** what's behind the Door stays a mystery. Possible epilogue later; it fits the buried payoff about cracks to other worlds.
 
 **Names.**
 - They call themselves **the Holdfast**, and the mountains simply **the Spine**. "Stonecrown" is the ruling clan, not the people.
@@ -91,7 +131,7 @@ public_blurb: "The dwarven holds of the Ironspine, who want out of the empire en
 **Ideals vs. behaviour.** They are the people who never break their word, and for forty years they've collected dragon tribute for a dead dragon (see *Secrets*). They justify it the way grudge-keepers always do: the empire owed them.
 
 **Who's unhappy, and what they'd do with power.**
-- **Hilde Ashforge**, Durgan's niece and his likely successor, leads the Daylighters. Brilliant, impatient, and the first Stonecrown in years to want the Moot to actually choose. With power she'd open the Holds to trade, back a claimant (probably Ironhart), and **open the Sealed Door** for the riches the old records describe.
+- **Hilde Stonecrown**, Durgan's niece and his likely successor, leads the Daylighters. Brilliant, impatient, and the first Stonecrown in years to want the Moot to actually choose. With power she'd open the Holds to trade, back a claimant (probably Ironhart), and **open the Sealed Door** for the riches the old records describe.
 - **Torvek Nameless**, spokesman of the Oathless, once a master smith. He knows about the tribute fraud; he was struck for refusing to forge the "tribute seals." With power he'd expose it, and the Oathless would gladly follow a lowland claimant who promised to restore their names.
 
 ## Texture
@@ -147,7 +187,7 @@ public_blurb: "The dwarven holds of the Ironspine, who want out of the empire en
 
 - **The Dragon of Mount Kharag:** add the dead-dragon secret as the twist. A party that finds Kharagax's bones learns the truth and has to decide whether to expose it.
 - **The Millhaven Harvest:** one of the two armies wanting Millhaven's grain could be a Holdfast quartermaster with a full purse, not soldiers.
-- **The Feast of Banners:** Hilde Ashforge comes to the feast instead of Durgan, and wants a private word with Ironhart.
+- **The Feast of Banners:** Hilde Stonecrown comes to the feast instead of Durgan, and wants a private word with Ironhart.
 - **Torvek Nameless** makes a good informant in any Act II one-shot: he wants his name back and knows where the forged seals were made.
 
 ## For the Ashen Pretender
