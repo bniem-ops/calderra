@@ -5,12 +5,12 @@ seat: "Ashen Frontier"
 face: "Unknown — masked"
 public_blurb: "A masked warlord in the far west who claims to be the emperor's secret heir."
 # Words that must never appear in player guides or on the map.
-secret_terms: ["Rowan", "Marit", "Will gem", "ash-burn", "ash-burned", "burning from the inside", "his father's face", "Quill courier", "exiled him"]
+secret_terms: ["Rowan", "Marit", "his uncle", "MAX's sister", "spare Millhaven", "lockbox", "Will gem", "ash-burn", "ash-burned", "burning from the inside", "his father's face", "Quill courier", "exiled him"]
 ---
 
 # The Ashen Pretender
 
-> **Status: draft.** Built fifth and last of the claimants, on purpose: his war is aimed at the weak points of every other faction. Items marked **(DM call)** are open choices.
+> **Status: draft (waiting on the Crown).** Built fifth and last of the claimants, on purpose: his war is aimed at the weak points of every other faction.
 
 ## Who's who (quick reference)
 
@@ -57,7 +57,7 @@ flowchart TD
 **How true it is.**
 <!-- secret -->
 Almost all of it.
-- **His mother, Marit,** was the daughter of a Greenhollow innkeeper. About twenty-two years ago, on the Last Sun's final progress through the provinces, the emperor stayed at her father's inn. He gave her a ring when he left. Their son, **Rowan**, was born the next spring.
+- **His mother, Marit,** was the daughter of the innkeeper at the Broken Antler in **Millhaven**, and MAX's younger sister. About twenty-two years ago, on the Last Sun's final progress through the provinces, the emperor stayed at her father's inn. He gave her a ring when he left. Their son, **Rowan**, was born the next spring.
 - **The exile.** When Rowan was about sixteen, in the third of the eight dark years, Marit took him and the ring to Solace to ask that he be recognised. Lysander exiled them to the far west and paid them to stay silent (see `regency.md`).
 - **Marit's death.** She saved every coin of the hush money for her son's claim, and spent nothing on herself. The winter before the emperor died, she caught ash fever in the ruined fort where they lived, and refused to pay a healer out of "Rowan's gold." She died. Rowan was nineteen.
 - **How he came to lead.** The ruined forts of the frontier were full of people the empire had thrown out: orc and goblin families whose ancestors fled west three hundred years ago when Corwen Ironhart broke the Thorn Pact, deserters, outlaws. Rowan grew up among them. He learned their tongues, ate at their fires, and buried his mother with their help. When the Last Sun died and the money stopped, he spent the hoard on their behalf: food first, then weapons, then hired ogres. The Host followed him because he was the first person with imperial blood who ever treated them as people.
@@ -130,7 +130,7 @@ The Host has no single faith: each clan keeps its own gods. What they share:
 | War-mother Ushra and the clans beyond | **Courting** | He offers what Corwen Ironhart promised and broke: the high pastures back. |
 | Stonecrown Holds | **Target** | Starve them by burning the grain road, then buy them. |
 | Saltreach Compact | **Supplier** | Hargrove's ships sell him arms through a western cove, on the promise he'll honour the Sun Bonds. |
-| Greenhollow | **Complicated** | His mother's homeland. He burns its roads anyway. **(DM call:** see *Secrets*.) |
+| Greenhollow | **Complicated** | His mother's homeland. He burns its roads anyway, and spares Millhaven. |
 | Order of the Dawn Lantern | **Respect, opposition** | The only enemy he thinks is honest. |
 
 **What they want from others:** land for the clans, a place for the thrown-away, recognition for the Heir. **What others want from them:** to be destroyed (most claimants), or to be used (Hargrove).
@@ -193,6 +193,8 @@ Kestrel was the **Quill courier** who carried Lysander's hush money west every y
 
 ### The big secret: the Will gem is burning him
 
+> **Pending:** the DM wants the Crown and gems defined first (see `world/sunfire-crown.md`). Treat this section as a proposal until then.
+
 - The night the Last Sun died, the Crown shattered. The **Will gem** didn't fall at the emperor's bedside. It appeared, still hot, on Marit's grave in the frontier, where Rowan found it at dawn.
 - The Will gem gives its bearer an iron will, and gives that will to those who follow him: the Host fights without fear and marches without rest. It's a large part of why a dozen peoples who hate each other hold together.
 - But it is **burning him from the inside.** His skin is turning to grey ash from the chest outward, slowly, like a fire banked in coals. The mask hides how far it has spread. That is why he is called *Ashen*, though no one outside the Hearth knows it.
@@ -207,7 +209,11 @@ The mask hides the ash-burn, and something else: **he has his father's face.** A
 
 He burns the grain road to starve the dwarves and drive up the bread price in Solace. His mother grew up on that road.
 
-**(DM call:** was Marit from **Millhaven**, and the younger sister of **MAX** the innkeeper? If so, MAX is the Pretender's uncle, the Heir has been sparing Millhaven while burning the rest of Greenhollow, and MAX's iron key from the Festival opens something of his sister's. It's a big link to the first session; it could also be too neat.)
+**Decided: Marit was from Millhaven, MAX's younger sister.**
+- MAX is the Pretender's uncle. He has not seen his sister since she left for Solace with her son, and doesn't know she's dead.
+- The Heir has quietly ordered the Host to **spare Millhaven** while it burns the rest of the Greenhollow road. Sharp-eyed players may notice the pattern.
+- **MAX's iron key** (given to the heroes at the Festival) opens something Marit left behind: a lockbox at the Broken Antler with her letters, a lock of the boy's hair and a note in the Last Sun's hand asking her father to look after her. A second proof of the claim, hidden in plain sight since session zero.
+- Rowan has never met his uncle, but his mother talked about MAX every day.
 
 ### What would change or destroy them
 

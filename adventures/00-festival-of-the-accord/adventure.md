@@ -190,3 +190,7 @@ No legendary resistance or legendary actions.
 **Failure:** the Fey walk through into the world, unhurried. Not the end of the story: the town survives the first year; whether it survives the second depends on renegotiating the Accord.
 
 **XP:** 1,800 for the Mound; +400 each for full success on all three public Revels; +100 per successful trial otherwise. **MAX's key** is a campaign hook: it opens something MAX has never told anyone about.
+
+<!-- secret -->
+**Canon (decided later):** MAX's younger sister Marit is the Ashen Pretender's mother. The key opens her lockbox at the Broken Antler. See `world/factions/ashen-pretender.md`.
+<!-- /secret -->

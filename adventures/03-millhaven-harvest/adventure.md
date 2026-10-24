@@ -31,6 +31,12 @@ Which army, if either, leaves with grain.
 
 A light callback to the Festival. Anyone who played it gets a wink from MAX; anyone who didn't just meets a great innkeeper.
 
+## Pretender link
+
+<!-- secret -->
+The Host has been told to spare Millhaven: MAX is the Heir's uncle. If the Host's foragers are one of the threats, they'll back off when they learn whose inn this is. A good place for heroes to find MAX's sister's lockbox, if they still have his key. See `world/factions/ashen-pretender.md`.
+<!-- /secret -->
+
 ## Status
 
 Outline only. Flesh out with the one-shot template in `world/dm-notes.md`.
