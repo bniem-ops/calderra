@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-24",
-  "intro": "Six months ago, Emperor Castellan VII, the Last Sun, died without an heir. That same night the Sunfire Crown shattered into three gems and vanished. The legions went home, and every duke, guild and warlord with an army began calling themselves the rightful successor. By imperial law, the next ruler will be named at the Council of Banners in Solace, one year after the emperor's death.",
+  "intro": "Six months ago, Emperor Castellan VII, the Last Sun, died without an heir. That same night the Sunfire Crown vanished from his brow, and its three gems were scattered. The legions went home, and every duke, guild and warlord with an army began calling themselves the rightful successor. By imperial law, the next ruler will be named at the Council of Banners in Solace, one year after the emperor's death.",
   "realm_peace": 5,
   "acts": [
     {
@@ -160,8 +160,25 @@
       "players": []
     },
     {
-      "id": "council-of-banners",
+      "id": "the-forging",
       "number": 8,
+      "title": "The Forging",
+      "act": "III",
+      "level": 12,
+      "region": "The Ironspine Mountains",
+      "location": "The forge-heart of Mount Kharag",
+      "genre": "Escort, siege and ritual",
+      "spotlight": "Everyone",
+      "status": "planned",
+      "cold_open": null,
+      "sealed": true,
+      "public_record": null,
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "council-of-banners",
+      "number": 9,
       "title": "The Council of Banners",
       "act": "III",
       "level": 13,

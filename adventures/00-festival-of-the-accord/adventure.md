@@ -192,5 +192,7 @@ No legendary resistance or legendary actions.
 **XP:** 1,800 for the Mound; +400 each for full success on all three public Revels; +100 per successful trial otherwise. **MAX's key** is a campaign hook: it opens something MAX has never told anyone about.
 
 <!-- secret -->
+**Canon (decided later):** the Challenger's psionic mind came from the **Mind gem** of the vanished Sunfire Crown, which fell through the Fey crack the night the emperor died. When the heroes destroyed it, the gem stayed in its dead roots under the coliseum (see `world/sunfire-crown.md`).
+
 **Canon (decided later):** MAX's younger sister Marit is the Ashen Pretender's mother. The key opens her lockbox at the Broken Antler. See `world/factions/ashen-pretender.md`.
 <!-- /secret -->

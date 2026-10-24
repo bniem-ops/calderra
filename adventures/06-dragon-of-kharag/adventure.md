@@ -29,9 +29,19 @@ cold_open: "The empire paid a red dragon to stay asleep. The payments stopped si
 
 See `world/factions/stonecrown.md` for the full secret. Regent Lysander already knows (see `world/factions/regency.md`).
 
+## The forge-heart
+
+<!-- secret -->
+- The Sunfire Crown was forged here, in dragonfire, and Kharagax was its forge-keeper. A new crown can only be made here, by a Holdfast master smith, with a dragon's fire.
+- **Kill the young dragon and the forge goes cold for a generation.** No new crown. The heroes should learn this before the fight, from Torvek or from the forge itself (cold runes that wake when the dragon breathes).
+- **Bargain** and the young dragon can become the new forge-keeper, at a price: food, a name, a treaty of its own.
+- **Torvek Nameless** is the only smith good enough to forge it. He'll do it for his name back.
+- See `world/sunfire-crown.md`.
+<!-- /secret -->
+
 ## The choice
 
-Kill the dragon, or bargain, and then: **expose the fraud, or keep the Holds' secret?**
+Kill the dragon (and lose the forge), or bargain (and keep it). Then: **expose the fraud, or keep the Holds' secret?**
 
 - **Expose it:** every claimant demands the gold back; the Holds' word is worthless; Torvek and the Oathless may get their names back. Stonecrown −2, Realm's Peace −1 (the dwarves close the passes).
 - **Keep it:** the Holds owe the heroes a debt they will honour. Stonecrown +2. But Lysander still knows, and the heroes are now part of the cover-up.
@@ -39,7 +49,8 @@ Kill the dragon, or bargain, and then: **expose the fraud, or keep the Holds' se
 ## Ripples
 
 - A new treaty brings the dwarves to the Council as allies.
-- A slain dragon makes the Lantern-sworn famous across Calderra.
+- A slain dragon makes the Lantern-sworn famous across Calderra, and means no new crown can be forged. The Forging then needs another way (a much harder one) or doesn't happen.
+- A bargained dragon and a willing Torvek make The Forging possible.
 
 ## DM notes
 

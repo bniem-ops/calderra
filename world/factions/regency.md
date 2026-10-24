@@ -99,7 +99,7 @@ flowchart TD
 - Letting the temple flame go out. It never has.
 - Burning documents.
 
-**After death.** The faithful rise into the sun and become part of its light; emperors become the sun itself. That's why the Crown shattering on the night the Last Sun died terrifies the faithful: it looks like heaven refusing him. The High Prelate preaches that the Sun cannot rise again until the Crown is whole.
+**After death.** The faithful rise into the sun and become part of its light; emperors become the sun itself. That's why the Crown vanishing on the night the Last Sun died terrifies the faithful: the Sun took his crown with him. The High Prelate preaches there is no new dawn until a new crown is made, on a blood heir's head.
 
 **Most praised virtue: order.** Civilisation is keeping things running: roads, laws, bread.
 **Tolerated vice: the comfortable lie.** Solari think a convenient untruth that keeps the peace is good manners. Lysander is very, very polite.
@@ -189,7 +189,11 @@ And when even that wasn't enough, he borrowed. The treasury sold **Sun Bonds** t
 
 ### The Heart gem
 
-On the night the Last Sun died, Lysander was alone at the bedside. The Crown shattered; he caught one gem before the light faded. He hid it in the vault beneath the palace, and keeps the fake crown on its cushion in the throne room so everyone knows not to trust it.
+On the night the Last Sun died, Lysander was alone at the bedside. The emperor made him promise to keep the empire whole. Then the Crown turned to light and was gone, and one gem fell into Lysander's hands. He hid it in the vault beneath the palace, and had a replica crown made for the cushion in the throne room so the court would have something to bow to.
+
+The Heart holds its bearer to their deepest promise. Lysander's is the one he made that night. It is why he cannot let the empire go, and why every lie he tells is in its service. See `world/sunfire-crown.md`.
+
+**The sun-sickness** was the old Crown failing: forty years on one brow, with the cracks pressing harder, broke the emperor's mind. Lysander doesn't know that. He thinks he hid an illness.
 
 ### The heir question
 

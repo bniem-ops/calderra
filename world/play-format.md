@@ -13,7 +13,7 @@ The Order of the Dawn Lantern is too small to fight everywhere, so it recruits *
 | Prologue | Before the Age of Banners mattered to anyone | Festival of the Accord | 4 |
 | Act I: Banners Rise | The empire's collapse hits ordinary people | Harrow's Ford, The Black Gull, The Millhaven Harvest | 4–5 |
 | Act II: The Crown Hunt | Heroes chase the Crown gems through palaces and mountains | The Feast of Banners, The Regent's Vault, The Dragon of Mount Kharag | 6–9 |
-| Act III: The Pretender's War | The Ashen Pretender marches on the capital | The Pretender's Mask, The Council of Banners | 11–13 |
+| Act III: The Pretender's War | The Ashen Pretender marches on the capital, and a new crown is forged | The Pretender's Mask, The Forging, The Council of Banners | 11–13 |
 
 Run the acts in order so the levels climb; one-shots inside an act can go in any order. A filler one-shot can slot in at the current act's level.
 

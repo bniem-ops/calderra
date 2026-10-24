@@ -29,24 +29,29 @@ factions:
     known_to_players: false
     reason: Doesn't know the Lantern-sworn exist, for now.
 
-# location and known_by are private. Set revealed: true and fill public_location
+# The Crown vanished; a new one must be forged from all three gems (world/sunfire-crown.md).
+# Gems are held by factions between sessions, never by PCs.
+# location, holder and known_by are private. Set revealed: true and fill public_location
 # to show a gem on the map.
 gems:
   heart:
     name: The Heart gem
     location: Under the Regent's palace in Solace
+    holder: Regent Lysander
     known_by: Regent Lysander only
     revealed: false
     public_location: ""
   will:
     name: The Will gem
     location: Carried by the Ashen Pretender
+    holder: The Ashen Pretender
     known_by: His herald Kestrel
     revealed: false
     public_location: ""
   mind:
     name: The Mind gem
-    location: Lost, somewhere strange
+    location: In the dead roots of the Challenger under the Millhaven coliseum
+    holder: Nobody (leaking; Millhaven's children share dreams)
     known_by: Nobody
     revealed: false
     public_location: ""

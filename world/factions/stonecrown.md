@@ -187,6 +187,10 @@ flowchart TD
 - When the emperor died, the tribute stopped, and the dwarves stopped feeding it to save their stores. **The smoke over Mount Kharag is the hungry young dragon, not the old one waking.**
 - This is why the Dragon of Mount Kharag is a level 9 fight with a *young* red dragon, and why Thane Durgan is so eager for heroes to "renegotiate."
 
+### The forge-heart
+
+The first emperor's Crown was forged in dragonfire at the heart of Mount Kharag, and Kharagax was its forge-keeper. A new crown can only be made there, by a Holdfast master smith, with a dragon's fire. **The Holds hold the forge, and Torvek Nameless is the best smith alive.** The Moot hasn't realised yet what that's worth. Hilde Stonecrown has. See `world/sunfire-crown.md`.
+
 **The second secret:** what lies behind the Sealed Door. Leave it locked for now.
 
 ### What would change or destroy them

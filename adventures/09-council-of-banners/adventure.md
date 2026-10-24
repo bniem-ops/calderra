@@ -1,6 +1,6 @@
 ---
 id: council-of-banners
-number: 8
+number: 9
 title: "The Council of Banners"
 act: "III"
 level: 13
@@ -17,11 +17,11 @@ cold_open: "One year after the Last Sun set, every banner in Calderra has come t
 
 ## Beats
 
-- A tense council scene shaped by the ledger → the Ashen Pretender storms the capital → a battle across the city with allied factions arriving → a final duel at the throne.
+- A tense council scene shaped by the ledger, with the new crown (if it was forged) on the table → the Ashen Pretender's move (unmasking, assault, or alliance, depending on The Mask and The Forging) → a battle across the city with allied factions arriving → a final confrontation at the throne.
 
 ## The choice
 
-The players at the table decide who wears the Crown, or whether anyone does, no matter which characters they brought.
+The players at the table decide what happens to the new crown: who wears it, who keeps it, or whether it's used at all, no matter which characters they brought. There's no fixed answer; see the ending options in `world/sunfire-crown.md`. If no crown was forged, the Council decides what Calderra becomes without one.
 
 ## Ripples
 

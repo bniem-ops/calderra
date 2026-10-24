@@ -25,7 +25,7 @@ The Heart gem, and the Regent's archive: the Last Sun's sickbed records, the Qui
 
 ## The choice
 
-Take the gem, or leave it once they learn the Regent is keeping it safe. And: **what else do they take, and who do they show it to?**
+Take the gem, or leave it once they learn the Regent is keeping it safe. (The Heart binds Lysander to his promise to keep the empire whole; taking it frees him of it, and he may not thank them.) And: **what else do they take, and who do they show it to?**
 
 ## DM notes
 

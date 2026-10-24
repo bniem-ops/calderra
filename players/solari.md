@@ -22,7 +22,7 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 - **Solace** is the greatest city in Calderra: white walls, gold domes, a harbour full of ships, and every road in the land meeting at its gates.
 - The **palace dome** holds the Temple of the Unsetting Sun's eternal flame. It has never gone out.
 - **Bread is the empire's business.** Grain from Greenhollow fills the **imperial granaries**, imperial mills grind it, and only bakers with a **Granary licence** may sell it. Every dawn a crier on every corner announces the **Morning Price** of a loaf. Lately it has been going up.
-- **Emperor Castellan VII, the Last Sun,** died six months ago without an heir. The night he died, the Sunfire Crown shattered and the pieces vanished. The city has been holding its breath ever since.
+- **Emperor Castellan VII, the Last Sun,** died six months ago without an heir. The night he died, the Sunfire Crown vanished from his brow. The Temple says the Sun took it with him. The city has been holding its breath ever since.
 
 ## How you're governed
 

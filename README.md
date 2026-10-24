@@ -1,6 +1,6 @@
 # Calderra
 
-A shared D&D 5e world for standalone one-shots. The empire has fallen, the Sunfire Crown is shattered, and a year from now the Council of Banners will decide who rules. Each one-shot has its own cast and level; the world remembers what every table did.
+A shared D&D 5e world for standalone one-shots. The empire has fallen, the Sunfire Crown is gone, and a year from now the Council of Banners will decide who rules. Each one-shot has its own cast and level; the world remembers what every table did.
 
 **Player map:** https://bniem-ops.github.io/Calderra/ (installable on phones: open it and use "Add to Home Screen")
 

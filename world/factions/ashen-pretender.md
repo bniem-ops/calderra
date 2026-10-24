@@ -10,7 +10,7 @@ secret_terms: ["Rowan", "Marit", "his uncle", "MAX's sister", "spare Millhaven",
 
 # The Ashen Pretender
 
-> **Status: draft (waiting on the Crown).** Built fifth and last of the claimants, on purpose: his war is aimed at the weak points of every other faction.
+> **Status: done.** Built fifth and last of the claimants, on purpose: his war is aimed at the weak points of every other faction.
 
 ## Who's who (quick reference)
 
@@ -186,20 +186,21 @@ Kestrel was the **Quill courier** who carried Lysander's hush money west every y
 <!-- secret -->
 **What they want right now.**
 1. To reach the Council of Banners strong enough that no one can refuse the Heir.
-2. **Proof.** Marit's ring proves little. The Last Sun's written acknowledgement of his son proves everything, and it is in Lysander's vault.
-3. Land for the clans: the high pastures, by treaty with Ushra or by force.
+2. **A new crown**, forged with all three gems, on his own head. He doesn't yet know it would also stop the burn.
+3. **Proof.** Marit's ring proves little. The Last Sun's written acknowledgement of his son proves everything, and it is in Lysander's vault.
+4. Land for the clans: the high pastures, by treaty with Ushra or by force.
 
 **What's stopping them:** no legitimacy without proof; a Host that will splinter without him; and time.
 
 ### The big secret: the Will gem is burning him
 
-> **Pending:** the DM wants the Crown and gems defined first (see `world/sunfire-crown.md`). Treat this section as a proposal until then.
 
-- The night the Last Sun died, the Crown shattered. The **Will gem** didn't fall at the emperor's bedside. It appeared, still hot, on Marit's grave in the frontier, where Rowan found it at dawn.
+- The night the Last Sun died, the Crown vanished from his brow. The **Will gem** didn't fall at the emperor's bedside. It appeared, still hot, on Marit's grave in the frontier, where Rowan found it at dawn.
 - The Will gem gives its bearer an iron will, and gives that will to those who follow him: the Host fights without fear and marches without rest. It's a large part of why a dozen peoples who hate each other hold together.
 - But it is **burning him from the inside.** His skin is turning to grey ash from the chest outward, slowly, like a fire banked in coals. The mask hides how far it has spread. That is why he is called *Ashen*, though no one outside the Hearth knows it.
 - He has, at a guess, a year or two. He has to win before it finishes him. Kestrel knows, and is desperate.
-- *(This is the first visible sign of the buried payoff: the gems are not only symbols. Use it to foreshadow the cracks to other worlds.)*
+- **Why it burns:** each gem alone has a cost (see `world/sunfire-crown.md`). The Will, with no Heart to give it purpose and no Mind to restrain it, burns its bearer. **Set in a new crown with the other two, it stops.** A new crown is the only thing that can save him, whoever ends up wearing it.
+- *(The first visible sign of the buried payoff: the gems are not only symbols.)*
 
 ### The second secret: his face
 
@@ -230,13 +231,14 @@ This is his campaign across the three acts. Each piece comes from a faction alre
 | Stonecrown Holds | They can't feed themselves | Burns the Greenhollow grain road before winter, then offers grain for gold, smiths and silence | Act I–II |
 | The Regency | The bread price; the eight dark years | Cuts the grain so the Morning Price doubles; arrives with cheap bread; exposes the forged years at the right moment | Act II–III |
 | Saltreach Compact | The Sun Bonds | Buys arms from Hargrove on a promise to honour the bonds; can split the Tide Table by making the deal public | Act II |
-| Everyone | No one can prove a claim | Gets the acknowledgement out of Lysander's vault, then unmasks at the Council: his father's face | Act III |
+| Everyone | No one can prove a claim, and no one has a crown | Gets the acknowledgement out of Lysander's vault; takes the other gems by force or bargain; brings the Will gem to the Forging; unmasks at the Council: his father's face | Act III |
 
 ## Hooks for one-shots
 
 - **Hold the Bridge at Harrow's Ford:** the raiders are an early Host company testing the March. A captured raider says, "The Heir doesn't want your bridge. He wants to see how long it takes Brenna to come."
 - **The Regent's Vault:** the Host has its own team going after the acknowledgement on the same night. Two heists, one vault.
-- **The Pretender's Mask:** the heroes witness the Hearth, the one loaf and the names. Whoever sees him unmasked sees the ash-burn and his father's face. The choice to depose him or turn him should now feel genuinely hard.
+- **The Pretender's Mask:** the heroes can steal the Will gem, turn him, or leave it (see `world/sunfire-crown.md`). They witness the Hearth, the one loaf and the names. Whoever sees him unmasked sees the ash-burn and his father's face. The choice to depose him or turn him should now feel genuinely hard.
+- **The Forging:** if he wasn't turned, he comes to Kharag with the Will gem and an army.
 - **The Council of Banners:** the unmasking. Whether it ends the war or starts the last battle depends on what the heroes already did.
 
 ## Private hooks for Ashfolk PCs (hand out in person)
