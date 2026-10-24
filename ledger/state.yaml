@@ -1,0 +1,58 @@
+# The World Ledger — the current state of Calderra.
+# DM truth. Only fields marked PUBLIC reach the player map.
+# Update this after every session, together with a file in ledger/sessions/.
+
+# PUBLIC. 0–10, starts at 5. +1 when heroes protect people, make peace or stop a warlord;
+# -1 for a burnt town, a dead claimant or a broken treaty.
+realm_peace: 5
+
+# standing: -2 enemy … +2 ally. PUBLIC as a reputation word (Hostile/Wary/Neutral/Friendly/Allied)
+# unless known_to_players is false, which shows "Unknown". `reason` is private.
+factions:
+  dawn-lantern:
+    standing: 1
+    reason: MAX vouches for the Lantern-sworn after the Festival.
+  regency:
+    standing: 0
+    reason: Not met yet.
+  ironhart:
+    standing: 0
+    reason: Not met yet.
+  saltreach:
+    standing: 0
+    reason: Not met yet.
+  stonecrown:
+    standing: 0
+    reason: Not met yet.
+  ashen-pretender:
+    standing: 0
+    known_to_players: false
+    reason: Doesn't know the Lantern-sworn exist, for now.
+
+# location and known_by are private. Set revealed: true and fill public_location
+# to show a gem on the map.
+gems:
+  heart:
+    name: The Heart gem
+    location: Under the Regent's palace in Solace
+    known_by: Regent Lysander only
+    revealed: false
+    public_location: ""
+  will:
+    name: The Will gem
+    location: Carried by the Ashen Pretender
+    known_by: His herald Kestrel
+    revealed: false
+    public_location: ""
+  mind:
+    name: The Mind gem
+    location: Lost, somewhere strange
+    known_by: Nobody
+    revealed: false
+    public_location: ""
+
+# PUBLIC. Retired PCs who may return as NPCs.
+# - name: "Character name"
+#   player: "Player name"
+#   from: festival-of-the-accord   # adventure id
+legacy_heroes: []

@@ -1,0 +1,17 @@
+{
+  "name": "calderra",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Calderra: a shared D&D 5e world for standalone one-shots, with a player map.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-public-data.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "devDependencies": {
+    "yaml": "2.5.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

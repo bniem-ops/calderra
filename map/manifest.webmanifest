@@ -1,0 +1,13 @@
+{
+  "name": "Calderra",
+  "short_name": "Calderra",
+  "description": "The player map for Calderra: every one-shot, the realm's peace, the banners and the story so far.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14181b",
+  "theme_color": "#14181b",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

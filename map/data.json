@@ -1,0 +1,293 @@
+{
+  "generated": "2026-10-23",
+  "intro": "Six months ago, Emperor Castellan VII, the Last Sun, died without an heir. That same night the Sunfire Crown shattered into three gems and vanished. The legions went home, and every duke, guild and warlord with an army began calling themselves the rightful successor. By imperial law, the next ruler will be named at the Council of Banners in Solace, one year after the emperor's death.",
+  "realm_peace": 5,
+  "acts": [
+    {
+      "id": "Prologue",
+      "name": "Prologue"
+    },
+    {
+      "id": "I",
+      "name": "Act I · Banners Rise"
+    },
+    {
+      "id": "II",
+      "name": "Act II · The Crown Hunt"
+    },
+    {
+      "id": "III",
+      "name": "Act III · The Pretender's War"
+    }
+  ],
+  "current_act": "I",
+  "next_session": "harrows-ford",
+  "sessions": [
+    {
+      "id": "festival-of-the-accord",
+      "number": 0,
+      "title": "Festival of the Accord",
+      "act": "Prologue",
+      "level": 4,
+      "region": "Greenhollow Shires",
+      "location": "Millhaven, Greenhollow Shires",
+      "genre": "Village festival & trials",
+      "spotlight": "Face, brain, sneak, muscle",
+      "status": "played",
+      "cold_open": null,
+      "sealed": false,
+      "public_record": "Strangers who came to Millhaven's summer Festival were named champions by the crowd and defeated the Verdant Court's Challenger at sundown. The Accord holds for another year.",
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "harrows-ford",
+      "number": 1,
+      "title": "Hold the Bridge at Harrow's Ford",
+      "act": "I",
+      "level": 4,
+      "region": "The March of Thorns",
+      "location": "Harrow's Ford, March of Thorns",
+      "genre": "Heroic last stand",
+      "spotlight": "Muscle, support",
+      "status": "next",
+      "cold_open": "The garrison left a week ago. Two hundred refugees are camped on the wrong side of the river, and the orc drums started at sunset.",
+      "sealed": false,
+      "public_record": null,
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "black-gull",
+      "number": 2,
+      "title": "The Black Gull",
+      "act": "I",
+      "level": 5,
+      "region": "The Saltreach Coast",
+      "location": "The Saltreach Coast",
+      "genre": "Swashbuckling sea chase",
+      "spotlight": "Face, sneak",
+      "status": "planned",
+      "cold_open": "The Saltreach Compact will pay a fortune to whoever sinks the Black Gull. Her captain swears he's protecting the coast, not raiding it.",
+      "sealed": false,
+      "public_record": null,
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "bread-and-banners",
+      "number": 3,
+      "title": "Bread and Banners",
+      "act": "I",
+      "level": 5,
+      "region": "Greenhollow Shires",
+      "location": "Millhaven, Greenhollow Shires",
+      "genre": "Village defence",
+      "spotlight": "Face, muscle",
+      "status": "planned",
+      "cold_open": "Two armies reached Greenhollow on the same morning, and both want Millhaven's harvest.",
+      "sealed": false,
+      "public_record": null,
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "feast-of-banners",
+      "number": 4,
+      "title": "The Feast of Banners",
+      "act": "II",
+      "level": 6,
+      "region": "The Heartlands",
+      "location": "A neutral castle",
+      "genre": "Murder mystery",
+      "spotlight": "Face, brain",
+      "status": "planned",
+      "cold_open": null,
+      "sealed": true,
+      "public_record": null,
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "regents-vault",
+      "number": 5,
+      "title": "The Regent's Vault",
+      "act": "II",
+      "level": 7,
+      "region": "The Heartlands",
+      "location": "Solace, the Heartlands",
+      "genre": "Heist",
+      "spotlight": "Sneak, brain",
+      "status": "planned",
+      "cold_open": null,
+      "sealed": true,
+      "public_record": null,
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "dragon-of-kharag",
+      "number": 6,
+      "title": "The Dragon of Mount Kharag",
+      "act": "II",
+      "level": 9,
+      "region": "The Ironspine Mountains",
+      "location": "Mount Kharag, the Ironspine",
+      "genre": "Dragon hunt or negotiation",
+      "spotlight": "Everyone",
+      "status": "planned",
+      "cold_open": null,
+      "sealed": true,
+      "public_record": null,
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "pretenders-mask",
+      "number": 7,
+      "title": "The Pretender's Mask",
+      "act": "III",
+      "level": 11,
+      "region": "The Ashen Frontier",
+      "location": "The Pretender's war camp, Ashen Frontier",
+      "genre": "Infiltration",
+      "spotlight": "Sneak, face",
+      "status": "planned",
+      "cold_open": null,
+      "sealed": true,
+      "public_record": null,
+      "date": null,
+      "players": []
+    },
+    {
+      "id": "council-of-banners",
+      "number": 8,
+      "title": "The Council of Banners",
+      "act": "III",
+      "level": 13,
+      "region": "The Heartlands",
+      "location": "Solace",
+      "genre": "Finale",
+      "spotlight": "Everyone",
+      "status": "planned",
+      "cold_open": null,
+      "sealed": true,
+      "public_record": null,
+      "date": null,
+      "players": []
+    }
+  ],
+  "regions": [
+    {
+      "id": "ashen-frontier",
+      "name": "The Ashen Frontier",
+      "held_by": "Unclaimed",
+      "feel": "Ruined forts, old battlefields, monster-haunted wilds",
+      "rumour": "The Pretender's banners carry the old imperial sun — upside down."
+    },
+    {
+      "id": "gilded-delta",
+      "name": "The Gilded Delta",
+      "held_by": "The Prince-Merchants of Vareth",
+      "feel": "Silk, canals, decadence, duels at dawn",
+      "rumour": "A Vareth prince is offering a palace to whoever brings him one of the Crown gems."
+    },
+    {
+      "id": "greenhollow",
+      "name": "Greenhollow Shires",
+      "held_by": "Nobody, really — village councils",
+      "feel": "Harvest festivals, hedges, inns",
+      "rumour": "Millhaven still holds its odd little Festival every summer. Strangers who wander in tend to get roped into it."
+    },
+    {
+      "id": "heartlands",
+      "name": "The Heartlands",
+      "held_by": "Regent Lysander Vael, the late emperor's chancellor",
+      "feel": "Marble palaces, masked politics, nervous crowds",
+      "rumour": "The Regent keeps a crown on a cushion in the throne room. Everyone knows it's a fake."
+    },
+    {
+      "id": "ironspine",
+      "name": "The Ironspine Mountains",
+      "held_by": "Thane Durgan Stonecrown and the dwarven holds",
+      "feel": "Forges, deep mines, mountain passes",
+      "rumour": "Smoke on Mount Kharag for the first time in a hundred years."
+    },
+    {
+      "id": "march-of-thorns",
+      "name": "The March of Thorns",
+      "held_by": "Duchess Brenna Ironhart",
+      "feel": "Walls, watchtowers, frost, soldiers",
+      "rumour": "Harrow's Ford is the last bridge before the wall. Nobody is guarding it."
+    },
+    {
+      "id": "saltreach",
+      "name": "The Saltreach Coast",
+      "held_by": "The Saltreach Compact, a merchant republic",
+      "feel": "Harbours, regattas, pirates, sea shanties",
+      "rumour": "The Compact will pay a fortune for anyone who can sink the Black Gull."
+    }
+  ],
+  "factions": [
+    {
+      "id": "dawn-lantern",
+      "name": "Order of the Dawn Lantern",
+      "seat": "Wherever they're needed",
+      "face": "Ser Maren Aldwyn",
+      "blurb": "Sworn knights who want the Crown to go to someone worthy. They recruit Lantern-sworn heroes for one job at a time.",
+      "reputation": "Friendly"
+    },
+    {
+      "id": "regency",
+      "name": "The Regency",
+      "seat": "The Heartlands",
+      "face": "Regent Lysander Vael",
+      "blurb": "The late emperor's chancellor, holding the capital and calling for the empire to stay whole under a council.",
+      "reputation": "Neutral"
+    },
+    {
+      "id": "ironhart",
+      "name": "House Ironhart",
+      "seat": "March of Thorns",
+      "face": "Duchess Brenna Ironhart",
+      "blurb": "The duchess holding the northern wall against orc and giant clans, and claiming the throne.",
+      "reputation": "Neutral"
+    },
+    {
+      "id": "saltreach",
+      "name": "Saltreach Compact",
+      "seat": "Saltreach Coast",
+      "face": "Guildmistress Odessa Reef",
+      "blurb": "A merchant republic on the east coast that has declared its independence.",
+      "reputation": "Neutral"
+    },
+    {
+      "id": "stonecrown",
+      "name": "Stonecrown Holds",
+      "seat": "Ironspine Mountains",
+      "face": "Thane Durgan Stonecrown",
+      "blurb": "The dwarven holds of the Ironspine, who want out of the empire entirely.",
+      "reputation": "Neutral"
+    },
+    {
+      "id": "ashen-pretender",
+      "name": "The Ashen Pretender",
+      "seat": "Ashen Frontier",
+      "face": "Unknown — masked",
+      "blurb": "A masked warlord in the far west who claims to be the emperor's secret heir.",
+      "reputation": "Unknown"
+    }
+  ],
+  "gems": [
+    {
+      "revealed": false
+    },
+    {
+      "revealed": false
+    },
+    {
+      "revealed": false
+    }
+  ],
+  "legacy_heroes": []
+}

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calderra Campaign Map</title>
+<meta name="description" content="The player map for Calderra: every one-shot, the realm's peace, the banners and the story so far.">
+<meta name="theme-color" content="#14181b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#e7eaea" media="(prefers-color-scheme: light)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <p class="eyebrow">The Age of Banners · Year One</p>
+      <h1>Calderra</h1>
+    </div>
+    <p class="sub" id="synced"></p>
+  </header>
+
+  <div class="main">
+    <figure class="map">
+      <div class="map-frame">
+        <svg id="map" viewBox="0 0 1000 700" role="group" aria-label="Map of Calderra with a pin for each one-shot"></svg>
+      </div>
+      <figcaption class="legend">
+        <span><i class="dot played"></i>Played</span>
+        <span><i class="dot next"></i>Up next</span>
+        <span><i class="dot planned"></i>Planned</span>
+        <span>Tap a pin for details</span>
+      </figcaption>
+    </figure>
+
+    <aside class="rail">
+      <section class="panel detail" id="detail" aria-live="polite"><p class="empty">Loading the realm…</p></section>
+      <section class="panel">
+        <h2>The Realm's Peace</h2>
+        <div class="peace-row"><span class="peace-num" id="peace-num"></span><span class="peace-word" id="peace-word"></span></div>
+        <div class="meter" id="meter" aria-hidden="true"></div>
+        <div class="meter-scale"><span>Civil war</span><span>Peace</span></div>
+      </section>
+    </aside>
+  </div>
+
+  <div class="chronicle">
+    <section class="panel story">
+      <h2>The Story So Far</h2>
+      <div id="story"></div>
+      <div class="recap-tools"><button type="button" id="copy-recap">Copy recap</button><span class="copied" id="copied" hidden>Copied</span></div>
+    </section>
+    <div class="rail">
+      <section class="panel">
+        <h2>Banners of Calderra</h2>
+        <ul class="factions" id="factions"></ul>
+      </section>
+      <section class="panel">
+        <h2>The Sunfire Crown</h2>
+        <ul class="gems" id="gems"></ul>
+      </section>
+    </div>
+  </div>
+
+  <div class="chronicle">
+    <section class="panel">
+      <h2>The Road to the Council</h2>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+    <section class="panel">
+      <h2>Legacy Heroes</h2>
+      <div id="legacy"></div>
+    </section>
+  </div>
+
+  <footer class="note">Kept by the DM. Reputations and records update after each session.</footer>
+</div>
+<script src="app.js" type="module"></script>
+</body>
+</html>
