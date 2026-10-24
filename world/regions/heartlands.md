@@ -9,4 +9,4 @@ rumour: "The Regent keeps a crown on a cushion in the throne room. Everyone know
 
 # The Heartlands
 
-The capital, Solace, sits here. The Regent secretly holds the Heart gem under the palace (see factions/regency.md).
+The capital, Solace, sits here. See `factions/regency.md` for the court, the sun-loaf and the Regent's secrets.
