@@ -8,7 +8,7 @@ public_blurb: "The dwarven holds of the Ironspine, who want out of the empire en
 
 # Stonecrown Holds
 
-> **Status: draft.** Built first: the dwarves were in the Ironspine before anyone else. Items marked **(DM call)** are open choices.
+> **Status: done.** Built first: the dwarves were in the Ironspine before anyone else.
 
 ## Who's who (quick reference)
 
@@ -120,7 +120,7 @@ flowchart TD
 **What they misunderstand:**
 - They believe lowlanders will always come back begging, because they always have. They don't realise a hungry, war-torn lowland can't buy iron.
 - They think Ironhart's pride is greed. It's duty. Brenna would hold the wall even if no one paid her.
-- They think the empire never noticed the dragon fraud. **(DM call:** Regent Lysander noticed years ago and has been saving it for the right moment.)
+- They think the empire never noticed the dragon fraud. **It did:** Regent Lysander found out years ago and is keeping it as leverage (see `regency.md`).
 
 ## Internal tension
 

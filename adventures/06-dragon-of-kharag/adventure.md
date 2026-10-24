@@ -19,9 +19,22 @@ cold_open: "The empire paid a red dragon to stay asleep. The payments stopped si
 
 - Escort the late tribute caravan → dwarven hold politics with Thane Stonecrown → climb into the volcano → fight a young red dragon in its lair, or bargain for a new treaty.
 
+## Twist: the dead dragon
+
+- The old red dragon **Kharagax** died of age forty years ago, deep in the volcano. Her bones are still there.
+- The Stonecrown Holds hid her death and kept collecting the empire's yearly tribute, with tribute seals forged by their smiths.
+- She left an egg. The dwarves raised the hatchling in secret and fed it to keep it docile. When the tribute stopped, they stopped feeding it. **The smoke is the hungry young dragon.**
+- Thane Durgan wants heroes to "renegotiate the treaty" so no one goes looking for the old dragon.
+- **Clues:** forged seals in the tribute caravan (Investigation or a smith's eye); the young dragon is too small for a century-old treaty; **Torvek Nameless** of the Oathless will tell the truth for a promise to restore his name; Kharagax's skeleton in the lair.
+
+See `world/factions/stonecrown.md` for the full secret. Regent Lysander already knows (see `world/factions/regency.md`).
+
 ## The choice
 
-Kill the dragon, or bargain.
+Kill the dragon, or bargain, and then: **expose the fraud, or keep the Holds' secret?**
+
+- **Expose it:** every claimant demands the gold back; the Holds' word is worthless; Torvek and the Oathless may get their names back. Stonecrown −2, Realm's Peace −1 (the dwarves close the passes).
+- **Keep it:** the Holds owe the heroes a debt they will honour. Stonecrown +2. But Lysander still knows, and the heroes are now part of the cover-up.
 
 ## Ripples
 
