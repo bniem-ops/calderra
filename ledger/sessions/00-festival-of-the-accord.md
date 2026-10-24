@@ -12,7 +12,7 @@ changes:
   factions:
     dawn-lantern: 1
 ripples:
-  - MAX and Millhaven are friends for life; bring MAX back in Bread and Banners.
+  - MAX and Millhaven are friends for life; bring MAX back in The Millhaven Harvest (one-shot 3).
   - The heroes carry MAX's iron key. It opens something MAX has never told anyone about.
 ---
 

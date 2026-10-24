@@ -1,7 +1,7 @@
 ---
-id: bread-and-banners
+id: millhaven-harvest
 number: 3
-title: "Bread and Banners"
+title: "The Millhaven Harvest"
 act: "I"
 level: 5
 region: greenhollow
@@ -11,7 +11,7 @@ spotlight: "Face, muscle"
 cold_open: "Two armies reached Greenhollow on the same morning, and both want Millhaven's harvest."
 ---
 
-# Bread and Banners
+# The Millhaven Harvest
 
 > Everything below the header is DM-only. Only the header fields above appear on the player map (the cold open only once its act is current).
 

@@ -9,4 +9,4 @@ rumour: "Millhaven still holds its odd little Festival every summer. Strangers w
 
 # Greenhollow Shires
 
-Home of Millhaven and MAX. Quietly one of the most important places in Calderra. Settings: Festival of the Accord, Bread and Banners.
+Home of Millhaven and MAX. Quietly one of the most important places in Calderra. Settings: Festival of the Accord, The Millhaven Harvest.
