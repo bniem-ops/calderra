@@ -4,7 +4,7 @@ Every one-shot stands alone with its own cast, and each is set at a planned leve
 
 ## Why the cast keeps changing
 
-The Order of the Dawn Lantern is too small to fight everywhere, so it recruits **Lantern-sworn** heroes for one job at a time. Each one-shot is a new team on a new mission. The world carries the continuity (the ledger, the factions, the Crown gems), not any single PC.
+The Order of the Dawn Lantern, about forty knights loyal to the realm rather than any claimant, is too small to fight everywhere, so it recruits **Lantern-sworn** heroes for one job at a time. Each one-shot is a new team on a new mission. The world carries the continuity (the ledger, the factions, the Crown gems), not any single PC.
 
 ## Level roadmap
 

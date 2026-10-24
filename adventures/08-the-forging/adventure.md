@@ -24,7 +24,7 @@ All three gems are needed to forge a new Sunfire Crown, in dragonfire, at the fo
 
 - **The forge is lit:** the young dragon was bargained with in The Dragon of Mount Kharag. If it was killed, the forge is cold: the heroes need another fire (a much harder quest), or the Forging can't happen and the Council goes ahead without a crown.
 - **The smith:** Torvek Nameless, if the heroes won him over. Otherwise Hilde Stonecrown (good, not great: the crown may come out flawed).
-- **The gems:** who holds each one. Any gem not in the heroes' allies' hands has to be won, bought or taken tonight.
+- **The gems:** who holds each one. Any gem not held by the Order or another ally has to be won, bought or taken tonight.
   - **Will gem:** stolen → it's here, and the Host is coming for it. Turned → Rowan brings it himself, as an ally. Left → he comes with it, and an army, to take the crown.
 
 ## Beats

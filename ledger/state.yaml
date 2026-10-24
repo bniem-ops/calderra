@@ -30,7 +30,7 @@ factions:
     reason: Doesn't know the Lantern-sworn exist, for now.
 
 # The Crown vanished; a new one must be forged from all three gems (world/sunfire-crown.md).
-# Gems are held by factions between sessions, never by PCs.
+# Gems are held by NPCs in the world between sessions (often the Order), never by PCs.
 # location, holder and known_by are private. Set revealed: true and fill public_location
 # to show a gem on the map.
 gems:

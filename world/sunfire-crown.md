@@ -63,7 +63,7 @@ That makes the dwarves suddenly central: **they hold the forge and the smith.** 
 
 ## How the gems come together across the series
 
-Gems are held by **factions between sessions, never by PCs.** The Order of the Dawn Lantern is the natural keeper of any gem the heroes secure. Each gem's cost falls on whoever holds it, so every handoff is a story. Track holders in `ledger/state.yaml`.
+Gems are held by **NPCs in the world between sessions, never by PCs**, because the cast changes every session. A PC may carry a gem during a one-shot; at the end it goes to someone who will still be there next time. The **Order of the Dawn Lantern** (not a faction, but the only group with no claim to the crown) is the natural keeper of any gem the heroes secure, and was founded for exactly this (see `factions/dawn-lantern.md`). Each gem's cost falls on whoever holds it, so every handoff is a story. Track holders in `ledger/state.yaml`.
 
 | Act | One-shot (level) | The Crown thread |
 | --- | --- | --- |

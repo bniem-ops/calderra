@@ -8,8 +8,8 @@ Factions are built in the order they arrived in Calderra, so later ones can fill
 | 2 | House Ironhart | The march-lords who built and held the Thornwall | Done |
 | 3 | The Regency | The imperial court in Solace | Done |
 | 4 | Saltreach Compact | The newest power: merchants grown rich in the empire's last century | Done |
-| 5 | The Ashen Pretender | Exiled heir, built to exploit everyone's weak points | Draft |
-| 6 | Order of the Dawn Lantern | Sworn to the realm; ties everything together | To do |
+| 5 | The Ashen Pretender | Exiled heir, built to exploit everyone's weak points | Done |
+| 6 | Order of the Dawn Lantern | Sworn to the realm; not a faction, ties everything together | Draft |
 
 Smaller peoples worth a pass later: the Prince-Merchants of Vareth (Gilded Delta), the Verdant Court (Millhaven's Fey), the orc and giant clans beyond the Thornwall.
 
@@ -73,3 +73,4 @@ Answer these in the faction's file under `world/factions/`, in the markdown body
 | The Regency | `peoples/solari.html` |
 | Saltreach Compact | `peoples/reacher.html` |
 | The Ashen Pretender | `peoples/ashfolk.html` |
+| Order of the Dawn Lantern | `peoples/lantern.html` (useful for every player) |

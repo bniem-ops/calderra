@@ -98,7 +98,7 @@
       "act": "II",
       "level": 6,
       "region": "The Heartlands",
-      "location": "A neutral castle",
+      "location": "The Lanternhold, the Order's hall",
       "genre": "Murder mystery",
       "spotlight": "Face, brain",
       "status": "planned",
@@ -249,9 +249,9 @@
     {
       "id": "dawn-lantern",
       "name": "Order of the Dawn Lantern",
-      "seat": "Wherever they're needed",
+      "seat": "The Lanternhold",
       "face": "Ser Maren Aldwyn",
-      "blurb": "Sworn knights who want the Crown to go to someone worthy. They recruit Lantern-sworn heroes for one job at a time.",
+      "blurb": "A small sworn order of knights, loyal to the realm rather than any claimant. They recruit Lantern-sworn heroes for one job at a time.",
       "reputation": "Friendly"
     },
     {
