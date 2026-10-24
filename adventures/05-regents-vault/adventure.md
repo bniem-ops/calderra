@@ -19,9 +19,13 @@ cold_open: "The Order believes one of the Crown gems is under the Regent's palac
 
 - Plan the heist (let the players draw it) → infiltrate a palace gala → the vault's puzzle locks (the Seven Chests cipher, full-session version) → escape when it goes wrong.
 
+## What's in the vault
+
+The Heart gem, and the Regent's archive: the Last Sun's sickbed records, the Quiet Seal, the ledger of dragon tribute paid to the dwarves, and the Last Sun's written acknowledgement of his son (the Ashen Pretender). See `world/factions/regency.md`.
+
 ## The choice
 
-Take the gem, or leave it once they learn the Regent is keeping it safe.
+Take the gem, or leave it once they learn the Regent is keeping it safe. And: **what else do they take, and who do they show it to?**
 
 ## DM notes
 

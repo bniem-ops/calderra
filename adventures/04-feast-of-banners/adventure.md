@@ -21,7 +21,7 @@ cold_open: "Every claimant has agreed to one night of truce and one shared meal.
 
 ## Twist
 
-- The poison was meant for someone else.
+- The poison was meant for someone else: **Regent Lysander**. Lady Corisande, mother of the child prince Leo, hired the poisoner to clear her son's path to the throne. See `world/factions/regency.md`.
 
 ## The choice
 

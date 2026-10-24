@@ -30,7 +30,7 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 - **The Quill** is the imperial civil service: clerks, judges, tax-assessors and archivists, promoted by exam rather than birth. It's the one place in Calderra a nobody can become somebody.
 - **The Sunward Houses** are the old noble families. Rich, proud, beautifully dressed and armed mostly with lawyers.
 - **The Temple of the Unsetting Sun** keeps the faith. **High Prelate Ondine Marr** preaches that the Sun cannot rise again until the Crown is whole.
-- **Prince Aurel**, the Last Sun's nine-year-old great-nephew, is the closest thing to an heir in Solace. Lysander is his guardian. Everyone has opinions about that.
+- **Prince Leo**, the Last Sun's nine-year-old great-nephew, is the closest thing to an heir in Solace. Lysander is his guardian. Everyone has opinions about that.
 - **The law** is written, fair and very slow. Fines and the stocks for most crimes; for treason, exile from Solace, which to a Solari is close to death.
 
 ## What you hold sacred
@@ -92,6 +92,6 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 - **Classes that fit well:** Wizard (the Quill's scholars), Cleric (the Unsetting Sun), Bard, Rogue, Warlock, Paladin (sun oaths), Sorcerer.
 
 **Naming**
-- Given name and family name, and Sunward families like a long string of both: *Livia Corran*, *Marcus Aurelan Vey*.
+- Given name and family name, and Sunward families like a long string of both: *Livia Corran*, *Marcus Tellan Vey*.
 - Quill officials add their rank as a title: *Third-Quill Tavian Rook*.
 - More given names: Cassia, Darius, Ilaria, Octavo, Sabina, Teodric, Valen, Mirella, Quintus, Severa.

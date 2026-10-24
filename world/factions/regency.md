@@ -5,12 +5,12 @@ seat: "The Heartlands"
 face: "Regent Lysander Vael"
 public_blurb: "The late emperor's chancellor, holding the capital and calling for the empire to stay whole under a council."
 # Words that must never appear in player guides or on the map.
-secret_terms: ["Heart gem", "Sun-Sickness", "sun-sick", "ruled in his name", "the eight dark years", "dark years", "exile order", "the Quiet Seal", "tribute ledgers", "kept paying"]
+secret_terms: ["acknowledgement", "acknowledged the boy", "Heart gem", "Sun-Sickness", "sun-sick", "ruled in his name", "the eight dark years", "dark years", "exile order", "the Quiet Seal", "tribute ledgers", "kept paying"]
 ---
 
 # The Regency
 
-> **Status: draft.** Built third: the imperial court came after the dwarves and the march-lords, and grew up around them. Items marked **(DM call)** are open choices.
+> **Status: done.** Built third: the imperial court came after the dwarves and the march-lords, and grew up around them.
 
 ## Who's who (quick reference)
 
@@ -23,16 +23,16 @@ secret_terms: ["Heart gem", "Sun-Sickness", "sun-sick", "ruled in his name", "th
 | **The Temple of the Unsetting Sun** | The imperial faith. Teaches that the emperor is the Sun on earth. Led by the **High Prelate**. |
 | **The Granaries** | The imperial granaries, mills and licensed bakeries. The Regency owns the whole chain from Greenhollow's fields to the baker's oven, and sets the price of bread. |
 | **The Morning Price** | The price of a loaf, read out on the palace steps at dawn. The Regency's main tool of power. |
-| **Prince Aurel** | A nine-year-old great-nephew of the late emperor. The Regency's figurehead. |
+| **Prince Leo** | A nine-year-old great-nephew of the late emperor. The Regency's figurehead. |
 
-**Names to remember (five):** Regent Lysander Vael, Prince Aurel (the child), Lady Corisande (his mother), High Prelate Ondine Marr (the temple), and Emperor Castellan VII, the Last Sun (dead).
+**Names to remember (five):** Regent Lysander Vael, Prince Leo (the child), Lady Corisande (his mother), High Prelate Ondine Marr (the temple), and Emperor Castellan VII, the Last Sun (dead).
 
 ```mermaid
 flowchart TD
     E["Emperor Castellan VII<br/>the Last Sun (dead)"]
     subgraph S["Solace — the Solari"]
         L["Regent Lysander Vael<br/>chancellor, rose through the Quill"]
-        A["Prince Aurel, age 9<br/>figurehead"]
+        A["Prince Leo, age 9<br/>figurehead"]
         Q["The Quill<br/>civil service"]
         SH["The Sunward Houses<br/>old nobility"]
         T["Temple of the Unsetting Sun<br/>High Prelate Ondine Marr"]
@@ -78,7 +78,7 @@ flowchart TD
 
 **How he got that right.** Lysander was born a dockworker's son and rose through the **Quill** by exam, the first commoner ever to become chancellor. The Sunward Houses never forgave him.
 
-**How power passes.** Officially, by blood: the Sun passes father to child. But the Last Sun died without a legitimate heir, so the Council of Banners must choose. Lysander wants the Council to become **permanent**, a council ruling in Aurel's name for good. The Sunward Houses want Aurel crowned. The Temple wants the Crown made whole first.
+**How power passes.** Officially, by blood: the Sun passes father to child. But the Last Sun died without a legitimate heir, so the Council of Banners must choose. Lysander wants the Council to become **permanent**, a council ruling in Leo's name for good. The Sunward Houses want Leo crowned. The Temple wants the Crown made whole first.
 
 **Who's at the bottom.** The city's poor and the Heartland tenant farmers. They put up with it because the Regency keeps the Morning Price low for them, low enough to live on. Raise it a copper and the lower city starts to murmur; raise it a silver and it riots.
 
@@ -125,7 +125,7 @@ flowchart TD
 ## Internal tension
 
 **What they argue about.**
-- **A council or a crown.** Lysander and much of the Quill want a permanent council. The Sunward Houses want Aurel crowned emperor. The Temple wants the Crown made whole first, which means finding the gems.
+- **A council or a crown.** Lysander and much of the Quill want a permanent council. The Sunward Houses want Leo crowned emperor. The Temple wants the Crown made whole first, which means finding the gems.
 - **Bread or walls.** The treasury can't afford both a low Morning Price and the March's wall pay. For years, it has quietly chosen bread.
 - **Commoners and nobles.** The Quill is the one place a nobody can rise. The Sunward Houses want it back under their control.
 
@@ -135,8 +135,8 @@ For the last eight years of his reign, the Last Sun was **sun-sick**: lost to a 
 <!-- /secret -->
 
 **Who's unhappy, and what they'd do with power.**
-- **High Prelate Ondine Marr.** A true believer who thinks the Sun will only rise again when the Crown is whole and on a blood heir's head. With power she'd crown Aurel at once and send the Temple's agents after every gem, no matter whose. She suspects Lysander is hiding something about the gems.
-- **Lady Corisande**, Prince Aurel's mother, of the Sunward Houses. Wants her son crowned and Lysander gone, and is courting House Ironhart's soldiers to make it happen. **(DM call:** a good assassin-hirer for the Feast of Banners.)
+- **High Prelate Ondine Marr.** A true believer who thinks the Sun will only rise again when the Crown is whole and on a blood heir's head. With power she'd crown Leo at once and send the Temple's agents after every gem, no matter whose. She suspects Lysander is hiding something about the gems.
+- **Lady Corisande**, Prince Leo's mother, of the Sunward Houses. Wants her son crowned and Lysander gone, and is courting House Ironhart's soldiers to make it happen. **Decided:** she hires the poisoner at the Feast of Banners.
 - **The Solace poor.** If the Morning Price climbs much further, they'll follow anyone who promises cheaper bread.
 - **Unlicensed bakers.** Small ovens in the lower city baking without a Granary licence, on grain smuggled in by Saltreach ships. The Quill fines them; the people love them.
 
@@ -191,8 +191,12 @@ On the night the Last Sun died, Lysander was alone at the bedside. The Crown sha
 
 ### The heir question
 
-- The Ashen Pretender claims to be the emperor's secret son. He is.
-- **(DM call:** did Lysander sign the **exile order** that sent the boy and his mother away years ago, under the Quiet Seal, to keep a bastard out of the succession? If yes, Lysander knows the Pretender's claim is real, and that he himself created the war's greatest enemy.)
+- The Ashen Pretender claims to be the emperor's secret son. He is, and **Lysander knows**, because Lysander exiled him.
+- **When:** in the third of the eight dark years. A woman from the provinces came to court with a boy of about sixteen and a ring the Last Sun had given her, asking for the boy to be recognised.
+- **Why Lysander did it:** an audience would have shown the court the emperor was sun-sick. And in a rare lucid hour the Last Sun *did* know them, wept, and wrote a few lines acknowledging the boy as his son.
+- **What Lysander did:** he signed the **exile order** under the Quiet Seal and had mother and son taken to the far west, to the ruined frontier. The Solari never burn documents, so he kept the emperor's acknowledgement too. **It's in the vault beneath the palace, beside the Heart gem.**
+- So Lysander knows the Pretender's claim is real, and that his own forged order created the war's greatest enemy. The boy would be about twenty-one now.
+- The rest of the Pretender's story (his mother's fate, how he came to lead monsters) is built with the Pretender.
 
 ### What would change or destroy them
 
@@ -201,7 +205,7 @@ On the night the Last Sun died, Lysander was alone at the bedside. The Crown sha
 
 ## Hooks for one-shots
 
-- **The Regent's Vault:** the heroes come for the Heart gem, and also find the vault's archive: the emperor's sickbed records, the Quiet Seal and Lysander's ledger of what he paid the dwarves. The real choice becomes *what to take*.
+- **The Regent's Vault:** the heroes come for the Heart gem, and also find the vault's archive: the emperor's sickbed records, the Quiet Seal, Lysander's ledger of what he paid the dwarves, and **the Last Sun's acknowledgement of his son**. The real choice becomes *what to take*.
 - **The Feast of Banners:** Lady Corisande wants Lysander dead before the Council. The poison was meant for him, and hit someone else.
 - **The Millhaven Harvest:** one of the two armies wanting Millhaven's grain could be the Regency's, desperate to refill the Granaries.
 - **The Council of Banners:** the High Prelate demands the gems be laid on the table. Lysander has to decide whether to reveal his.
