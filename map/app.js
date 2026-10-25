@@ -112,21 +112,61 @@ data.sessions.forEach((s) => {
   if (!pos) { console.warn(`No pin position for "${s.id}" in map.config.json`); return; }
   const x = (pos.x / 100) * W, y = (pos.y / 100) * H;
   const label = { played: "played", next: "up next", planned: "planned" }[s.status];
-  const g = el("g", { class: `pin ${s.status}`, tabindex: 0, role: "button", "aria-label": `${s.number}. ${s.title}, level ${s.level}, ${label}` }, pinLayer);
-  el("circle", { cx: x, cy: y, r: 15, class: "ring" }, g);
-  el("circle", { cx: x, cy: y, r: 15, class: "body" }, g);
-  el("text", { x, y: y + 1 }, g).textContent = s.number;
-  g.addEventListener("click", () => select(s.id));
+  const g = el("g", { class: `pin ${s.status}`, transform: `translate(${x} ${y})`, tabindex: 0, role: "button", "aria-label": `${s.number}. ${s.title}, level ${s.level}, ${label}` }, pinLayer);
+  // Inner group so CSS can enlarge pins on phones around their own centre.
+  const inner = el("g", { class: "pin-inner" }, g);
+  el("circle", { r: 22, class: "hit" }, inner); // invisible, finger-sized tap area
+  el("circle", { r: 15, class: "ring" }, inner);
+  el("circle", { r: 15, class: "body" }, inner);
+  el("text", { y: 1 }, inner).textContent = s.number;
+  g.addEventListener("click", () => select(s.id, { from: "map" }));
   g.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(s.id); } });
   pinEls[s.id] = g;
 });
 
+/* ---------- Phones: zoomable map + one-shot picker ---------- */
+const phone = matchMedia("(max-width: 700px)");
+const calm = matchMedia("(prefers-reduced-motion: reduce)");
+const frame = $("map-frame");
+let current = null;
+let zoomed = true;
+
+// Scroll the (zoomed) map sideways so a pin sits in the middle.
+function centerOn(id, smooth = true) {
+  const pos = (config.pins || {})[id];
+  if (!pos || !phone.matches || !zoomed) return;
+  const left = (pos.x / 100) * frame.scrollWidth - frame.clientWidth / 2;
+  frame.scrollTo({ left, behavior: smooth && !calm.matches ? "smooth" : "auto" });
+}
+function setZoom(z) {
+  zoomed = z;
+  frame.classList.toggle("zoomed", phone.matches && z);
+  $("map-zoom-label").textContent = z ? "Whole map" : "Zoom in";
+  if (current) centerOn(current, false);
+}
+$("map-zoom").addEventListener("click", () => setZoom(!zoomed));
+phone.addEventListener("change", () => setZoom(true));
+
+$("picker").innerHTML = data.sessions.map((s) =>
+  `<button type="button" class="pk ${s.status}" data-id="${s.id}"><span class="tl-num">${s.number}</span><span class="pk-title">${esc(s.title)}</span></button>`).join("");
+$("picker").addEventListener("click", (e) => { const b = e.target.closest(".pk"); if (b) select(b.dataset.id, { from: "picker" }); });
+
+// Keep the picker's chosen chip in view without moving the page.
+function revealChip(id, smooth) {
+  const row = $("picker"), b = row.querySelector(`[data-id="${CSS.escape(id)}"]`);
+  if (!b || !row.offsetParent) return;
+  const left = b.offsetLeft - row.offsetLeft - (row.clientWidth - b.offsetWidth) / 2;
+  row.scrollTo({ left, behavior: smooth && !calm.matches ? "smooth" : "auto" });
+}
+
 /* ---------- Detail ---------- */
-function select(id, { updateHash = true } = {}) {
+function select(id, { updateHash = true, from = "init" } = {}) {
   const s = data.sessions.find((x) => x.id === id);
   if (!s) return;
+  current = id;
   Object.entries(pinEls).forEach(([k, g]) => g.classList.toggle("selected", k === id));
   document.querySelectorAll(".tl-item").forEach((b) => b.classList.toggle("selected", b.dataset.id === id));
+  document.querySelectorAll(".pk").forEach((b) => b.setAttribute("aria-current", String(b.dataset.id === id)));
   const statusText = { played: "Played", next: "Up next", planned: "Planned" }[s.status];
   const region = regionByName[s.region];
   let html = `<h2>${s.act === "Prologue" ? "Session zero" : "One-shot " + s.number}</h2>
@@ -152,9 +192,26 @@ function select(id, { updateHash = true } = {}) {
   } else {
     html += `<p class="label">The call</p><p class="sealed">Sealed until ${esc(actShort(s.act))} begins.</p>`;
   }
+  // Previous / next, so phones can flip through one-shots without scrolling back up.
+  const i = data.sessions.indexOf(s), prev = data.sessions[i - 1], nxt = data.sessions[i + 1];
+  const chev = (d) => `<svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${d}"/></svg>`;
+  html += `<nav class="detail-nav" aria-label="Other one-shots">${
+    prev ? `<button type="button" class="dn prev" data-go="${prev.id}" aria-label="Previous: ${esc(prev.title)}">${chev("M12 4 6 10l6 6")}<span>${prev.number} · ${esc(prev.title)}</span></button>` : ""}${
+    nxt ? `<button type="button" class="dn next" data-go="${nxt.id}" aria-label="Next: ${esc(nxt.title)}"><span>${nxt.number} · ${esc(nxt.title)}</span>${chev("m8 4 6 6-6 6")}</button>` : ""}</nav>`;
   $("detail").innerHTML = html;
   if (updateHash) history.replaceState(null, "", "#" + id);
+
+  if (phone.matches) {
+    if (from !== "map") centerOn(id, from !== "init");
+    revealChip(id, from !== "init");
+    // Picked from further down the page: bring the card up to meet the reader.
+    if (from === "list" || from === "nav") {
+      const top = $("detail").getBoundingClientRect().top;
+      if (top < 0 || top > innerHeight * 0.5) $("detail").scrollIntoView({ block: "start", behavior: calm.matches ? "auto" : "smooth" });
+    }
+  }
 }
+$("detail").addEventListener("click", (e) => { const b = e.target.closest("[data-go]"); if (b) select(b.dataset.go, { from: "nav" }); });
 
 /* ---------- Peace ---------- */
 const p = data.realm_peace;
@@ -185,7 +242,7 @@ $("timeline").innerHTML = data.acts.map((act) => {
   return `<li><div class="act-label">${esc(act.name)} · ${range}</div><div class="act-sessions">${items.map((s) =>
     `<button type="button" class="tl-item ${s.status}" data-id="${s.id}"><span class="tl-num">${s.number}</span><span class="tl-title">${esc(s.title)}</span><span class="tl-lvl">Lv ${s.level}</span></button>`).join("")}</div></li>`;
 }).join("");
-document.querySelectorAll(".tl-item").forEach((b) => b.addEventListener("click", () => select(b.dataset.id)));
+document.querySelectorAll(".tl-item").forEach((b) => b.addEventListener("click", () => select(b.dataset.id, { from: "list" })));
 
 /* ---------- Story so far ---------- */
 const played = data.sessions.filter((s) => s.status === "played");
@@ -210,6 +267,7 @@ $("legacy").innerHTML = data.legacy_heroes.length
 
 /* ---------- Initial selection (supports #session-id links) ---------- */
 const fromHash = decodeURIComponent(location.hash.slice(1));
+setZoom(true);
 select(data.sessions.some((s) => s.id === fromHash) ? fromHash : (next || played.at(-1) || data.sessions[0]).id, { updateHash: false });
 
 /* ---------- Offline / installable ---------- */
