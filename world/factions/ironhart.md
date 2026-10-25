@@ -212,7 +212,7 @@ Three of the twelve towers are empty, kept lit by two old wardens on a circuit, 
 
 ## Hooks for one-shots
 
-- **Hold the Bridge at Harrow's Ford:** the warband's champion is **Ushra's son**. If the heroes spare him, he tells them about the Thorn Pact, and Ushra becomes a possible ally against the Pretender. *(Maybe. Decide when building the adventure.)*
+- **Hold the Bridge at Harrow's Ford:** the warband's champion is **Varn, Ushra's son**. *Decided:* if spared, he gives the heroes only a hint (half of a clay impression of Corwen's broken seal, and "ask your duchess what Corwen signed at this river"); the full Thorn Pact waits for Act II or III. Ushra stays out of the Host and becomes a possible ally against the Pretender. If he is killed, grief makes the Heir's offer irresistible: **Ushra joins the Host** and her clans fight for the Pretender in Act III.
 - **The Feast of Banners:** Brenna and Hilde Stonecrown meet privately. Hilde offers to forgive the dwarven stone debt in return for the high pass. Brenna has to decide whether to give up land her people bled for.
 - **The Pretender's Mask:** Garrick's letters are in the Pretender's camp too. Heroes who find them learn the March could fall without a single battle.
 - **The Council of Banners:** the Thorn Pact is Ironhart's secret alone. **Lysander does not know.** It can only come out if the heroes (or Ushra) bring it.
