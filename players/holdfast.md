@@ -72,7 +72,7 @@ What defines you: **you keep your word.** Lowlanders say you keep *score*. They'
 - **House Ironhart:** the Thornwall is built of *your* stone, and the March never fully paid for it. And they claim the high pass. Still, Duchess Brenna fights her own battles. You respect that, grudgingly.
 - **Greenhollow:** polite farmers who grow the bread you can't. You're careful to be courteous to them, and careful not to need them out loud.
 - **The Saltreach Compact:** the only lowlanders who keep honest books. Your best customers.
-- **The dragon of Mount Kharag:** for a hundred years the empire paid it to sleep. Now there's smoke over the mountain, and no one in the Holds will say much about it.
+- **The dragon of Mount Kharag:** for three hundred years the empire paid it to sleep. Now there's smoke over the mountain, and no one in the Holds will say much about it.
 - **The orc and giant clans:** every raid on the northern passes is written in the Grudge Ledger, by name.
 
 ## Playing a Holdfast character

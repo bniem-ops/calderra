@@ -9,4 +9,4 @@ rumour: "A Vareth prince is offering a palace to whoever brings him one of the C
 
 # The Gilded Delta
 
-A Vareth prince secretly funds the Black Gull's piracy to drive up prices.
+The Prince-Merchants of Vareth bank, bribe and duel; their banks rival the Saltreach Compact's. In one version of The Black Gull (Option A), a Vareth prince secretly funds the piracy to drive up prices. A faction pass for Vareth is still to do (see `faction-questions.md`).

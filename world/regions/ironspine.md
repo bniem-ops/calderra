@@ -9,4 +9,4 @@ rumour: "Smoke on Mount Kharag for the first time in a hundred years."
 
 # The Ironspine Mountains
 
-Setting for The Dragon of Mount Kharag.
+Setting for The Dragon of Mount Kharag and The Forging. See `factions/stonecrown.md` for the Holds and `sunfire-crown.md` for the forge-heart.

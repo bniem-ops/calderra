@@ -6,13 +6,11 @@ Make the continent map first so every later map can match its style. Paste the s
 
 **Shared style line:** *Hand-drawn fantasy map on aged parchment, ink linework with muted watercolour washes, compass rose, decorative border, top-down view, legible serif labels, no modern elements.*
 
-## Continent map (for the player map app)
+## Continent map (done)
 
-For the app, ask for **no labels, no pins and no markers**: the app draws region names and session pins on top. Ask for a **10:7 landscape** image so the pins in `map/map.config.json` line up.
+The continent map is `map/assets/calderra.png` (made in Gemini, no labels). The app accepts any image shape: set `image` and `imageSize` (pixel width and height) in `map/map.config.json`, then nudge pin and label percentages if needed. Ask Gemini for **no text, no labels and no pins**; the app draws those on top.
 
-> A continent with a marble capital city in the centre; a snowy, walled northern border; north-eastern mountains; an eastern coast of harbour towns; a southern river delta with canal cities; western farmland with hedges and villages; a far-western burnt wilderness of ruined forts. Ocean on all sides. No text, no labels, no pins. 10:7 landscape.
-
-Save it as `map/assets/calderra.png` and set `"image": "assets/calderra.png"` in `map/map.config.json`, then nudge pin percentages if needed.
+To replace it, start a new Gemini chat and keep this layout so the pins still line up: burnt wasteland with a war camp on the far west edge; hedged farmland west of centre with a village and coliseum; a long walled snowy north coast with a bridge village just south; snow-capped mountains and a smoking volcano in the north-east; a domed marble capital in the centre; a lone castle on a hill just south of it; harbour towns and ships on the east coast; a river delta with canals in the south.
 
 ## Battle maps
 
@@ -24,3 +22,6 @@ Add "square grid, 5-foot squares, no text labels" so they work on the TV.
 | The Black Gull | Top-down battle map, two sailing warships side by side at sea, planks and grappling lines between them, open water, rocks to one side. |
 | Mount Kharag lair | Top-down battle map, a volcanic cavern with lava channels, piles of gold coins, a raised stone ledge, a narrow tunnel entrance. |
 | The Regent's Vault | Top-down floor plan, palace vault level with a guard room, three locked chambers, a narrow service corridor and a hidden drain exit. |
+| Millhaven coliseum | Top-down battle map, a small round stone arena overgrown with dark, dead vines and roots, a dug pit in the centre, festival banners, village rooftops beyond the walls. |
+| The Lanternhold | Top-down floor plan of a small hilltop castle: great hall with long tables, a long gallery hung with lanterns, a chapel, a letter room, a wine cellar. |
+| Kharag forge-heart | Top-down battle map, a great dwarven forge built into a volcanic chamber, an anvil on a stone island over lava, carved stone doors, a dragon's ledge above. |

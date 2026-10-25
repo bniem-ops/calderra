@@ -29,7 +29,7 @@ What defines you: **you are civilisation.** Outsiders say you think the world ow
 - **Regent Lysander Vael** governs until the **Council of Banners** names a new ruler, one year after the emperor's death. He was born a dockworker's son and rose to chancellor by passing the Quill's exams. The old nobility has never forgiven him.
 - **The Quill** is the imperial civil service: clerks, judges, tax-assessors and archivists, promoted by exam rather than birth. It's the one place in Calderra a nobody can become somebody.
 - **The Sunward Houses** are the old noble families. Rich, proud, beautifully dressed and armed mostly with lawyers.
-- **The Temple of the Unsetting Sun** keeps the faith. **High Prelate Ondine Marr** preaches that the Sun cannot rise again until the Crown is whole.
+- **The Temple of the Unsetting Sun** keeps the faith. **High Prelate Ondine Marr** preaches that the Sun took his crown with him, and there is no new dawn until a new one is made.
 - **Prince Leo**, the Last Sun's nine-year-old great-nephew, is the closest thing to an heir in Solace. Lysander is his guardian. Everyone has opinions about that.
 - **The law** is written, fair and very slow. Fines and the stocks for most crimes; for treason, exile from Solace, which to a Solari is close to death.
 

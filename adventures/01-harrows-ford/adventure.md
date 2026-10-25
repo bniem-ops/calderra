@@ -19,6 +19,12 @@ cold_open: "The garrison left a week ago. Two hundred refugees are camped on the
 
 - A panicked village → a night of preparation (barricades, traps, training villagers; each success buys an edge) → three escalating waves → the warband's champion demands single combat.
 
+## Who the raiders are
+
+<!-- secret -->
+An orc warband of **War-mother Ushra's clans** from beyond the Thornwall. They came south through one of the three **hollow towers**, guided by Host scouts who knew it was empty (Kestrel's intelligence; Ellis Wren told the Host where the Order was sending heroes). This is the session's Ashen presence that shouldn't be there: one or two Host scouts among the orcs, with grey ash-paint on their faces. See `world/factions/ironhart.md` and `world/factions/dawn-lantern.md`.
+<!-- /secret -->
+
 ## The choice
 
 Spare or kill the defeated champion. Sparing him creates a future orc ally against the Ashen Pretender.

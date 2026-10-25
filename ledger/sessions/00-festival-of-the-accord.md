@@ -13,7 +13,7 @@ changes:
     dawn-lantern: 1
 ripples:
   - MAX and Millhaven are friends for life; bring MAX back in The Millhaven Harvest (one-shot 3).
-  - The heroes carry MAX's iron key. It opens something MAX has never told anyone about.
+  - The heroes were given MAX's iron key. It opens something MAX has never told anyone about (see items in ledger/state.yaml).
 ---
 
 # Session 0 — Festival of the Accord

@@ -40,7 +40,7 @@ flowchart TD
         L --> Q
         L -.-> |guardian of| A
         SH -.-> |want a real emperor| A
-        T -.-> |wants the Crown made whole| A
+        T -.-> |wants a new crown, on a blood heir| A
         Q --> P
     end
     E -.-> |named chancellor| L
@@ -125,7 +125,7 @@ flowchart TD
 ## Internal tension
 
 **What they argue about.**
-- **A council or a crown.** Lysander and much of the Quill want a permanent council. The Sunward Houses want Leo crowned emperor. The Temple wants the Crown made whole first, which means finding the gems.
+- **A council or a crown.** Lysander and much of the Quill want a permanent council. The Sunward Houses want Leo crowned emperor. The Temple wants a new crown made first, which means finding all three gems.
 - **Bread or walls.** The treasury can't afford both a low Morning Price and the March's wall pay. For years, it has quietly chosen bread.
 - **Commoners and nobles.** The Quill is the one place a nobody can rise. The Sunward Houses want it back under their control.
 
@@ -135,7 +135,7 @@ For the last eight years of his reign, the Last Sun was **sun-sick**: lost to a 
 <!-- /secret -->
 
 **Who's unhappy, and what they'd do with power.**
-- **High Prelate Ondine Marr.** A true believer who thinks the Sun will only rise again when the Crown is whole and on a blood heir's head. With power she'd crown Leo at once and send the Temple's agents after every gem, no matter whose. She suspects Lysander is hiding something about the gems.
+- **High Prelate Ondine Marr.** A true believer who thinks there is no new dawn until a new crown is made and set on a blood heir's head. With power she'd crown Leo at once and send the Temple's agents after every gem, no matter whose. She suspects Lysander is hiding something about the gems.
 - **Lady Corisande**, Prince Leo's mother, of the Sunward Houses. Wants her son crowned and Lysander gone, and is courting House Ironhart's soldiers to make it happen. **Decided:** she hires the poisoner at the Feast of Banners.
 - **The Solace poor.** If the Morning Price climbs much further, they'll follow anyone who promises cheaper bread.
 - **Unlicensed bakers.** Small ovens in the lower city baking without a Granary licence, on grain smuggled in by Saltreach ships. The Quill fines them; the people love them.
@@ -205,7 +205,7 @@ The Heart holds its bearer to their deepest promise. Lysander's is the one he ma
 - The mother spent almost none of it. For five years she saved every coin.
 - When the Last Sun died, the stipend stopped. Within a month her son had used the hoard to hire his first mercenaries and buy the loyalty of the first monster clans. **The Regency's own gold paid for the start of the Pretender's war.**
 - So Lysander knows the Pretender's claim is real, and that his own forged order created the war's greatest enemy. The boy would be about twenty-one now.
-- **The courier.** The hush money went west every winter with a single Quill courier. Five years ago the courier vanished on the road, and Lysander believes they died. They didn't: the courier is **Kestrel**, the Pretender's herald, and knows every secret of the Regency. See `ashen-pretender.md`.
+- **The courier.** The hush money went west every winter with a single Quill courier. The winter before the emperor died, the courier made the last delivery and never came back; Lysander believes they died on the road. They didn't: the courier is **Kestrel**, the Pretender's herald, and knows every secret of the Regency. See `ashen-pretender.md`.
 
 ### What would change or destroy them
 

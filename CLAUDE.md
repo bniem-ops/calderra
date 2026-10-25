@@ -8,7 +8,7 @@ The repo is public. Players *could* read it; the DM accepts that. What matters i
 
 | Path | What it is | Who sees it |
 | --- | --- | --- |
-| `world/` | Canon: premise, regions, factions, Crown lore, DM notes, map prompts | DM. Only YAML header fields named `public_blurb`, `held_by`, `rumour`, `name`, `seat`, `face` and the `<!-- public-intro -->` block in `premise.md` reach the map |
+| `world/` | Canon: premise, regions, factions, Crown lore, DM notes, map prompts | DM. Only YAML header fields named `public_blurb`, `held_by`, `feel`, `rumour`, `name`, `seat`, `face` and the `<!-- public-intro -->` block in `premise.md` reach the map |
 | `adventures/NN-slug/adventure.md` | One folder per one-shot. YAML header = public card; body = DM-only | Header on the map; body DM-only |
 | `ledger/state.yaml` | Current state: Realm's Peace, faction standings, gems, legacy heroes | Partly public (see comments in the file) |
 | `ledger/sessions/NN-slug.md` | One file per played session. Header has `public_record`, `players`, `date` (public) and `outcome`, `changes`, `ripples` (private) | Partly public |

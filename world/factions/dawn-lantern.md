@@ -200,7 +200,7 @@ If the Order takes the Mind gem after the Millhaven Harvest, it falls to Maren t
 
 - **Ellis Wren** is the Order's quartermaster: the knight who reads the letters at noon, assigns every job, and packs the supplies for each team. Quiet, kind, beloved by the wicks. He always wears gloves.
 - Under the left glove is a **thorn brand**. Ellis deserted from the Thornwall at seventeen, ran south, and was taken in by the Order, which never asked. He never stopped feeling thrown away.
-- Three years ago Kestrel found him with the Host's oldest question, "Who threw you away?" Since then Ellis has sent the Host a copy of every job: who's going, where, and when. That's how Host raiders keep turning up at Harrow's Ford, on the coast, at Millhaven. And once the Order holds a gem, it's how the Host will know where it is.
+- A year ago, while still carrying the Regency's gold west, Kestrel found him with the frontier's oldest question, "Who threw you away?" Since the emperor died and the war began, Ellis has sent the Host a copy of every job: who's going, where, and when. That's how Host raiders keep turning up at Harrow's Ford, on the coast, at Millhaven. And once the Order holds a gem, it's how the Host will know where it is.
 - **He is not cruel.** He believes the Heir is the only one who will ever make a place for people like him, and he has quietly kept the Host from killing anyone he sent.
 
 **Running the thread:** in every one-shot, include **one Ashen presence that shouldn't be there**: scouts waiting at a crossroads only the Order knew about, a raider who knows a hero's name, a Host company arriving an hour too early. Don't explain it. Let the players get suspicious.

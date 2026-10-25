@@ -56,6 +56,13 @@ gems:
     revealed: false
     public_location: ""
 
+# Important objects other than gems. Private. Like gems, held by NPCs between sessions.
+items:
+  max-key:
+    name: MAX's iron key
+    holder: Given to the Festival heroes. If no Festival PC returns for The Millhaven Harvest, they left it with Ser Maren at the Lanternhold.
+    opens: Marit's lockbox at the Broken Antler (world/factions/ashen-pretender.md)
+
 # PUBLIC. Retired PCs who may return as NPCs.
 # - name: "Character name"
 #   player: "Player name"
