@@ -19,6 +19,22 @@ cold_open: "The garrison left a week ago. Two hundred refugees are camped on the
 
 > **Premise.** Harrow's Ford is the last bridge before the Thornwall. The imperial garrison was pulled north to the wall a week ago and never came back. Tonight an orc warband has made camp on the north bank, two hundred frightened people from the steadings between the river and the wall are camped beside them, and the reeve has barred the south gate. The Lantern-sworn have one night to get ready. At dawn, the warband crosses.
 
+## How the warband got here
+
+<!-- secret -->
+The clans live beyond the Thornwall, and the wall runs all the way to the sea at its west end. For three hundred years that was enough: the clans never had ships.
+
+**The Ashen Pretender gave them some.** The Host's boats (the same western cove where Hargrove's ships land arms for the Heir; see `world/factions/saltreach.md`) carried Varn's warband around the wall's west end by sea and landed them on the Frontier coast. They crossed the river near its mouth, onto the strip between the river and the wall, and marched east along the north shore to Harrow's Ford. The wall's towers face north; nobody on them was looking behind.
+
+**The voyage was a down payment, not an oath.** Ushra took the Heir's ships, and the price was this raid: hit the March hard enough that Brenna has to come south. But Ushra has **not** eaten from the Hearth's one loaf, the Host's binding vow. She is weighing the Heir's offer of the high pastures. Varn's fate at Harrow's Ford decides whether she does (see *Choice II*).
+
+**The split on the north bank.** Two Host scouts with ash-grey faces came along to make sure the raid is worth the fare. They want the village burned. Varn reads his mother's orders as narrowly as he can: take the river line, pay the debt, burn nothing he doesn't have to.
+
+**What this does to the refugees:** they are the steadings along the north shore, who fled east ahead of the warband until they hit the bridge and a barred gate.
+
+**Why it matters later:** the heroes are the first people in the March who can learn the wall can be bypassed. And the boats are a thread into **The Black Gull** (Option B: Captain Vane's log holds the western cove).
+<!-- /secret -->
+
 ## Session at a glance
 
 | Part | Time | What happens | Spotlight |
@@ -115,7 +131,7 @@ Getting the gate open is a **three-step track**. Each success ticks a box. A fai
 <!-- secret -->
 ### The raider at the gate (the Ashen presence)
 
-Edda's fear is half right. Among the refugees is **a young man with grey under his fingernails**: one of the **Host scouts** who guided the warband through a **hollow tower**. His job is to get through the gate tonight and unbar it from inside at dawn.
+Edda's fear is half right. Among the refugees is **a young man with grey under his fingernails**: one of the **Host scouts** who came with the warband on the Host's boats (see *How the warband got here*). His job is to get through the gate tonight and unbar it from inside at dawn.
 
 - **The tell:** he greets a PC **by name** before anyone has introduced themselves. Let it pass the first time. If a player notices, they've earned it.
 - **Spotting him:** Insight or Investigation DC 14 (Perception DC 14 if they're watching hands). Advantage if anyone heard him use a name.
@@ -179,10 +195,12 @@ Resting is a real trade. A PC who rests in a watch gets short-rest benefits (Hit
 The overheard argument (paraphrase, don't read it as a speech):
 - **Host scout:** "Burn the village behind the bridge and the duchess has to come south. That's the point."
 - **Varn:** "The river is the line. We take what was promised. Not one step past it."
-- **Host scout:** "Your mother wants the high pastures? The Heir will give them to her. You'll want to remember who opened the door in the fence for you."
-- **Varn:** "I remember. I also remember who walked through it."
+- **Host scout:** "Your mother wants the high pastures? The Heir will give them to her. You'll want to remember whose boats carried you around the fence."
+- **Varn:** "My mother paid for the boats with this raid. She didn't pay with that village."
 
-The straw helmet is a **straw warden** from the **hollow tower** the Host led them through. A sharp player might work out that the wall has empty towers. Don't confirm it. Fenn (below) can, if pressed.
+The heroes hear the shape of it: someone is helping the clans, the help came with a price, and Varn is paying as little of it as he can. Don't explain the boats unless a scout is captured and questioned.
+
+The straw helmet is a **straw warden**. On their march east, the warband climbed the westernmost tower **from behind**, from the south side the wall was never built to defend, and found it empty except for dummies in helmets. It is a **hollow tower**. A sharp player might work out that the wall has empty towers. Don't confirm it. Fenn (below) can, if pressed.
 
 The grey faces are the session's Ashen presence. If the heroes didn't catch the scout at the gate, a captured scout here carries the job-letter copy instead.
 <!-- /secret -->
@@ -198,10 +216,10 @@ The grey faces are the session's Ashen presence. If the heroes didn't catch the 
 **NPC: Fenn.** Seventies, wiry, a deep gash in his thigh. Chews his words before he spits them out. He has walked the wall for fifty years and he is ashamed of something.
 
 - **Medicine DC 12** stops the bleeding and earns *Old Warden's Bow*: he'll shoot from the mill roof with a longbow he says he hasn't missed with since the old emperor's day.
-- **What he says freely:** the orcs came over the wall well west of the High Tower, where they shouldn't have been able to.
+- **What he says freely:** "They came from the *west*. From behind the wall. On our side of it." He saw boats pulled up at the river mouth, and he ran east ahead of the warband to warn the steadings. Nobody believed him: there's no way around the wall. The heroes are the first people who might.
 
 <!-- secret -->
-- **What he hides (Insight DC 14, or show him the straw helmet):** he is one of the two old wardens who walk the circuit of the **hollow towers**, keeping the beacons lit and the straw wardens upright. The warband came through his tower while he was lighting the next one. He begs the heroes not to tell anyone: "If they know the towers are empty, the wall's done. Not by orcs. By everyone."
+- **What he hides (Insight DC 14, or show him the straw helmet):** he is one of the two old wardens who walk the circuit of the **hollow towers**, keeping the beacons lit and the straw wardens upright. The westernmost tower is one of them. When the warband climbed it from behind, there was nobody inside to light the beacon, and Fenn was a day's walk away lighting the next one. He begs the heroes not to tell anyone: "If they know the towers are empty, the wall's done. Not by orcs. By everyone."
 - **What to do with it:** nothing this session. It's a secret the heroes now carry. It pays off later if Garrick, the Pretender or the Council of Banners comes up. Note in the session log whether the heroes kept it.
 <!-- /secret -->
 
@@ -269,7 +287,7 @@ Varn does **not** fight in the waves. He stands at the north end of the bridge a
 
 When the third wave is answered, Varn walks to the centre of the bridge and pulls his spear out of the stones.
 
-*"Your warriors are answered. Mine are answered. By the law of my mother's clans, the line is decided by champions. Send me one. If I fall, we go north. If you fall, the river is ours and the bridge burns."*
+*"Your warriors are answered. Mine are answered. By the law of my mother's clans, the line is decided by champions. Send me one. If I fall, we go home the way we came. If you fall, the river is ours and the bridge burns."*
 
 **Clan law** (Varn explains it if asked, which makes it a rule the players can lean on):
 - One champion each. Each champion may bring **one second**, who can't strike but can heal, shield and shout. *(This is support's spotlight.)*
@@ -296,11 +314,11 @@ Varn doesn't kill them (clan law). He lifts his axe over their head, lowers it, 
 
 ### If the bridge burned instead (from Choice I)
 
-Varn keeps his word. At dawn he stands on the north bank of the burnt bridge, raises his spear to the heroes, and turns his warriors north.
+Varn keeps his word. At dawn he stands on the north bank of the burnt bridge, raises his spear to the heroes, and turns his warriors west, back toward the boats.
 
 The Host scouts don't keep anyone's word. They take **4 orcs**, the hotheads who wanted the village, plus **2 scouts** and their leader (use **bandit captain** stats; grey ash on his face; he is the face of the Host this session), across the ford at full light. That's the climax: a fight in the shallows and the mill-yard, with whatever Edges the party has (Wave 3's rules apply). Varn doesn't help them; he doesn't stop them either.
 
-After it, Varn wades into the river up to his chest, throws the bone token across to the heroes (see *Handouts*), and goes north. *"A clan pays its debts. Ask your duchess what Corwen signed at this river."* There is no spare-or-kill choice in this branch; burning the bridge was the choice.
+After it, Varn wades into the river up to his chest, throws the bone token across to the heroes (see *Handouts*), and goes west after his warriors. *"A clan pays its debts. Ask your duchess what Corwen signed at this river."* There is no spare-or-kill choice in this branch; burning the bridge was the choice.
 
 ## 8. Choice II: The champion's life (10 min)
 
@@ -319,17 +337,17 @@ He stands, unwinds the knotted cord from his wrist, and hands it to the champion
 
 That's all he'll say about it. He doesn't explain the **Thorn Pact**, doesn't name it, and if pressed, says: "It isn't mine to tell. It's hers, and your duchess's." The full truth waits for Act II or III.
 
-**Under clan law** his life is now the heroes'. "When you need the clans, send the cord north. My mother will know it." He also tells them, unprompted, that the grey faces found them "a door in the fence." He won't say where.
+**Under clan law** his life is now the heroes'. "When you need the clans, send the cord north. My mother will know it." He also tells them, unprompted: "The grey faces carried us around your fence. My mother paid their fare with this raid. Tell her the debt is paid." He won't say how they came around.
 
-Ushra stays out of the Pretender's Host, for now. She becomes a possible ally against the Heir (see *The ripple*).
+Ushra counts the raid as her down payment settled. With her son given back to her by the Lantern-sworn, she doesn't go back to eat from the Heir's loaf, **for now**. She becomes a possible ally against the Heir (see *The ripple*). The Heir still has boats and still has the offer of the high pastures; he'll ask again.
 <!-- /secret -->
 
 ### Killed
 
-The militia cheers. Edda notches her tally stick. The orcs on the north bank go completely silent, then pick up their champion's body from the bridge without anyone stopping them, and carry it north.
+The militia cheers. Edda notches her tally stick. The orcs on the north bank go completely silent, then pick up their champion's body from the bridge without anyone stopping them, and carry it west along the river.
 
 <!-- secret -->
-Nobody says it at the table, but this is the moment the Ashen Pretender wins the clans. Grief makes the Heir's offer of the high pastures impossible to refuse. **Ushra joins the Host.** Her clans fight for the Pretender in Act III.
+Nobody says it at the table, but this is the moment the Ashen Pretender wins the clans. The boats were a down payment; Varn's body pays the rest. Grief makes the Heir's offer of the high pastures impossible to refuse, and Ushra eats from the Hearth's loaf. **Ushra joins the Host.** Her clans fight for the Pretender in Act III.
 
 The cord is still around his wrist when they carry him away. The Thorn Pact hint is lost for now; it can only come from Ushra herself, much later, and angrier.
 <!-- /secret -->
@@ -339,7 +357,7 @@ The cord is still around his wrist when they carry him away. The Thorn Pact hint
 Read the outcome that fits, then log the session (`CLAUDE.md`, *Logging a session*). Suggested ledger changes are below; adjust to taste.
 
 **Bridge held, Varn spared:**
-*"The warband went north the way it came. Harrow's Ford is still the last bridge before the wall, and every house in the village has a lamp in the window tonight. Somewhere in the March a duchess is reading a report about the Lantern-sworn, and frowning, and reading it again."*
+*"The warband went west along the river, the way it came. Harrow's Ford is still the last bridge before the wall, and every house in the village has a lamp in the window tonight. Somewhere in the March a duchess is reading a report about the Lantern-sworn, and frowning, and reading it again."*
 
 **Bridge held, Varn killed:**
 *"The bridge stands. The Ford-folk will tell this story for a generation. North of the wall, a war-mother sits beside her son's body all night, and in the morning there's a rider in grey ash waiting at her fire."*
@@ -364,6 +382,8 @@ Read the outcome that fits, then log the session (`CLAUDE.md`, *Logging a sessio
 <!-- secret -->
 - **Bridge burned:** Garrick, at the High Tower, is now cut off from the south before winter. He reads the herald's letters again. (Feeds **Garrick's letters** in `world/factions/ironhart.md`.)
 - **Mole clue found:** note that the heroes have a copy of their job letter from a Host scout's pocket. The next session's Ashen presence can lean on it harder.
+- **The sea route:** note whether the heroes learned the warband came by boat (Fenn's warning, a questioned scout, or Varn's parting words). If they tell the duchess, the March learns the wall can be bypassed, and Brenna has a coast to guard with soldiers she doesn't have. If nobody tells her, the Heir can do it again.
+- **Ushra's down payment:** record whether it was settled (Varn spared or the bridge burned) or became an oath (Varn killed). Either way the Heir has the boats.
 - **Fenn's secret kept or told:** note which. If told to anyone in the March, the **hollow towers** become a rumour, and the Pretender doesn't need to send scouts any more.
 - **The Host is no longer unknown:** if the heroes met the grey faces and heard "the Heir," consider setting `ashen-pretender.known_to_players: true` in `ledger/state.yaml`.
 <!-- /secret -->
