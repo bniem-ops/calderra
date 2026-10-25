@@ -216,6 +216,10 @@ He burns the grain road to starve the dwarves and drive up the bread price in So
 - **MAX's iron key** (given to the heroes at the Festival) opens something Marit left behind: a lockbox at the Broken Antler with her letters, a lock of the boy's hair and a note in the Last Sun's hand asking her father to look after her. A second proof of the claim, hidden in plain sight since session zero.
 - Rowan has never met his uncle, but his mother talked about MAX every day.
 
+### Kestrel's network
+
+- **Kestrel's network:** Kestrel's best agent is inside the Order of the Dawn Lantern: **Ellis Wren**, the quartermaster, who sends the Host every job. It's why the Host seems to be everywhere the heroes go. See `dawn-lantern.md`.
+
 ### What would change or destroy them
 
 - **Change:** proof that the empire can keep a promise. A treaty that gives the clans the high pastures and the Branded a pardon would take half his army off the field, and might make him choose peace.

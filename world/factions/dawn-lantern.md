@@ -5,12 +5,12 @@ seat: "The Lanternhold"
 face: "Ser Maren Aldwyn"
 public_blurb: "A small sworn order of knights, loyal to the realm rather than any claimant. They recruit Lantern-sworn heroes for one job at a time."
 # Words that must never appear in player guides or on the map.
-secret_terms: ["Wardens of the Seal", "first charter", "the old charter", "remake it", "never wear it", "Maren's visions"]
+secret_terms: ["Ellis Wren", "the mole", "Ellis is", "Wardens of the Seal", "first charter", "the old charter", "remake it", "never wear it", "Maren's visions"]
 ---
 
 # Order of the Dawn Lantern
 
-> **Status: draft.** Built last, on top of everything else. **Not a faction like the other five:** it has no homeland, no people and no claim to the crown. It counts in the ledger only as a measure of how much it trusts the heroes. Items marked **(DM call)** are open choices.
+> **Status: done.** Built last, on top of everything else. **Not a faction like the other five:** it has no homeland, no people and no claim to the crown. It counts in the ledger only as a measure of how much it trusts the heroes.
 
 ## Who's who (quick reference)
 
@@ -24,7 +24,7 @@ secret_terms: ["Wardens of the Seal", "first charter", "the old charter", "remak
 | **The Lanternhold** | The Order's hall: the lone castle on a hill south of Solace. The only neutral ground left in Calderra, which is why the Feast of Banners is held there. |
 | **The first flame** | A flame kept burning in the Lanternhold since the Order's founding. Every Lantern's lamp is lit from it. |
 
-**Names to remember (three):** Ser Maren Aldwyn, Ser Halvard Grey (see *Internal tension*), and the Lanternhold.
+**Names to remember (four):** Ser Maren Aldwyn, Ser Halvard Grey (see *Internal tension*), Ellis Wren (the quartermaster), and the Lanternhold.
 
 ```mermaid
 flowchart TD
@@ -54,7 +54,7 @@ flowchart TD
 <!-- secret -->
 True, but only half the story. The Order's **first charter**, sealed in the Lanternhold's undercroft and unread for two hundred years, names them the **Wardens of the Seal**. The first emperor knew what his Crown was. He founded the Order to guard it, and gave them one duty above all: *if the Crown ever fails, remake it, and give it to whoever the realm chooses. Never wear it yourselves.*
 
-Over three centuries of peace the duty was forgotten, and the Order became what it is now: knights-errant who answer calls for help. Ser Maren will find the charter during Act II, probably when the first gem comes into the Order's keeping. **(DM call:** she could find it herself, or the heroes could.)
+Over three centuries of peace the duty was forgotten, and the Order became what it is now: knights-errant who answer calls for help. **Decided:** Ser Maren finds the charter herself during Act II, after the first gem comes into the Order's keeping. The heroes learn of it from her, when she chooses to tell them.
 <!-- /secret -->
 
 **Names.**
@@ -141,7 +141,7 @@ The Order has no faith of its own; its knights keep their peoples' gods.
 **Who's unhappy, and what they'd do with power.**
 - **Ser Halvard Grey,** the Order's oldest knight and its finest swordsman. He believes the Age of Banners will only end when someone strong ends it, and he thinks that someone is Brenna Ironhart. With power he'd put the Order, and any gems it holds, behind her.
 - **The wicks,** who joined to help people and are tired of watching the Order decline jobs to stay "neutral."
-- **(DM call:** one of the Lanterns could be secretly reporting to High Prelate Ondine, or to Kestrel. A spy inside the Order is the best way to make the gems feel unsafe.)
+- **Ellis Wren,** the Order's quartermaster. See *The mole*.
 
 ## Texture
 
@@ -193,6 +193,29 @@ The Order has no faith of its own; its knights keep their peoples' gods.
 ### The third secret: the Mind gem's cost
 
 If the Order takes the Mind gem after the Millhaven Harvest, it falls to Maren to keep it. Its cost is sight: within weeks she is having visions, seeing through the cracks into other worlds, and something is pressing back. She hides it from the chapter. Halvard notices.
+
+### The fourth secret: the mole
+
+**Why are there Ashen foes everywhere the Lantern-sworn go?** Because the Order has a spy, and the Host reads every job.
+
+- **Ellis Wren** is the Order's quartermaster: the knight who reads the letters at noon, assigns every job, and packs the supplies for each team. Quiet, kind, beloved by the wicks. He always wears gloves.
+- Under the left glove is a **thorn brand**. Ellis deserted from the Thornwall at seventeen, ran south, and was taken in by the Order, which never asked. He never stopped feeling thrown away.
+- Three years ago Kestrel found him with the Host's oldest question, "Who threw you away?" Since then Ellis has sent the Host a copy of every job: who's going, where, and when. That's how Host raiders keep turning up at Harrow's Ford, on the coast, at Millhaven. And once the Order holds a gem, it's how the Host will know where it is.
+- **He is not cruel.** He believes the Heir is the only one who will ever make a place for people like him, and he has quietly kept the Host from killing anyone he sent.
+
+**Running the thread:** in every one-shot, include **one Ashen presence that shouldn't be there**: scouts waiting at a crossroads only the Order knew about, a raider who knows a hero's name, a Host company arriving an hour too early. Don't explain it. Let the players get suspicious.
+
+**Clues to scatter (one or two per one-shot):**
+- A captured raider carries a copy of the job letter, in a careful clerk's hand.
+- Supply packs from the Lanternhold always include a little extra lamp oil, and the Host's scouts use the same oil.
+- Ellis never takes off his gloves, even at the Night of the First Lantern meal.
+- At the Feast of Banners (at the Lanternhold), someone is seen leaving the letter room at midnight.
+- Kestrel, if met, says something only someone inside the Order could know.
+
+**If the heroes find him:** things get more straightforward. The ambushes stop, the gems' location is safe again, and the Host loses its eyes.
+- **Exposed:** his lantern is put out before the chapter. The Order's trust in strangers is shaken; Maren is devastated.
+- **Turned:** if the heroes keep his secret and Maren agrees, Ellis keeps writing to Kestrel, but now the letters say what the Order wants the Host to believe.
+- **Asked why:** "Who threw you away?" is the question that made him. A hero who answers it for him (the Order didn't; neither did they) might bring him back.
 
 ### What would change or destroy them
 

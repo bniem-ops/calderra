@@ -33,6 +33,14 @@ Based on Festival of the Accord. The biggest upgrades for a shared world are mor
 - **Ciphertext: LANXFEOEETCX**
 - Decode: split into three equal chunks; chunk 1 under **A**, chunk 2 under **M**, chunk 3 under **X**; read across rows.
 
+## Running threads
+
+Small things to include in every one-shot, so standalone sessions feel like one story:
+
+- **An Ashen presence that shouldn't be there** (one per session): the Host has a spy inside the Order. Clues and payoff are in `factions/dawn-lantern.md`, *The mole*.
+- **A lamp in a window:** a village the Lantern-sworn helped last time remembers them.
+- **A rumour from another region,** pulled from the ledger's last ripple.
+
 ## One-shot template
 
 1. **Hook** (10 min): an Order of the Dawn Lantern request or a player's personal motive.
