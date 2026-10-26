@@ -183,7 +183,7 @@ The night has **three watches** before dawn. In each watch, **each PC does one t
 
 ### Tasks
 
-| Task | Role | Check | Edge earned |
+| Task | Role | Check | Adv. earned |
 | --- | --- | --- | --- |
 | **Scout the north bank** | Sneak | Group Stealth DC 13 (half the scouts must pass); a scene, see below | **Forewarned**, and unlocks *Stake the Ford* |
 | **Barricade the bridge** | Muscle | Athletics DC 13 | **Barricade** |
@@ -193,11 +193,11 @@ The night has **three watches** before dawn. In each watch, **each PC does one t
 | **Tend the old warden** | Support | Medicine DC 12; a scene, see below | **Old Warden's Bow** |
 | **Rest** | Anyone | None | That PC gets a short rest's benefits |
 
-Resting is a real trade. A PC who rests in a watch gets short-rest benefits (Hit Dice, short-rest features) but adds nothing to the defence. Two watches of resting is a long time on a night like this; say so through Edda.
+Resting is a real task. A PC who rests in a watch gets short-rest benefits (Hit Dice, short-rest features) but adds nothing to the defence. Two watches of resting is a long time on a night like this; say so through Edda.
 
 ### The Edges
 
-| Edge | Spend it… |
+| Adv. | Spend it… |
 | --- | --- |
 | **Forewarned** | The party knows the wave order and composition. Advantage on initiative in every wave. Not spent; lasts the session. |
 | **Barricade** | Wave 1 and the ram in Wave 2 must break it first (AC 15, 30 HP). Defenders behind it have half cover. Not spent until broken. |
