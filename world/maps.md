@@ -18,7 +18,7 @@ Add "square grid, 5-foot squares, no text labels" so they work on the TV.
 
 | Map | Prompt |
 | --- | --- |
-| Harrow's Ford | Top-down battle map, a long stone bridge with seven arches over a fast river, a small village on the south bank behind a timber gate, a watermill at the river's edge, a crowded camp of carts and lean-tos on the open north bank, a shallow rocky wading place downstream marked by an old stone post, reeds along both banks, a road leading north into fog. |
+| Harrow's Ford | Top-down battle map, north at the top. A fast river runs east to west across the middle. In the centre, a long bridge with a timber plank deck on squat stone piers. On the south bank, a small village behind a low fence, a timber gate at the bridge's south end, and a watermill on the riverbank at the village's west edge. On the north bank, a crowded camp of carts and lean-tos just east of the bridge's north end, and a war camp of hide tents further west. A shallow rocky wading place downstream to the west, marked by an old stone post. Reeds along both banks; a road leading north into fog. |
 | The Black Gull | Top-down battle map, two sailing warships side by side at sea, planks and grappling lines between them, open water, rocks to one side. |
 | Mount Kharag lair | Top-down battle map, a volcanic cavern with lava channels, piles of gold coins, a raised stone ledge, a narrow tunnel entrance. |
 | The Regent's Vault | Top-down floor plan, palace vault level with a guard room, three locked chambers, a narrow service corridor and a hidden drain exit. |

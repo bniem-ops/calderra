@@ -17,7 +17,7 @@ cold_open: "The garrison left a week ago. Two hundred refugees are camped on the
 
 *A D&D 5e one-shot. 3–5 players, level 4, 3–4 hours. One uncommon item each (see `world/play-format.md`).*
 
-> **Premise.** Harrow's Ford is the last bridge before the Thornwall. The imperial garrison was pulled north to the wall a week ago and never came back. Tonight an orc warband has made camp on the north bank, two hundred frightened people from the steadings between the river and the wall are camped beside them, and the reeve has barred the south gate. The Lantern-sworn have one night to get ready. At dawn, the warband crosses.
+> **Premise.** Harrow's Ford is the last bridge before the Thornwall. The imperial garrison was pulled north to the wall a week ago and never came back. Tonight an orc warband has made camp on the north bank, two hundred frightened people from the steadings between the river and the wall are camped beside them, and the reeve has barred the bridge gate. The Lantern-sworn have one night to get ready. At dawn, the warband crosses.
 
 ## How the warband got here
 
@@ -34,6 +34,19 @@ The clans live beyond the Thornwall, and the wall runs all the way to the sea at
 
 **Why it matters later:** the heroes are the first people in the March who can learn the wall can be bypassed. And the boats are a thread into **The Black Gull** (Option B: Captain Vane's log holds the western cove).
 <!-- /secret -->
+
+## The site (DM map key)
+
+North is at the top. The Gemini battle map (prompt in `world/maps.md`) should match this layout.
+
+- **North edge:** fog, and the road north toward the wall.
+- **North bank, west:** the **warband camp**, downstream, where the warband arrived after marching east along the shore. Varn, about forty orcs, the young giant and the two Host scouts.
+- **North bank, east of the road:** the **refugee camp**, crammed against the north end of the bridge. Nothing guards that end.
+- **The river** runs east to west across the middle, fast and cold.
+- **The bridge**, in the centre: a **timber deck on seven squat stone piers**. The deck burns; the piers don't. Burning the bridge means firing the deck and leaving bare stone in the water.
+- **The ford**, a quarter-mile downstream (west), between the warband camp and the village: waist-deep, rocky, marked by an old stone post. Wave 3 crosses here.
+- **South bank:** the **bridge gate** (timber, barred, carts stacked behind it) at the south end of the bridge. Behind it, the village inside a low fence. The **mill** stands on the riverbank at the village's west edge, the first thing anyone coming from the ford reaches.
+- **South edge:** the road south, where the Millhaven carter is pulled over.
 
 ## Session at a glance
 
@@ -77,7 +90,7 @@ Default: the Order. Each PC has the same letter (*Handouts*), sworn in for this 
 
 **Read or paraphrase:**
 
-*"The road north runs out of trees about a mile from the river. From the last rise you can see all of it: a stone bridge with seven arches, a mill wheel turning on the south bank, thatched roofs behind a timber gate. On the north bank, a sprawl of carts and lean-tos and cookfires, far too many for the open field they're crammed into. Beyond that, fog. Beyond the fog, the drums."*
+*"The road north runs out of trees about a mile from the river. From the last rise you can see all of it: a long bridge, a timber deck on seven squat stone piers, a mill wheel turning on the south bank, thatched roofs behind a timber gate. On the north bank, a sprawl of carts and lean-tos and cookfires, far too many for the open field they're crammed into. Beyond that, fog. Beyond the fog, the drums."*
 
 A grain cart is pulled over on the south road, unable to go further. A lamp hangs from its pole. The carter is from **Millhaven**.
 
@@ -93,7 +106,7 @@ The heroes reach the bridge as the sun touches the river. Everyone on both banks
 
 **Read or paraphrase:**
 
-*"He comes alone, onto the north end of the bridge, and doesn't stop until he's standing in the middle of it. A young orc, broad as a door, a greataxe slung across his back and a knotted cord wound around his left wrist. He drives a spear into the gap between two flagstones. Bone charms clack on its shaft. Then he looks at the south bank, at the gate, at you, and speaks in clear, careful Common."*
+*"He comes alone, onto the north end of the bridge, and doesn't stop until he's standing in the middle of it. A young orc, broad as a door, a greataxe slung across his back and a knotted cord wound around his left wrist. He drives a spear down between two deck planks. Bone charms clack on its shaft. Then he looks at the south bank, at the gate, at you, and speaks in clear, careful Common."*
 
 *"I am Varn. My mother is War-mother Ushra. At first light my warriors cross this bridge. This river is the line. It was always the line. Burn your bridge before dawn, and we will take only what lies north of the water. Keep it, and we will take it from you."*
 
@@ -108,7 +121,14 @@ If a PC calls out a question, Varn answers one, briefly, from the fog:
 
 ## 3. Set-piece: The Barred Gate (social, 25 min)
 
-**Spotlight: face.** The refugees from the steadings (shepherds, a few wallbound with thorn-branded hands, children) are on the north bank. The reeve, **Edda**, has barred the south gate and stacked carts behind it.
+**Spotlight: face.** The refugees from the steadings (shepherds, a few wallbound with thorn-branded hands, children) are on the north bank. The reeve, **Edda**, has barred the bridge gate and stacked carts behind it.
+
+**Why it can't wait until morning.** The refugees are standing on ground Varn claims, and every way the night can go is bad for them:
+- **If the bridge burns** with them on the north bank, they're stranded on clan land. The only way south is the ford: waist-deep, cold, at night, with children and the old, right past the warband's camp.
+- **If the bridge is held,** they're camped at the bridgehead, exactly where Wave 1 hits at dawn.
+- **The Host scouts want them.** Varn won't hunt refugees, but the scouts need Brenna dragged south, and two hundred dead Marchers would do it. The refugee camp is the easiest target on either bank.
+
+Let the players work this out. If they don't, Edda can say it for them, bitterly: "Burn it or hold it, they're the ones on the wrong side."
 
 ### NPC: Edda, Reeve of Harrow's Ford
 
@@ -234,7 +254,7 @@ This is a decision with no perfect answer. Let the table argue it.
 | | Burn the bridge | Hold the bridge |
 | --- | --- | --- |
 | **For** | Varn keeps his word. No battle on the bridge. The village is almost certainly safe. | It's the March's last road north. Brenna's soldiers, wool carts and winter supplies all cross here. Refugees still on the north bank (if any) aren't abandoned. |
-| **Against** | The road north is cut before winter. Anyone still on the north bank is stranded. The duchess will be furious. Edda doesn't care. | People will die. Maybe some of them. |
+| **Against** | The road north is cut before winter. Anyone still on the north bank is stranded on land the clans now claim, with only the ford to get across. The duchess will be furious. Edda doesn't care. | People will die. Maybe some of them. |
 
 **Arguments the NPCs make:** Edda: "The north's never done a thing for us." Fenn (if alive and helped): "You burn a bridge in the March, you're telling the wall it's on its own." The carter: "I'd like to go home eventually."
 
