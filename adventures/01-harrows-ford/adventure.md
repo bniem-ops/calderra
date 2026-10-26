@@ -114,6 +114,13 @@ He turns and walks back into the fog. He doesn't look over his shoulder. The dru
 
 **What the table should take away:** the villain is a person, he is serious, he has terms, and **"burn the bridge" is a real offer.** Someone will raise it later (the reeve, at the third watch). It's also the first hint of the Thorn Pact: *the river is the line*.
 
+<!-- secret -->
+**What Varn actually wants (so you can play him straight):** the March to **accept the river as the line**. Burning the bridge isn't the goal; it's the proof.
+- **If the Marchers burn it themselves,** they've conceded the border with their own hands, as close to a new pact as he can get without his mother and the duchess in one room. It also pays the Host's fare without a massacre.
+- **If they refuse,** the bridge stays an open door onto clan land: the road Corwen's legion used. The deck can be rebuilt on its stone piers, so he has to *take* the crossing, hold the line, and burn it himself.
+- **Why he doesn't just torch it from the north end tonight:** a fire he sets proves nothing (the Marchers rebuild next season, and the line is only his say-so). And he owes the Host a raid. Slip away after a quiet fire and the scouts report that Ushra's son ran from a village with no garrison. Fighting for the bridge pays the fare; he picks the narrowest fight that does.
+<!-- /secret -->
+
 If a PC calls out a question, Varn answers one, briefly, from the fog:
 - *"What line?"* — "Ask your duchess."
 - *"Why now?"* — "Because the fence-builders' soldiers have gone home."
@@ -277,6 +284,10 @@ Varn does **not** fight in the waves. He stands at the north end of the bridge a
 
 ### Wave 1: The Rush
 
+**What the warband is after in Waves 1 and 2:** the **south bridgehead**, not the village. They want the defenders driven off the deck so they can fire it end to end. Varn's warriors **stop at the bridge gate**. Only the Host scouts and a few hotheads will go past it.
+
+**A clever play:** a party that falls back behind the gate finds Varn's warriors hesitating to follow, and they won't press through without the scouts egging them on. Reward anyone who listened to Varn. The cost: giving up the deck means the orcs start firing it (see *Losing the deck*).
+
 **5 orcs** pour across the bridge.
 - **Barricade:** they spend their first round breaking it, at half cover for the defenders. **Pitch Trap** is at its best here.
 - **Gate shut:** the rush comes through the refugee camp. Have two refugees caught in the open each round; a PC who spends their move getting them clear earns the militia's loyalty (narratively, and one free extra *Volley* if they have it).
@@ -285,9 +296,14 @@ Varn does **not** fight in the waves. He stands at the north end of the bridge a
 ### Wave 2: The Ram
 
 **The young giant** (use **ogre** stats) with a pine-log ram, **2 orcs** escorting, and **2 more** on the north bank throwing javelins (+5 to hit, 1d6+3, range 30/120).
-- **Objective:** the ram. It hits the barricade or the gate (no attack roll; 2d8+4 to the barricade, or to the gate, AC 15, 30 HP). If the gate breaks, Wave 3 has a way in through the front.
+- **Objective:** the ram is for the **barricade on the deck** (no attack roll; 2d8+4 to the barricade). With the barricade down, the orcs start firing the deck.
+- **If there's no barricade,** or the party has fallen back behind the gate, the javelin orcs and a Host scout goad the giant into ramming the **gate** instead (AC 15, 30 HP). If it breaks, Varn's orcs stop at the gap, but Wave 3 has a way in through the front.
 - **Raider not caught:** the gate bar slips open from inside this wave. The ram goes straight in.
 - **Unmasked:** the gate holds no matter what.
+
+### Losing the deck
+
+If the orcs hold the deck at the end of any wave, they get torches into the planks at the north end. The fire spreads one pier-span (about 20 feet) per round toward the south bank. The party can put out a burning section with an action and a DC 12 Athletics check (buckets from the river, or by kicking the burning planks into the water). If the fire reaches the south end, the bridge is lost: the warband has burned it by force. Run that as the **champion lost** outcome, minus the duel: Varn raises his spear and goes west.
 
 ### Wave 3: The Ford
 
@@ -301,11 +317,11 @@ Varn does **not** fight in the waves. He stands at the north end of the bridge a
 
 - **Running long or the party is hurting:** cut the javelin orcs from Wave 2. Wave 3 is the story wave; keep it.
 - **Party is cruising:** add 2 orcs to Wave 1. Don't touch Wave 3.
-- **A wave fails** (the party is driven back, or the village is breached): don't end the session. Varn calls the champion's ring anyway, and the stakes of the duel go up: lose it and the village burns. Win, and the warband still withdraws.
+- **A wave fails** (the party is driven back, or the village is breached): don't end the session. Varn calls the champion's ring anyway, to settle it by law before the Host scouts turn it into a massacre. The stakes go up: lose the duel and the bridge burns with the Host's people already inside the gate. Win, and Varn's warriors drag the scouts back across the river themselves.
 
 ## 7. Climax: The Champion's Ring (30 min)
 
-When the third wave is answered, Varn walks to the centre of the bridge and pulls his spear out of the stones.
+When the third wave is answered, Varn walks to the centre of the bridge and pulls his spear out of the planks.
 
 *"Your warriors are answered. Mine are answered. By the law of my mother's clans, the line is decided by champions. Send me one. If I fall, we go home the way we came. If you fall, the river is ours and the bridge burns."*
 
