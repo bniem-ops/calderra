@@ -239,7 +239,7 @@ This is his campaign across the three acts. Each piece comes from a faction alre
 
 ## Hooks for one-shots
 
-- **Hold the Bridge at Harrow's Ford:** the raiders are Ushra's clans, carried around the Thornwall's west end on the Host's boats, with two Host scouts riding along to make sure the raid is worth the fare. The voyage is a down payment on Ushra's loyalty; whether she swears at the Hearth depends on whether her son Varn comes home. A captured raider says, "The Heir doesn't want your bridge. He wants to see how long it takes Brenna to come."
+- **The Line at Harrow's Ford:** the raiders are Ushra's clans, carried around the Thornwall's west end on the Host's boats, with two Host scouts riding along to make sure the raid is worth the fare. The voyage is a down payment on Ushra's loyalty; whether she swears at the Hearth depends on whether her son Varn comes home. A captured raider says, "The Heir doesn't want your bridge. He wants to see how long it takes Brenna to come."
 - **The Regent's Vault:** the Host has its own team going after the acknowledgement on the same night. Two heists, one vault.
 - **The Pretender's Mask:** the heroes can steal the Will gem, turn him, or leave it (see `world/sunfire-crown.md`). They witness the Hearth, the one loaf and the names. Whoever sees him unmasked sees the ash-burn and his father's face. The choice to depose him or turn him should now feel genuinely hard.
 - **The Forging:** if he wasn't turned, he comes to Kharag with the Will gem and an army.

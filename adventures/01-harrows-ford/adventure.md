@@ -1,23 +1,23 @@
 ---
 id: harrows-ford
 number: 1
-title: "Hold the Bridge at Harrow's Ford"
+title: "The Line at Harrow's Ford"
 act: "I"
 level: 4
 region: march-of-thorns
 location: "Harrow's Ford, March of Thorns"
-genre: "Heroic last stand"
+genre: "Last stand, or last bridge"
 spotlight: "Muscle, support"
-cold_open: "The garrison left a week ago. Two hundred refugees are camped on the wrong side of the river, and the orc drums started at sunset."
+cold_open: "The garrison left a week ago. At sunset an orc champion walked onto the last bridge before the wall and named his price: burn it by dawn, or he takes it. Two hundred refugees are camped on the wrong side of the river, and the drums haven't stopped."
 ---
 
-# Hold the Bridge at Harrow's Ford
+# The Line at Harrow's Ford
 
 > Everything below the header is DM-only. Only the header fields above appear on the player map (the cold open only once its act is current).
 
 *A D&D 5e one-shot. 3–5 players, level 4, 3–4 hours. One uncommon item each (see `world/play-format.md`).*
 
-> **Premise.** Harrow's Ford is the last bridge before the Thornwall. The imperial garrison was pulled north to the wall a week ago and never came back. Tonight an orc warband has made camp on the north bank, two hundred frightened people from the steadings between the river and the wall are camped beside them, and the reeve has barred the bridge gate. The Lantern-sworn have one night to get ready. At dawn, the warband crosses.
+> **Premise.** Harrow's Ford is the last bridge before the Thornwall. The imperial garrison was pulled north to the wall a week ago and never came back. Tonight an orc warband has made camp on the north bank, two hundred frightened people from the steadings between the river and the wall are camped beside them, and the reeve has barred the bridge gate. The Lantern-sworn have one night to decide what the bridge is worth. At dawn, the warband crosses, unless there's nothing left to cross.
 
 ## How the warband got here
 
@@ -493,7 +493,7 @@ With no long rest and no short rest between waves, the waves alone are a hard da
 
 > *To those sworn this night to the Order of the Dawn Lantern.*
 >
-> *Harrow's Ford, in the March of Thorns. The garrison has been recalled to the Thornwall. The reeve asks for help holding the bridge until the duchess can send soldiers. Go by the north road; you should arrive by dusk on the second day.*
+> *Harrow's Ford, in the March of Thorns. The garrison has been recalled to the Thornwall. A warband is on the north bank, and the reeve asks for help keeping the Ford-folk alive until the duchess can send soldiers. The bridge there is the March's last road north. Use your judgment. Go by the north road; you should arrive by dusk on the second day.*
 >
 > *The Order thanks you. Light the road; don't claim it.*
 >
