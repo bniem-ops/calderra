@@ -25,7 +25,7 @@ cold_open: "The Saltreach Compact will pay a fortune to whoever sinks the Black 
 - *Choice:* expose the prince, or cut a deal with the captain.
 - *Ripples:* expose him and the Saltreach Compact becomes an ally, the Gilded Delta an enemy. Cut a deal and a pirate ship owes the Order a favour.
 
-**Option B: the Gull's real targets.** Captain Jory Vane takes Vareth's money, but chooses his own targets: he has been sinking the Old Houses' secret arms ships to the Ashen Pretender. His log holds the location of the western cove.
+**Option B: the Gull's real targets.** Captain Jory Vane takes Vareth's money, but chooses his own targets: he has been sinking the Old Houses' secret arms ships to the Ashen Pretender. His log holds the location of the western cove. It also records the cove's boats carrying an orc warband from beyond the Thornwall around its west end (the Harrow's Ford raid), so heroes who played that session learn who paid the fare.
 - *Choice:* who to tell. Odessa (the Compact splits, Hargrove falls), Hargrove (he buys their silence, and the arms keep flowing), or everyone (the Pretender loses his supply line, and the Tide Table tears itself apart).
 - *Ripples:* best if the Pretender's war has already begun to bite, so the heroes understand what the crossbows are for. See `world/factions/saltreach.md`.
 

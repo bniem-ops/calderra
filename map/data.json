@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24",
+  "generated": "2026-10-26",
   "intro": "Six months ago, Emperor Castellan VII, the Last Sun, died without an heir. That same night the Sunfire Crown vanished from his brow, and its three gems were scattered. The legions went home, and every duke, guild and warlord with an army began calling themselves the rightful successor. By imperial law, the next ruler will be named at the Council of Banners in Solace, one year after the emperor's death.",
   "realm_peace": 5,
   "acts": [
@@ -43,15 +43,15 @@
     {
       "id": "harrows-ford",
       "number": 1,
-      "title": "Hold the Bridge at Harrow's Ford",
+      "title": "The Line at Harrow's Ford",
       "act": "I",
       "level": 4,
       "region": "The March of Thorns",
       "location": "Harrow's Ford, March of Thorns",
-      "genre": "Heroic last stand",
+      "genre": "Last stand, or last bridge",
       "spotlight": "Muscle, support",
       "status": "next",
-      "cold_open": "The garrison left a week ago. Two hundred refugees are camped on the wrong side of the river, and the orc drums started at sunset.",
+      "cold_open": "The garrison left a week ago. At sunset an orc champion walked onto the last bridge before the wall and named his price: burn it by dawn, or he takes it. Two hundred refugees are camped on the wrong side of the river, and the drums haven't stopped.",
       "sealed": false,
       "public_record": null,
       "date": null,

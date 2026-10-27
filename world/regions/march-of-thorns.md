@@ -9,4 +9,4 @@ rumour: "Harrow's Ford is the last bridge before the wall. Nobody is guarding it
 
 # The March of Thorns
 
-Setting for Hold the Bridge at Harrow's Ford.
+Setting for The Line at Harrow's Ford.
