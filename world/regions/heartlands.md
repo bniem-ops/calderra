@@ -19,12 +19,14 @@ The Heartlands are the middle of Calderra, and every road in the continent ends 
 
 It's rich land, but not rich enough. The Heartlands grow wine, oil and stone, and Solace eats more bread than they could ever grow. Every loaf in the city comes in along the grain road from Greenhollow, or by ship.
 
+**The Heartlanders.** The country people call themselves Heartlanders, never Solari, and the city treats them as not quite provincial and not quite Solari either. Most are tenants on the Sunward estates. They tend their lord's vines and olives, cut his marble, and keep a strip of barley, a goat and a kitchen garden for themselves. They grow the Heartlands' wealth and own almost none of it. Because only Granary-licensed bakers may sell bread, even a village in sight of the fields buys its loaves from the Granary oven in the nearest market town, at the Morning Price like everyone else. Heartlanders are plain-spoken, go unmasked, distrust the city and pray at the Temple's roadside shrines more sincerely than any Solari. Their year runs on the grape harvest, the olive press and the rent. This year their lords are turning manor houses into strongholds and handing tenants spears as house guards, so a vintner can find himself defending a Sunward claim he never chose. If the Morning Price keeps climbing, the Heartlanders will feel it before the lower city does. They have no unlicensed bakers to fall back on, and no one in Solace is watching them.
+
 **What's changed since the emperor died:**
 - **The legions went home.** The barracks outside the walls are empty. The city watch and the Sunward Houses' hired swords are all that's left, and they don't trust each other.
 - **The roads are emptier.** Imperial road wardens stopped being paid. Inside a day's ride of Solace the roads are still safe; beyond that, toll-keepers and bandits are moving in.
 - **Strangers everywhere.** Every claimant keeps an embassy in Solace, and every embassy keeps spies. Reacher ships crowd the harbour. Ironhart soldiers drink in the lower city on leave. Dwarven factors haggle at the mint.
 - **The Morning Price is climbing,** and the crowd at the palace steps at dawn gets bigger and quieter every week.
-- **Sun-marks are being smashed** at night, and the Quill can't catch who's doing it.
+- **Sun-marks are being smashed** at night, and the Quill can't catch who's doing it. (A sun-mark is the imperial sun emblem set on every public building, the sign that the emperor is the Sun on earth. Smashing one means a flogging.)
 
 ## Solace
 
