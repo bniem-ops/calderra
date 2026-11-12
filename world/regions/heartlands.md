@@ -15,7 +15,7 @@ This is a **regional pass**, not a faction pass. The people, the court, the Gran
 
 ## The land
 
-The Heartlands are the middle of Calderra, and every road in the continent ends here. Low hills of vineyards and olive groves, marble quarries cut into the ridges, and big Sunward country estates worked by tenant farmers, all running down to a broad bay where Solace sits.
+The Heartlands are the middle of Calderra, and every road in the continent ends here. Low hills of vineyards and olive groves, marble quarries cut into the ridges, and big Sunward country estates worked by tenant farmers, all running down to the **Sunwater**, the great river that rises in the hills and flows south-east to the sea through the Gilded Delta. Below Solace it widens into a long, slow reach the Solari call **the Bay**, deep enough for seagoing ships. Every ship that reaches it has come up from the sea past Vareth's Golden Chain.
 
 It's rich land, but not rich enough. The Heartlands grow wine, oil and stone, and Solace eats more bread than they could ever grow. Every loaf in the city comes in along the grain road from Greenhollow, or by ship.
 
@@ -41,25 +41,25 @@ A city of white marble, gold domes and masks, built in rings around Palace Hill 
 | **The baths** | The great public baths. Where Solace's real politics happens, in steam, without masks. | Rumours, deals, and the safest place in the city to be overheard. |
 | **The Granary quarter** | The city granaries and imperial mills along the harbour, behind their own wall. | Quill guards, sacks counted twice a day, and a smell of flour on everything. |
 | **The lower city** | Docks, tenements, wine shops and the unlicensed bakers' ovens. | Reacher sailors, Ironhart soldiers on leave, smashed sun-marks, and the first place a riot starts. |
-| **The harbour** | A deep harbour on the bay, crowded with Reacher hulls. | Everything Solace imports comes through here, on someone else's ships. |
+| **The harbour** | A deep river harbour on the Bay, crowded with Reacher hulls and Vareth barges. | Everything Solace imports comes through here, on someone else's ships, having paid Vareth's toll on the way. |
 | **The pyre hill** | A bare hill outside the west gate where the dead are burned at sunset. | Quiet; the only place in Solace where people don't wear masks in public. |
 
-**Gates and roads:** the **west gate** opens on the grain road to Greenhollow; the **north gate** on the road to the March; the **east road** runs to the Saltreach coast; the **south road** leads to the Lanternhold and, past it, the Gilded Delta.
+**Gates and roads:** the **west gate** opens on the grain road to Greenhollow; the **north gate** on the road to the March; the **tribute road** runs north-east to the Ironspine; the **east road** runs to the Saltreach coast; the **south road** follows the Sunwater down to the Lanternhold and, past it, the Gilded Delta.
 
 ## Around Solace
 
-- **The Lanternhold.** The Order's hall: a lone castle on a hill half a day's ride south of the city, with no town around it and no farmland. The only neutral ground left. See `factions/dawn-lantern.md`.
+- **The Lanternhold.** The Order's hall: a lone castle on a hill a long day's ride south of the city, with no town around it and no farmland. The only neutral ground left. See `factions/dawn-lantern.md`.
 - **The vineyard estates.** Sunward country houses on the slopes north and east of the city, each with its own village of tenants. Several have been quietly fortified since spring.
 - **The marble quarries.** Cut into the ridges west of the city. Since the legions left, quarry gangs have been hiring themselves out as muscle.
 - **The coaching inns.** A ring of big imperial inns, each a day's ride from Solace on every road. Every traveller to the capital stops at one the night before; every claimant's spies know it.
 
-**Travel times:** Solace to the Lanternhold, half a day; to Wendle Cross in Greenhollow, five days by cart; to the Saltreach coast, about four days by road or two by sea; to the Thornwall, about eight days north.
+**Travel times:** Solace to the Lanternhold, one long day; to Wendle Cross in Greenhollow, five days by cart; to Harrow's Ford, four days north; to Vareth, four days downstream by barge; to Highwater on the Saltreach coast, six days by road. The full table is in `world/geography.md`.
 
 ## The Heartlands in each adventure
 
-- **The Feast of Banners (Act II).** Every claimant rides out of Solace down the south road to the Lanternhold, each with an escort, each stopping at the same coaching inn the night before. A good place for a cold open, or for the heroes to meet the guests before the gates lock.
+- **The Feast of Banners (Act II).** The claimants gather in Solace and ride the south road to the Lanternhold on the same day, each with an escort, every escort watching every other. They all stop at the same coaching inn halfway for the midday meal. A good place for a cold open, or for the heroes to meet the guests before the gates lock.
 - **The Regent's Vault (Act II).** The way in is a palace gala on Palace Hill: masks, music, the Sunward Houses and every embassy in one room. The vault lies below the palace. (The battle-map prompt in `world/maps.md` gives it a guard room, three locked chambers, a service corridor and a hidden drain exit.)
-- **The Council of Banners (Act III).** The Council sits in the Hall of Banners. When the Pretender moves, the fighting runs from the west gate along the grain-road avenue, through the lower city and up Palace Hill to the throne room. Allied factions arrive by the gates they'd use: Ironhart by the north gate, Reacher ships into the harbour, the Holds' column down the grain road behind the Host.
+- **The Council of Banners (Act III).** The Council sits in the Hall of Banners. When the Pretender moves, the fighting runs from the west gate along the grain-road avenue, through the lower city and up Palace Hill to the throne room. Allied factions arrive by the gates they'd use: Ironhart by the north gate, Reacher ships up the Bay (if Vareth lowers the Golden Chain for them), the Holds' column down the tribute road from the north-east.
 
 <!-- secret -->
 ## Secrets of the ground

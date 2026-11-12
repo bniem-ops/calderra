@@ -11,7 +11,9 @@ Factions are built in the order they arrived in Calderra, so later ones can fill
 | 5 | The Ashen Pretender | Exiled heir, built to exploit everyone's weak points | Done |
 | 6 | Order of the Dawn Lantern | Sworn to the realm; not a faction, ties everything together | Done |
 
-Smaller peoples worth a pass later: the Prince-Merchants of Vareth (Gilded Delta), the Verdant Court (Millhaven's Fey), the orc and giant clans beyond the Thornwall.
+Smaller peoples worth a pass later: the Prince-Merchants of Vareth (Gilded Delta; already covered at regional depth in `regions/gilded-delta.md`, so a faction pass would add a player guide and private hooks), the Verdant Court (Millhaven's Fey), the orc and giant clans beyond the Thornwall.
+
+Regions are covered by `world/regions/` and tied together in `world/geography.md`.
 
 ## The questions
 

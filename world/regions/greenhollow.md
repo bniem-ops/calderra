@@ -43,12 +43,12 @@ The Shires sit west of the capital: hedged fields, slow rivers, orchards, mills 
 ### Places a party passes through
 
 - **Millhaven.** The Festival village. Lanterns strung between the houses, the round stone coliseum on the green, the Broken Antler (the largest building in town). Since the Festival, a lamp burns in many windows for the Lantern-sworn.
-- **Wendle Cross.** A busy market town where the grain road, the pass road and the north road meet. The **Long Barns**, a row of stone granaries with the imperial sun painted over each door, take in the grain tax. Inns, a horse fair, a Temple shrine, and lately a lot of men in other people's colours.
+- **Wendle Cross.** A busy market town where the grain road, the pass road and the north road meet. The **Long Barns**, a row of stone granaries with the imperial sun painted over each door, take in the grain tax. Nobody in the Shires has touched those suns. At Festival time a harvest knot is hung over each one, as it always was. Inns, a horse fair, a Temple shrine, and lately a lot of men in other people's colours.
 - **The grain road.** Wide, paved, milestoned, with a coaching inn every day's ride. It runs from Wendle Cross to Solace, about five days by cart. Since spring, its western end has started burning.
 - **The pass road.** Narrower, climbing north-east through hill villages to the Ironspine. In autumn it fills with dwarven wagons, Holdfast caravan guards and haggling.
 - **Hedgeend.** The last parish before the Frontier. Burned out in the spring. Its people are in Millhaven and Wendle Cross, sleeping in barns.
 - **The Hollow.** An old, dark wood east of Millhaven where the hedges stop. The Accord was sworn at a standing stone inside it. Paths there go where they want to.
-- **Travel times:** Millhaven to Wendle Cross is a day by cart; Wendle Cross to Solace five; Wendle Cross to the first Ironspine hold about six, uphill; Millhaven to Harrow's Ford about four, north.
+- **Travel times:** Millhaven to Wendle Cross is a day by cart; Wendle Cross to Solace five; Wendle Cross to the Doorstep at the foot of the Ironspine about eight, uphill; Millhaven to Harrow's Ford about four, north; Millhaven to Hedgeend two, west. The full table is in `world/geography.md`.
 
 ## Origins and identity
 
@@ -83,6 +83,7 @@ The Shires sit west of the capital: hedged fields, slow rivers, orchards, mills 
 | **House Ironhart** | Soldiers up north, gruff, fine to sell rye to | The March has guarded Greenhollow's flank for a century, partly paid for by Greenhollow's own grain tax. Almost no farmer knows. |
 | **Stonecrown Holds** | Good customers who pay in silver and never say thank you | The Holds can't survive a winter without the pass-road caravans. They'd never admit it. |
 | **Saltreach Compact** | Fair dealers who pay better than the Granaries | Reacher buyers are all over the Shires this year, offering the best price anyone has seen. |
+| **The Prince-Merchants of Vareth** | Southerners whose grain undercuts ours | The Delta grows Calderra's other harvest and sells it smarter. This year Vareth is lending seed money to Shire parishes, at interest that never quite gets paid off. |
 | **The Ashen Pretender** | Raiders from the burned west who torch barns and roads | His Host burns the western grain road to starve the dwarves and squeeze Solace. |
 | **The Order of the Dawn Lantern** | The Lantern-sworn who saved the Festival. Heroes. | Lamps in windows across the Shires. The Order is the one outside power Greenhollow trusts. |
 | **The Verdant Court** | Dangerous neighbours with whom we have a deal | The Accord has held for decades. It's fraying. |
