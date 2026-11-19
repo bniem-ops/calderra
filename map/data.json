@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11",
+  "generated": "2026-11-18",
   "intro": "Six months ago, Emperor Castellan VII, the Last Sun, died without an heir. That same night the Sunfire Crown vanished from his brow, and its three gems were scattered. The legions went home, and every duke, guild and warlord with an army began calling themselves the rightful successor. By imperial law, the next ruler will be named at the Council of Banners in Solace, one year after the emperor's death.",
   "realm_peace": 5,
   "acts": [
@@ -51,7 +51,7 @@
       "genre": "Last stand, or last bridge",
       "spotlight": "Muscle, support",
       "status": "next",
-      "cold_open": "The garrison left a week ago. At sunset an orc champion walked onto the last bridge before the wall and named his price: burn it by dawn, or he takes it. Two hundred refugees are camped on the wrong side of the river, and the drums haven't stopped.",
+      "cold_open": "The garrison left a week ago. At sunset an orc champion walked onto the last bridge before the wall and named his price: burn it by dawn, or he burns it for you. The reeve has already handed out the axes, and the drums haven't stopped.",
       "sealed": false,
       "public_record": null,
       "date": null,

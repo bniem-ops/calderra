@@ -216,6 +216,16 @@ He burns the grain road to starve the dwarves and drive up the bread price in So
 - **MAX's iron key** (given to the heroes at the Festival) opens something Marit left behind: a lockbox at the Broken Antler with her letters, a lock of the boy's hair and a note in the Last Sun's hand asking her father to look after her. A second proof of the claim, hidden in plain sight since session zero.
 - Rowan has never met his uncle, but his mother talked about MAX every day.
 
+### The Cinders (recurring)
+
+The Host's warlocks. They travel in pairs, with grey funeral ash rubbed on their faces, and they turn up wherever the Host needs a fight to go its way without the Host's name on it. First met at Harrow's Ford (the Hush and the Elder; stat block in that adventure).
+
+- **They never harm anyone directly.** Their magic silences, confuses, binds and reshapes the ground, and that's all. In the Host's words: *"The fire is the Heir's. Only he decides who burns."* A Cinder who kills breaks the pact and loses the magic.
+- **They always get away,** unless the heroes stop them. Each keeps a *dimension door* for it ("scattering to ash"). It needs a spoken word, so silence, a gag or a counterspell stops it.
+- **They're Kestrel's.** They report to the herald, not the chiefs, and the chiefs don't like them.
+- **Why their magic works the way it does:** the Cinders' pact is with the Heir himself, and their power is a spill from the **Will gem**: magic that bends minds and stone because the gem bends wills. As the burn spreads in the Heir, the Cinders grow stronger. If he dies, or the gem goes into a new crown, every Cinder in Calderra loses their magic on the same night.
+- **Running them:** one or two per Host encounter, from Act I onwards. In Act II they can cast higher; in Act III a whole circle of them can stand behind the Heir. Capturing one is a big payoff: they carry copies of whatever Ellis Wren sent.
+
 ### Kestrel's network
 
 - **Kestrel's network:** Kestrel's best agent is inside the Order of the Dawn Lantern: **Ellis Wren**, the quartermaster, who sends the Host every job. It's why the Host seems to be everywhere the heroes go. See `dawn-lantern.md`.
@@ -239,7 +249,7 @@ This is his campaign across the three acts. Each piece comes from a faction alre
 
 ## Hooks for one-shots
 
-- **The Line at Harrow's Ford:** the raiders are Ushra's clans, carried around the Thornwall's west end on the Host's boats, with two Host scouts riding along to make sure the raid is worth the fare. The voyage is a down payment on Ushra's loyalty; whether she swears at the Hearth depends on whether her son Varn comes home. A captured raider says, "The Heir doesn't want your bridge. He wants to see how long it takes Brenna to come."
+- **The Line at Harrow's Ford:** the raiders are Ushra's clans, carried around the Thornwall's west end on the Host's boats, with two **Cinders** riding along to make sure the raid is worth the fare. The voyage is a down payment on Ushra's loyalty; whether she swears at the Hearth depends on whether her son Varn comes home. A captured Cinder says, "The Heir doesn't want your bridge. He wants to see how long it takes Brenna to come."
 - **The Regent's Vault:** the Host has its own team going after the acknowledgement on the same night. Two heists, one vault.
 - **The Pretender's Mask:** the heroes can steal the Will gem, turn him, or leave it (see `world/sunfire-crown.md`). They witness the Hearth, the one loaf and the names. Whoever sees him unmasked sees the ash-burn and his father's face. The choice to depose him or turn him should now feel genuinely hard.
 - **The Forging:** if he wasn't turned, he comes to Kharag with the Will gem and an army.
