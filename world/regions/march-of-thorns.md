@@ -44,7 +44,7 @@ Everything in the March faces north. Towers, doors and graves all point that way
 
 ## The March in its adventure
 
-- **The Line at Harrow's Ford (Act I):** the bridge, the river, the refugees from the steadings and the warband that came around the wall. The adventure file has the full map key. Its ripples change the March for every later visit: whether the bridge stands, whether the refugees went south to Greenhollow, and whether Varn went home.
+- **The Line at Harrow's Ford (Act I):** the bridge, the river, the mill that grinds the wall's winter bread, and the warband that came around the wall. The adventure file has the full map key. Its ripples change the March for every later visit: whether the bridge stands, whether the wall eats this winter, and whether Varn went home.
 - **Later visits:** at Act II levels (6–9), a March one-shot should be on the wall itself. At Act III levels (11–13), it should be beyond it, in the clan lands.
 
 <!-- secret -->
