@@ -65,6 +65,8 @@ Over three centuries of peace the duty was forgotten, and the Order became what 
 
 **Defining trait.** They'd say: **we light the road; we don't claim it.** Outsiders would say: **they think they're above all of us.**
 
+**What a Lantern is expected to be.** A Lantern is expected to find the road, talk their way down it, and fight only when both fail. There are too few of them to be anything less: one Lantern is sent where a lord would send a company.
+
 ## Environment and survival
 
 **What they have:** the Lanternhold, a good castle on a hill with no town around it and no land to farm; forty knights; a small treasury from fees; and goodwill in almost every village in Calderra.
