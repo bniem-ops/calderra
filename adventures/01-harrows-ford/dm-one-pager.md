@@ -1,6 +1,6 @@
 # Harrow's Ford: DM one-pager
 
-*Scroll top to bottom as you run it. Callouts are the story beats you can't skip. Click any ▸ box for the exact numbers. Full text: [`adventure.md`](adventure.md).*
+*Scroll top to bottom as you run it. Callouts are the story beats you can't skip. Click any ▸ box for the exact numbers. Full text: [`adventure.md`](adventure.md). All enemies: [`stat-blocks.md`](stat-blocks.md).*
 
 > [!IMPORTANT]
 > **The three threads.** Land each one at least once:
