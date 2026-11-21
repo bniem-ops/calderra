@@ -39,6 +39,27 @@ When the DM says something like *"Log Harrow's Ford: they held the bridge and sp
 
 A session counts as played when a session file names its adventure; that is what turns its pin from planned to played.
 
+## Deferred consequences (reveal later)
+
+Some consequences happen off-screen and the players learn about them later. Put those in `ledger/state.yaml` under `deferred`, not in the main fields:
+
+```yaml
+deferred:
+  <id>:
+    reveal_after: <adventure id>   # hidden from the map until this adventure's session is logged
+    note: <private summary>
+    realm_peace: -2                # delta
+    factions:
+      <faction>: { standing: -1, reason: ... }   # standing is a delta; reason replaces
+    regions:
+      <region>: { rumour: ... }    # replaces held_by, feel or rumour on the map
+```
+
+- The build applies a deferred entry automatically, on every build, once a session file names its `reveal_after` adventure. **Don't fold it into the main fields by hand**, or it counts twice.
+- Until then its text is treated as private by the leak check. The build output lists each deferred entry as hidden or revealed.
+- Region headers keep what the players currently believe; the deferred rumour replaces it on the map when revealed.
+- Note the reveal in the `reveal_after` adventure itself, so the DM runs the scene.
+
 ## Player guides
 
 Each finished faction gets a player guide in `players/<id>.md` (copy `players/holdfast.md`): the people's own story (the myth, not the truth), daily life, sayings, what they think of others, character ideas and a rules fit. Private hooks for a player of that people go in the faction file under "Private hooks", inside a secret block, and are handed out in person. Set `ready: true` after the DM approves; share `https://bniem-ops.github.io/Calderra/peoples/<id>.html`.
