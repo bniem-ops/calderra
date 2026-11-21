@@ -30,6 +30,13 @@ The players at the table decide what happens to the new crown: who wears it, who
 - Realm's Peace 0–3: civil war breaks out in the capital.
 - Every faction at +2 sends help; every faction at −2 sends trouble.
 
+## Harrow's Ford echoes
+
+*Optional. Drop one if it fits; none of them changes the session.*
+
+- **The north-gate camp** of Ford-folk refugees is the first place the Pretender's fighting reaches, or the first place that rises if bread runs out.
+- **Ushra's envoy** (Varn, if he lived this long) can be at the Council. If the heroes stand up and admit the promise at the river was made and broken, that one honest act could swing the clans. It's the "Change" lever in `world/factions/ashen-pretender.md`.
+
 ## Status
 
 Outline only. Flesh out with the one-shot template in `world/dm-notes.md`.

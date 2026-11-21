@@ -29,7 +29,7 @@ All times are by cart or on foot. A rider is about a third faster. A road throug
 | Hedgeend | The Host's camp (when it was in the deep Frontier) | 7 days | Broken imperial road |
 | Solace | Harrow's Ford | 4 days | North road |
 | Millhaven | Harrow's Ford | 4 days | Back lanes north |
-| Harrow's Ford | The Thornwall | 1–2 days | North road across the steadings |
+| Harrow's Ford | The Thornwall | 1–2 days | North road across the steadings *(cut at the river since session 1; add 2–3 days by the back lanes and unguarded fords)* |
 | Wendle Cross | The Doorstep (foot of the Ironspine) | 8 days | Pass road, north-east |
 | Solace | The Doorstep | 7 days | Tribute road, north-east |
 | The Doorstep | Mount Kharag | 3 days | Inside the mountains, with a dwarven guide |
@@ -66,7 +66,7 @@ Every region's politics comes back to bread. Greenhollow grows it. Solace ration
 
 ### The lamp in the window
 
-Since the Festival of the Accord, people hang a lamp for the Lantern-sworn. How far the custom has spread depends on the ledger. It's strong in Greenhollow; in the March it depends on what happened at Harrow's Ford; in the Reach, captains hang one at the masthead for a ship the Order helped; dwarves think it's a lowland fad; the Host uses the same lamp oil; in Vareth, a silver lamp in a window is this season's fashion and means nothing.
+Since the Festival of the Accord, people hang a lamp for the Lantern-sworn. How far the custom has spread depends on the ledger. It's strong in Greenhollow; in the March it soured after Harrow's Ford burned, and Ford-folk took their lamps down, though a few towers on the wall still hang one; in the Reach, captains hang one at the masthead for a ship the Order helped; dwarves think it's a lowland fad; the Host uses the same lamp oil; in Vareth, a silver lamp in a window is this season's fashion and means nothing.
 
 ### Names and the dead
 

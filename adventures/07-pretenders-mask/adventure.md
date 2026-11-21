@@ -46,6 +46,14 @@ Depose him, turn him, or take the gem.
 
 At 11th level the heroes can teleport and scry. Give the camp anti-scrying wards and a giant warlord or two.
 
+## Harrow's Ford echoes
+
+*Optional. Drop one if it fits; none of them changes the session.*
+
+- **Varn is at the Hearth as a guest, not sworn.** He eats from his own loaf, which every Hearth-sworn notices. He has his bone-charmed spear and still wears the cord. If he recognises a Harrow's Ford hero, he says one line, quietly: *"You kept your word longer than your Regent did."* Whether that's bitter or an offer is the heroes' to find out.
+- **The Heir's speech** at the Hearth uses the Ford: *"The empire made a promise at the river and broke it in a week."*
+- A disguised hero who **charms** anyone in camp and gets caught is treated as "the Ford trick" and recognised for what it is.
+
 ## Status
 
 Outline only. Flesh out with the one-shot template in `world/dm-notes.md`.

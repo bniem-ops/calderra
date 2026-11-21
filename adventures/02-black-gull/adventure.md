@@ -31,6 +31,13 @@ cold_open: "The Saltreach Compact will pay a fortune to whoever sinks the Black 
 
 **Choosing:** Option A is self-contained and works early in Act I. Option B pays off more once players have met the Pretender's raiders (for example at Harrow's Ford).
 
+## Harrow's Ford echoes
+
+*Optional. Drop one if it fits; none of them changes the session.*
+
+- **Option B's log** has a new entry since session 1: two more runs from the western cove up the river mouth carrying *"pitch, timber, salt pork, forty spears."* They're bound for the clans' north bank at Harrow's Ford.
+- **Harbour gossip:** a sailor swears he fished a Regency sun banner out of the river mouth, *"Clean through with an axe."*
+
 ## Status
 
 Outline only. Flesh out with the one-shot template in `world/dm-notes.md`.

@@ -48,6 +48,14 @@ A light callback to the Festival. Anyone who played it gets a wink from MAX; any
 The Host has been told to spare Millhaven: MAX is the Heir's uncle. If the Host's foragers are one of the threats, they'll back off when they learn whose inn this is. A good place for heroes to find MAX's sister's lockbox, if they still have his key. See `world/factions/ashen-pretender.md`.
 <!-- /secret -->
 
+## Harrow's Ford echoes
+
+*Optional. Drop one if it fits; none of them changes the session.*
+
+- **Edda is here.** The Millhaven carter brought her down the back lanes with a column of Ford-folk. She's washing pots at the Broken Antler for MAX, and she keeps her tally stick on the bar. It has new notches. Anyone who played Harrow's Ford gets a long look before she speaks. Whether that's thanks or blame is your call (see the open questions in `ledger/sessions/01-harrows-ford.md`).
+- **The lamp on the carter's pole** is gone. *"Took it down after the Ford burned. Didn't feel right."*
+- Some of the Ford refugees are now Greenhollow's harvest hands. They're the first to pick up an axe when either army gets close.
+
 ## Status
 
 Outline only. Flesh out with the one-shot template in `world/dm-notes.md`.

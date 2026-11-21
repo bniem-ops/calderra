@@ -3,8 +3,8 @@ id: march-of-thorns
 name: "The March of Thorns"
 held_by: "Duchess Brenna Ironhart"
 feel: "Walls, watchtowers, frost, soldiers"
-trouble: "The legions left the Thornwall; orc and giant clans are testing it."
-rumour: "Harrow's Ford is the last bridge before the wall. Nobody is guarding it."
+trouble: "Clans hold the river's north bank behind the Thornwall, and the wall's bread road is cut."
+rumour: "Harrow's Ford burned, bridge and all. Refugees on the north road say a Regency company crossed the river first, and none of them came back."
 ---
 
 # The March of Thorns
@@ -24,6 +24,7 @@ Everything in the March faces north. Towers, doors and graves all point that way
 - **The garrisons went north.** Every soldier the March can spare is on the wall. The bridges and villages behind it are guarded by reeves, old men and whoever is home on leave.
 - **The duchess is going south.** Brenna is claiming the throne, and the north is watching her go.
 - **The clans came by sea.** For three centuries the wall was enough because the clans had no ships. This year, a warband landed behind it (see *The Line at Harrow's Ford*). Every Marcher now looks over their shoulder as well as north.
+- **Harrow's Ford is gone.** The bridge, the mill and the village burned after the Ford was lost. The clans hold the north bank around the old bridge and call everything north of the river theirs. The north road stops at the water, and the wall's bread goes the long way round on the back lanes. *(Full aftermath: `ledger/sessions/01-harrows-ford.md`.)*
 - **Sun-marks stay.** Marchers keep the imperial suns on their tower gates scrubbed and bright. The wall was sworn to the Crown, and a Marcher doesn't leave a post just because nobody is checking.
 
 ## Places a party passes through
@@ -35,7 +36,7 @@ Everything in the March faces north. Towers, doors and graves all point that way
 | **The Sea Tower** | The wall's western end, built out onto the rocks where it meets the sea. | The tower that should have seen the warband's boats. It faces north, and they came from behind. |
 | **Ironhart Keep** | The ducal seat, a grey stone keep a day south of the High Tower, with the family chapel. | The Thorn Council's hall, the chapel curtain, and Brenna's household packing to go south. |
 | **The steadings** | Sheep and horse farms scattered across the grassland between the wall and the river. | Families who stay put through the winter, and empty farms where the raid came through. |
-| **Harrow's Ford** | The last bridge before the wall, with a mill and a village behind a low fence. | Reeve Edda, the bridge and its seven stone piers, and whatever the heroes left behind. |
+| **Harrow's Ford** | Was the last bridge before the wall. Now seven blackened stone piers in the river, a burned mill and a burned village. | Ash, the piers, the clans' barricade on the north bank, and a sun banner snagged on a pier downstream. Edda and the Ford-folk are gone south. |
 | **The Ford villages** | Rye-farming villages along the river south of the Ford. | The Ford-folk reeves, the March's tax-payers, and its first victims. They're tired. |
 | **The high pass** | The pass from the March's eastern end into the Ironspine, claimed by both the March and the Holds. | Two toll-posts a mile apart, one dwarven and one Marcher, that don't speak to each other. Closed in winter. |
 | **The wall's foot** | The ground right below the Thornwall: pine woods, frostberry thickets, and the stones clan children throw back. | Wallbound work gangs, berry-pickers, and the best place in the March for a quiet word with someone from the north. |
@@ -54,6 +55,7 @@ Everything in the March faces north. Towers, doors and graves all point that way
 - **The clan lands aren't empty.** The ground north of the wall has old clan cairns, terraced high pastures gone to grass, and stone markers carved in the clans' script along the line of the Thorn Pact. Anyone who goes north and can read them learns the land once had a border further south.
 - **The Sea Tower is the weak end.** The wall stops at the sea, and the clans now have boats. The Sea Tower's warden has asked for a second beacon facing south. The Thorn Council said no, because it would tell everyone the wall can be bypassed.
 - **Garrick's crossroads.** Garrick's courier meets the Pretender's herald at a crossroads stone on the north road, halfway between the Keep and Harrow's Ford, marked by a carved thorn. A party that watches it long enough sees a grey mask.
+- **The north bank (after session 1).** Varn's warband holds a strip of riverside steadings around the old bridge, supplied by the Host's boats from the river mouth. They can't take the wall, and they don't try. They've cut it off from the south, which is worth more to the Heir. A party crossing the river in Act II meets clan pickets who ask one question first: *"Do southerners keep their word now?"*
 - **Blue beacons (late-series hint).** From Act II, beacons begin burning blue on towers where nobody has died. Marchers say the dead are restless. See `world/geography.md`.
 <!-- /secret -->
 
@@ -68,4 +70,4 @@ Everything in the March faces north. Towers, doors and graves all point that way
 
 - Ironhart Keep, the Sea Tower, the stone border markers and Garrick's crossroads are new. Keep, cut or rename?
 - The rest of the twelve towers are unnamed. Name them when a session needs them, or now?
-- After Harrow's Ford is logged, the public `rumour` ("Nobody is guarding it") will be out of date. Update it to fit what happened at the bridge?
+- ~~After Harrow's Ford is logged, the public `rumour` will be out of date.~~ Updated after session 1.
