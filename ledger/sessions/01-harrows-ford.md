@@ -12,11 +12,12 @@ players:
 # Everything from here to `public_record` is private.
 outcome: held, by treaty. The bridge stands and Varn went home alive, but the terms were made under Charm Person.
 public_record: "The Lantern-sworn held the last bridge at Harrow's Ford against an orc warband from beyond the Thornwall. When the defenders began to tire, the warband's champion called a duel under clan law. The fight ended in terms agreed on the bridge. The warband went back north across the river and left the bridge standing."
-# Net of the session (+1 peace) and its aftermath (-2 peace, Ironhart -1). See "Aftermath" below.
+# The session only. The aftermath (-2 peace, Ironhart -1) is deferred in ledger/state.yaml
+# and reaches the map when The Millhaven Harvest is logged.
 changes:
-  realm_peace: -1
+  realm_peace: 1
   factions:
-    ironhart: -1
+    ironhart: 0
 ripples:
   - The bridge at Harrow's Ford is gone. Varn's warband destroyed it after the Regency broke the terms. The wall's bread now goes the long way round, and the March's south is cut off from its north.
   - The village of Harrow's Ford was burned. Edda and the survivors are refugees. Edda went to Millhaven with the carter, and most of the others went down the north road to Solace.
@@ -53,7 +54,11 @@ Private DM notes for this session. Held, but not the way the adventure planned i
 
 ## Aftermath (canon, between sessions)
 
-This happened off-screen after the party left. It shouldn't change how any other one-shot runs. It turns up as echoes; see "Harrow's Ford echoes" in each adventure file.
+This happened off-screen after the party left. **The players don't know yet.** As far as they know, Varn and Ushra see the Calderrans as allies, and the map shows the peace going up.
+
+- **Reveal:** at the end of Act I, in *The Millhaven Harvest*. Edda is in Millhaven and tells them (see that adventure's "The news from the Ford").
+- **On the map:** the Realm's Peace drop, Ironhart's change and the new March rumour are in `ledger/state.yaml` under `deferred.harrows-ford-aftermath`. The build shows them automatically once a Millhaven session file exists.
+- **Before the reveal:** hints only, nothing that tells the story. After it, the echoes in Act II and III adventures are fair game.
 
 ### What happened, in order
 
@@ -80,12 +85,12 @@ This happened off-screen after the party left. It shouldn't change how any other
 - **For Lysander:** he lost a company and gained a refugee camp at his north gate. He will quietly blame Brenna's empty garrisons.
 - **For the Heir:** a cheap win, and his best argument yet. *"The empire breaks every promise it makes to you. I keep mine."*
 
-### Optional thread 3 pickup
+### Parked: thread 3
 
-Varn was waiting at the barricade the morning Dane crossed, because the Cinders knew the company's route. If you want the mole thread back, a surviving Ford-folk refugee can say so: *"The grey ones told him the day they'd come."* How did the Host know, when only the Order and the Regency did?
+The mole is still there. Not pushing it for now. If it's ever wanted, the Cinders knew the day Dane's company would cross.
 
 ## Open questions
 
 - Is a second allowed to cast at all? The duel rules say a second "can't strike," and a charm isn't a strike. The party found a gap in clan law. Decide whether the clans see it that way. *(The aftermath assumes Varn treats it as a southern trick but still keeps his word.)*
-- What does the party hear, and when? The refugees in Millhaven and outside Solace are the natural way for the news to reach them.
+- ~~What does the party hear, and when?~~ Decided: Edda tells them in Millhaven at the end of Act I.
 - Does Edda blame the Lantern-sworn? She's an easy NPC to bring back angry, grateful, or both.
