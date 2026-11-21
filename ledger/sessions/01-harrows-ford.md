@@ -4,10 +4,11 @@ date: "2026-11-20"
 level: 4
 # PUBLIC. "Character (Player)" or just names.
 players:
-  - Glute Skywalker
-  - Joshua Shoemaker
-  - Gromm Wilson
-  - Sharewood
+  - Glute Skywalker (Alex)
+  - Joshua Shoemaker (Hayden)
+  - Gromm Wilson (Danny)
+  - Sharewood (Caydn)
+  - The Fighter (Luke)
 # Everything from here to `public_record` is private.
 outcome: held, by treaty. The bridge stands and Varn went home alive, but the terms were made under Charm Person.
 public_record: "The Lantern-sworn held the last bridge at Harrow's Ford against an orc warband from beyond the Thornwall. When the defenders began to tire, the warband's champion called a duel under clan law. The fight ended in terms agreed on the bridge. The warband went back north across the river and left the bridge standing."
@@ -38,13 +39,13 @@ Private DM notes for this session. Held, but not the way the adventure planned i
 
 ## Party
 
-| Character | Class | Role |
-| --- | --- | --- |
-| Glute Skywalker | Barbarian (Path of the Totem Warrior, Bear) | Muscle |
-| Joshua Shoemaker | Sorcerer (Wild Magic) | Face, the duel's second |
-| Gromm Wilson | Ranger (Hunter) | — |
-| Sharewood | Wizard (Chronurgy), harengon | Champion |
-| *(name not recorded)* | Fighter | — |
+| Character | Player | Class | Role |
+| --- | --- | --- | --- |
+| Glute Skywalker | Alex | Barbarian (Path of the Totem Warrior, Bear) | Muscle |
+| Joshua Shoemaker | Hayden | Sorcerer (Wild Magic) | Face, the duel's second |
+| Gromm Wilson | Danny | Ranger (Hunter) | — |
+| Sharewood | Caydn | Wizard (Chronurgy), harengon | Champion |
+| *(name not recorded)* | Luke | Fighter | — |
 
 ## Open questions
 
