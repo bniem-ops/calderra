@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-20",
   "intro": "Six months ago, Emperor Castellan VII, the Last Sun, died without an heir. That same night the Sunfire Crown vanished from his brow, and its three gems were scattered. The legions went home, and every duke, guild and warlord with an army began calling themselves the rightful successor. By imperial law, the next ruler will be named at the Council of Banners in Solace, one year after the emperor's death.",
-  "realm_peace": 5,
+  "realm_peace": 6,
   "acts": [
     {
       "id": "Prologue",
@@ -21,7 +21,7 @@
     }
   ],
   "current_act": "I",
-  "next_session": "harrows-ford",
+  "next_session": "black-gull",
   "sessions": [
     {
       "id": "festival-of-the-accord",
@@ -50,12 +50,18 @@
       "location": "Harrow's Ford, March of Thorns",
       "genre": "Last stand, or last bridge",
       "spotlight": "Muscle, support",
-      "status": "next",
-      "cold_open": "The garrison left a week ago. At sunset an orc champion walked onto the last bridge before the wall and named his price: burn it by dawn, or he burns it for you. The reeve has already handed out the axes, and the drums haven't stopped.",
+      "status": "played",
+      "cold_open": null,
       "sealed": false,
-      "public_record": null,
-      "date": null,
-      "players": []
+      "public_record": "The Lantern-sworn held the last bridge at Harrow's Ford against an orc warband from beyond the Thornwall. When the defenders began to tire, the warband's champion called a duel under clan law. The fight ended in terms agreed on the bridge. The warband went back north across the river and left the bridge standing.",
+      "date": "2026-11-20",
+      "players": [
+        "Glute Skywalker (Alex)",
+        "Joshua Shoemaker (Hayden)",
+        "Gromm Wilson (Danny)",
+        "Sharewood (Caydn)",
+        "The Fighter (Luke)"
+      ]
     },
     {
       "id": "black-gull",
@@ -67,7 +73,7 @@
       "location": "The Saltreach Coast",
       "genre": "Swashbuckling sea chase",
       "spotlight": "Face, sneak",
-      "status": "planned",
+      "status": "next",
       "cold_open": "The Saltreach Compact will pay a fortune to whoever sinks the Black Gull. Her captain swears he's protecting the coast, not raiding it.",
       "sealed": false,
       "public_record": null,
