@@ -221,9 +221,41 @@ $("meter").innerHTML = Array.from({ length: 10 }, (_, i) => `<i class="${i < p ?
 
 /* ---------- Factions ---------- */
 const REP_CLASS = { Hostile: "rm2", Wary: "rm1", Neutral: "r0", Friendly: "r1", Allied: "r2", Unknown: "rnull" };
-$("factions").innerHTML = data.factions.map((f) =>
-  `<li><span class="f-name">${esc(f.name)}</span><span class="rep ${REP_CLASS[f.reputation]}">${esc(f.reputation)}</span><span class="f-sub">${esc(f.face)} · ${esc(f.seat)}</span></li>`
-).join("");
+// Each banner opens into a dossier: the people, then their homeland.
+const regionById = Object.fromEntries(data.regions.map((r) => [r.id, r]));
+const chevron = `<svg class="dz-chev" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 8 4 4 4-4"/></svg>`;
+function regionDossier(r, heading) {
+  if (!r) return "";
+  let h = `<div class="dz-land">${heading ? `<p class="dz-label">${esc(heading)}</p><p class="dz-land-name">${esc(r.name)}</p>` : ""}`;
+  if (r.held_by) h += `<p class="dz-meta">Held by ${esc(r.held_by)}</p>`;
+  if (r.feel) h += `<p class="dz-meta">${esc(r.feel)}</p>`;
+  if (r.about) h += `<p>${esc(r.about)}</p>`;
+  if (r.landmarks.length) h += `<p class="dz-label">Places of note</p><ul class="dz-list">${r.landmarks.map((l) => `<li>${esc(l)}</li>`).join("")}</ul>`;
+  if (r.rumour) h += `<p class="dz-label">Word on the road</p><p class="dz-rumour">${esc(r.rumour)}</p>`;
+  return h + `</div>`;
+}
+function factionDossier(f) {
+  const d = f.dossier;
+  let h = `<p class="dz-blurb">${esc(f.blurb)}</p>`;
+  if (d) {
+    if (d.people) h += `<p class="dz-label">The people</p><p class="dz-people">${esc(d.people)}${d.called ? `<span class="dz-called">${esc(d.called)}</span>` : ""}</p>`;
+    if (d.about) h += `<p>${esc(d.about)}</p>`;
+    if (d.known_for.length) h += `<p class="dz-label">Known for</p><ul class="dz-list">${d.known_for.map((k) => `<li>${esc(k)}</li>`).join("")}</ul>`;
+    if (d.saying) h += `<p class="dz-saying">“${esc(d.saying)}”</p>`;
+    h += regionDossier(regionById[d.homeland], "Homeland");
+  }
+  return h;
+}
+const bannerRow = (inner, body, label) =>
+  `<li class="banner"><details><summary aria-label="${esc(label)}">${inner}${chevron}</summary><div class="dz-body">${body}</div></details></li>`;
+const homelands = new Set(data.factions.map((f) => f.dossier && f.dossier.homeland).filter(Boolean));
+const otherLands = data.regions.filter((r) => !homelands.has(r.id) && r.about);
+$("factions").innerHTML = data.factions.map((f) => bannerRow(
+  `<span class="f-name">${esc(f.name)}</span><span class="rep ${REP_CLASS[f.reputation]}">${esc(f.reputation)}</span><span class="f-sub">${esc(f.face)} · ${esc(f.seat)}</span>`,
+  factionDossier(f), `${f.name}, ${f.reputation}. Show dossier`)).join("")
+  + (otherLands.length ? `<li class="banner-sep" aria-hidden="true">Other lands</li>` + otherLands.map((r) => bannerRow(
+    `<span class="f-name">${esc(r.name)}</span><span class="f-sub">${esc(r.held_by || "")}</span>`,
+    regionDossier(r, null), `${r.name}. Show dossier`)).join("") : "");
 
 /* ---------- Gems ---------- */
 const gemSvg = (found) => `<svg class="gem ${found ? "found" : "hidden-gem"}" viewBox="0 0 20 20" aria-hidden="true"><polygon points="10,1 18,7 15,18 5,18 2,7" stroke-width="1.5"/></svg>`;
