@@ -5,6 +5,12 @@ held_by: "Nobody, really — village councils"
 feel: "Harvest festivals, hedges, inns"
 trouble: "Its grain feeds the continent, so every army wants it."
 rumour: "Millhaven still holds its odd little Festival every summer. Strangers who wander in tend to get roped into it."
+# PUBLIC: shown in the map's dossiers.
+about: "Rolling farmland of hedges, inns and harvest festivals, run by village councils and nobody much above them. It grows half of Calderra's grain: the Holds' bread, Solace's granaries, the Reach's tables. That makes the quietest corner of Calderra the one every army wants."
+landmarks:
+  - "Millhaven and its summer Festival"
+  - "Wendle Cross, the market town"
+  - "The back lanes north to the March"
 ---
 
 # Greenhollow Shires

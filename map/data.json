@@ -206,49 +206,91 @@
       "name": "The Ashen Frontier",
       "held_by": "Unclaimed",
       "feel": "Ruined forts, old battlefields, monster-haunted wilds",
-      "rumour": "The Pretender's banners carry the old imperial sun — upside down."
+      "rumour": "The Pretender's banners carry the old imperial sun — upside down.",
+      "about": "The far west, burned in the empire's first wars and never rebuilt. Ruined forts stand over old battlefields where rusted weapons still turn up, and the rivers run grey. Little grows; families keep goats and bake ash-bread in the coals.",
+      "landmarks": [
+        "Ruined imperial forts, still lived in",
+        "The old battlefields",
+        "The Ashen Host's tent camps"
+      ]
     },
     {
       "id": "gilded-delta",
       "name": "The Gilded Delta",
       "held_by": "The Prince-Merchants of Vareth",
       "feel": "Silk, canals, decadence, duels at dawn",
-      "rumour": "A Vareth prince is offering a palace to whoever brings him one of the Crown gems."
+      "rumour": "A Vareth prince is offering a palace to whoever brings him one of the Crown gems.",
+      "about": "Where the Sunwater splits into seven mouths and meets the sea in the south-east. Vareth, the canal city at its head, is ruled by twelve Prince-Merchants with silk, money and duels at dawn. The Delta grows half of Calderra's grain and sits on the capital's only way to the sea. No claimant holds it. All of them want its gold.",
+      "landmarks": [
+        "Vareth, the canal city",
+        "The Exchange, where debts and favours are bought and sold",
+        "The Golden Chain across the deep channel, where every ship pays"
+      ]
     },
     {
       "id": "greenhollow",
       "name": "Greenhollow Shires",
       "held_by": "Nobody, really — village councils",
       "feel": "Harvest festivals, hedges, inns",
-      "rumour": "Millhaven still holds its odd little Festival every summer. Strangers who wander in tend to get roped into it."
+      "rumour": "Millhaven still holds its odd little Festival every summer. Strangers who wander in tend to get roped into it.",
+      "about": "Rolling farmland of hedges, inns and harvest festivals, run by village councils and nobody much above them. It grows half of Calderra's grain: the Holds' bread, Solace's granaries, the Reach's tables. That makes the quietest corner of Calderra the one every army wants.",
+      "landmarks": [
+        "Millhaven and its summer Festival",
+        "Wendle Cross, the market town",
+        "The back lanes north to the March"
+      ]
     },
     {
       "id": "heartlands",
       "name": "The Heartlands",
       "held_by": "Regent Lysander Vael, the late emperor's chancellor",
       "feel": "Marble palaces, masked politics, nervous crowds",
-      "rumour": "The Regent keeps a crown on a cushion in the throne room. Everyone knows it's a fake."
+      "rumour": "The Regent keeps a crown on a cushion in the throne room. Everyone knows it's a fake.",
+      "about": "The old heart of the empire around Solace, the marble capital on the southern bay. Every road in Calderra meets at its gates, and every claimant has spies inside them. South of the city, alone on its hill, stands the Lanternhold.",
+      "landmarks": [
+        "Solace and the palace dome's eternal flame",
+        "The Lanternhold, a day's ride away",
+        "The hilltop pyres at sunset"
+      ]
     },
     {
       "id": "ironspine",
       "name": "The Ironspine Mountains",
       "held_by": "Thane Durgan Stonecrown and the dwarven holds",
       "feel": "Forges, deep mines, mountain passes",
-      "rumour": "Smoke on Mount Kharag for the first time in a hundred years."
+      "rumour": "Smoke on Mount Kharag for the first time in a hundred years.",
+      "about": "The mountains of the north-east, home of the dwarven holds. Forges in the Great Hold have burned for a thousand years on the volcano's heat. The pass road climbs from Greenhollow, carrying grain up and iron down. Lowlanders go no further than the Doorstep at its foot.",
+      "landmarks": [
+        "The Great Hold and its Moot hall",
+        "Mount Kharag",
+        "The high passes"
+      ]
     },
     {
       "id": "march-of-thorns",
       "name": "The March of Thorns",
       "held_by": "Duchess Brenna Ironhart",
       "feel": "Walls, watchtowers, frost, soldiers",
-      "rumour": "Harrow's Ford burned, bridge and all. Refugees on the north road say a Regency company crossed the river first, and none of them came back."
+      "rumour": "Harrow's Ford burned, bridge and all. Refugees on the north road say a Regency company crossed the river first, and none of them came back.",
+      "about": "Cold grassland in the north, behind the Thornwall: horse and sheep country up by the wall, rye and river towns in the south. The duchy has held the empire's northern edge for three hundred years. Since the emperor died, it has held it alone.",
+      "landmarks": [
+        "The Thornwall's twelve towers and beacon fires",
+        "The High Tower",
+        "The burned crossing at Harrow's Ford"
+      ]
     },
     {
       "id": "saltreach",
       "name": "The Saltreach Coast",
       "held_by": "The Saltreach Compact, a merchant republic",
       "feel": "Harbours, regattas, pirates, sea shanties",
-      "rumour": "The Compact will pay a fortune for anyone who can sink the Black Gull."
+      "rumour": "The Compact will pay a fortune for anyone who can sink the Black Gull.",
+      "about": "A long east coast of deep harbours, pine forest and salt pans. Every port has its own fleet and shipyards, and the sea is the fastest road in Calderra. Since independence, unpaid imperial warships turned pirate have made that road dangerous.",
+      "landmarks": [
+        "The Tide Table's harbour halls",
+        "The Wreck Wall in every port",
+        "The salt pans"
+      ]
     }
   ],
   "factions": [
@@ -258,7 +300,19 @@
       "seat": "The Lanternhold",
       "face": "Ser Maren Aldwyn",
       "blurb": "A small sworn order of knights, loyal to the realm rather than any claimant. They recruit Lantern-sworn heroes for one job at a time.",
-      "reputation": "Friendly"
+      "reputation": "Friendly",
+      "dossier": {
+        "people": "The Lantern-sworn",
+        "called": "Lamplighters, fondly. Claimants call them \"Maren's people.\"",
+        "homeland": null,
+        "about": "About forty knights from every people in Calderra, sworn to the realm and to no ruler. The Order is too small to be everywhere, so it swears in heroes for one job at a time. Their hall, the Lanternhold, stands alone on a hill south of Solace, and every claimant still treats it as neutral ground.",
+        "known_for": [
+          "A lantern lit from the first flame, which has burned in their hall since the Order was founded",
+          "Knights put out and sent away for swearing to a claimant, taking land or abandoning someone in need",
+          "Lamps in village windows all over Calderra, left for the Order's friends"
+        ],
+        "saying": "Light the road; don't claim it."
+      }
     },
     {
       "id": "regency",
@@ -266,7 +320,19 @@
       "seat": "The Heartlands",
       "face": "Regent Lysander Vael",
       "blurb": "The late emperor's chancellor, holding the capital and calling for the empire to stay whole under a council.",
-      "reputation": "Neutral"
+      "reputation": "Neutral",
+      "dossier": {
+        "people": "Solari",
+        "called": "\"The Gilt\" or \"bread-masters,\" by provincials",
+        "homeland": "heartlands",
+        "about": "The people of Solace, the marble capital where every road in Calderra meets. The Regent, a dockworker's son who rose through the Quill's exams, governs until the Council of Banners names a new ruler. Bread is the empire's business here, and every dawn a crier calls the Morning Price of a loaf. Lately it has been going up.",
+        "known_for": [
+          "The Quill, the imperial civil service, where a nobody can become somebody by exam",
+          "Masks at every public event, and politics done in the public baths",
+          "Guests at a Solari wedding throw grain, to the horror of provincials"
+        ],
+        "saying": "The Sun rests."
+      }
     },
     {
       "id": "ironhart",
@@ -274,7 +340,19 @@
       "seat": "March of Thorns",
       "face": "Duchess Brenna Ironhart",
       "blurb": "The duchess holding the northern wall against orc and giant clans, and claiming the throne.",
-      "reputation": "Wary"
+      "reputation": "Wary",
+      "dossier": {
+        "people": "Marchers",
+        "called": "Wallborn, half admiring and half pitying",
+        "homeland": "march-of-thorns",
+        "about": "The people of the cold northern grasslands behind the Thornwall, held by House Ironhart for three hundred years since Corwen Ironhart held the Thorn Gap alone. Every Marcher serves three years on the wall from the age of sixteen, noble or peasant. The imperial treasury paid the wall's soldiers for three centuries. Since the emperor died, it hasn't.",
+        "known_for": [
+          "The Thornwall's twelve towers and its chain of beacon fires",
+          "Burning their dead on a beacon and mortaring the ashes into the wall",
+          "Frostberry wine, sour and strong, from the berries at the wall's foot"
+        ],
+        "saying": "North isn't a direction. It's a warning."
+      }
     },
     {
       "id": "saltreach",
@@ -282,7 +360,19 @@
       "seat": "Saltreach Coast",
       "face": "Guildmistress Odessa Reef",
       "blurb": "A merchant republic on the east coast that has declared its independence.",
-      "reputation": "Neutral"
+      "reputation": "Neutral",
+      "dossier": {
+        "people": "Reachers",
+        "called": "Coin-gulls, by lowlanders. \"Free hulls,\" in their own toasts",
+        "homeland": "saltreach",
+        "about": "The people of the east coast's harbours and salt marshes, who declared a free republic the week the emperor died. Reacher ships carry almost everything Solace imports, and Reacher salt fish feeds half of Calderra's armies through winter. Every ship-owner sits at the Tide Table, with votes weighed by tonnage.",
+        "known_for": [
+          "The Wreck Wall, where contract-breakers' names are painted in every harbour",
+          "Bond-sailors who work off a debt and rise to own a share of a ship",
+          "Never renaming a ship, and paying every debt the night before sailing"
+        ],
+        "saying": "Square your tally."
+      }
     },
     {
       "id": "stonecrown",
@@ -290,7 +380,19 @@
       "seat": "Ironspine Mountains",
       "face": "Thane Durgan Stonecrown",
       "blurb": "The dwarven holds of the Ironspine, who want out of the empire entirely.",
-      "reputation": "Neutral"
+      "reputation": "Neutral",
+      "dossier": {
+        "people": "Holdfast dwarves",
+        "called": "Spiners, when lowlanders think they can't hear",
+        "homeland": "ironspine",
+        "about": "The dwarves of the Ironspine, who say they were here before Calderra and will be here after. Five clans live in cities carved deep into the mountain, ruled by a Thane the Moot elects for life. The Spine gives iron, silver and stone, but no bread: every loaf comes up the passes from Greenhollow, bought with metal.",
+        "known_for": [
+          "Keeping their word, even to lowlanders. Lowlanders say they keep score",
+          "The Hall of Names, where honoured dead are carved into the mountain",
+          "Kharag Dark, a stout so thick it's poured with a spoon"
+        ],
+        "saying": "Stone remembers."
+      }
     },
     {
       "id": "ashen-pretender",
@@ -298,7 +400,19 @@
       "seat": "Ashen Frontier",
       "face": "Unknown — masked",
       "blurb": "A masked warlord in the far west who claims to be the emperor's secret heir.",
-      "reputation": "Unknown"
+      "reputation": "Unknown",
+      "dossier": {
+        "people": "Ashfolk and the Ashen Host",
+        "called": "The Host, by its own. Everyone else has worse names",
+        "homeland": "ashen-frontier",
+        "about": "The burnt far west was never rebuilt after the empire's first wars, and it became the place the empire's outcasts ended up. Now they have an army, the Ashen Host, and a masked young leader who claims to be the Last Sun's son. His herald, Kestrel, speaks for him in public.",
+        "known_for": [
+          "A banner with the imperial sun turned upside down",
+          "Tearing one loaf of bread at the war council's fire. Breaking bread is a vow",
+          "Camping in the open, never behind walls"
+        ],
+        "saying": "Nothing is wasted."
+      }
     }
   ],
   "gems": [

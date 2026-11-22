@@ -5,6 +5,12 @@ held_by: "Thane Durgan Stonecrown and the dwarven holds"
 feel: "Forges, deep mines, mountain passes"
 trouble: "The empire's dragon treaty died with the emperor."
 rumour: "Smoke on Mount Kharag for the first time in a hundred years."
+# PUBLIC: shown in the map's dossiers.
+about: "The mountains of the north-east, home of the dwarven holds. Forges in the Great Hold have burned for a thousand years on the volcano's heat. The pass road climbs from Greenhollow, carrying grain up and iron down. Lowlanders go no further than the Doorstep at its foot."
+landmarks:
+  - "The Great Hold and its Moot hall"
+  - "Mount Kharag"
+  - "The high passes"
 ---
 
 # The Ironspine Mountains

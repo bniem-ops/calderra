@@ -1,6 +1,6 @@
 // Offline support. App shell is cached; data.json and map.config.json are fetched fresh
 // when online and fall back to the cached copy offline.
-const CACHE = "calderra-v1";
+const CACHE = "calderra-v2";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "assets/icon.svg", "data.json", "map.config.json"];
 
 self.addEventListener("install", (e) => {

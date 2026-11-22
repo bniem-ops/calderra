@@ -5,6 +5,12 @@ held_by: "Duchess Brenna Ironhart"
 feel: "Walls, watchtowers, frost, soldiers"
 trouble: "Clans hold the river's north bank behind the Thornwall, and the wall's bread road is cut."
 rumour: "Harrow's Ford burned, bridge and all. Refugees on the north road say a Regency company crossed the river first, and none of them came back."
+# PUBLIC: shown in the map's dossiers.
+about: "Cold grassland in the north, behind the Thornwall: horse and sheep country up by the wall, rye and river towns in the south. The duchy has held the empire's northern edge for three hundred years. Since the emperor died, it has held it alone."
+landmarks:
+  - "The Thornwall's twelve towers and beacon fires"
+  - "The High Tower"
+  - "The burned crossing at Harrow's Ford"
 ---
 
 # The March of Thorns

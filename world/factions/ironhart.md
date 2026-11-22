@@ -6,6 +6,17 @@ face: "Duchess Brenna Ironhart"
 public_blurb: "The duchess holding the northern wall against orc and giant clans, and claiming the throne."
 # Words that must never appear in player guides or on the map.
 secret_terms: ["Thorn Pact", "broken pact", "hollow towers", "hollow tower", "straw wardens", "straw warden", "Garrick's letters"]
+# PUBLIC: shown in the map's dossiers.
+dossier:
+  people: "Marchers"
+  called: "Wallborn, half admiring and half pitying"
+  homeland: march-of-thorns
+  about: "The people of the cold northern grasslands behind the Thornwall, held by House Ironhart for three hundred years since Corwen Ironhart held the Thorn Gap alone. Every Marcher serves three years on the wall from the age of sixteen, noble or peasant. The imperial treasury paid the wall's soldiers for three centuries. Since the emperor died, it hasn't."
+  known_for:
+    - "The Thornwall's twelve towers and its chain of beacon fires"
+    - "Burning their dead on a beacon and mortaring the ashes into the wall"
+    - "Frostberry wine, sour and strong, from the berries at the wall's foot"
+  saying: "North isn't a direction. It's a warning."
 ---
 
 # House Ironhart

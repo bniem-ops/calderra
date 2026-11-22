@@ -5,6 +5,12 @@ held_by: "The Saltreach Compact, a merchant republic"
 feel: "Harbours, regattas, pirates, sea shanties"
 trouble: "Declared independence; the imperial navy turned pirate."
 rumour: "The Compact will pay a fortune for anyone who can sink the Black Gull."
+# PUBLIC: shown in the map's dossiers.
+about: "A long east coast of deep harbours, pine forest and salt pans. Every port has its own fleet and shipyards, and the sea is the fastest road in Calderra. Since independence, unpaid imperial warships turned pirate have made that road dangerous."
+landmarks:
+  - "The Tide Table's harbour halls"
+  - "The Wreck Wall in every port"
+  - "The salt pans"
 ---
 
 # The Saltreach Coast

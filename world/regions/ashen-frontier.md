@@ -5,6 +5,12 @@ held_by: "Unclaimed"
 feel: "Ruined forts, old battlefields, monster-haunted wilds"
 trouble: "A masked warlord called the Ashen Pretender claims to be the emperor's secret heir and is raising an army of monsters."
 rumour: "The Pretender's banners carry the old imperial sun — upside down."
+# PUBLIC: shown in the map's dossiers.
+about: "The far west, burned in the empire's first wars and never rebuilt. Ruined forts stand over old battlefields where rusted weapons still turn up, and the rivers run grey. Little grows; families keep goats and bake ash-bread in the coals."
+landmarks:
+  - "Ruined imperial forts, still lived in"
+  - "The old battlefields"
+  - "The Ashen Host's tent camps"
 ---
 
 # The Ashen Frontier
