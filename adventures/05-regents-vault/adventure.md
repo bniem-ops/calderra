@@ -31,6 +31,13 @@ Take the gem, or leave it once they learn the Regent is keeping it safe. (The He
 
 At 7th level expect invisibility, passwall and fly. Design wards that answer those spells instead of blocking them.
 
+## Harrow's Ford echoes
+
+*Optional. Drop one if it fits; none of them changes the session.*
+
+- **In the archive:** the Quill copy of **Captain Aurel Dane's writ** ("retake the north bank"). Beside it is the company's pay booked against *the March account*. It's the wall-pay trick in reverse, and a good small proof of how Lysander's books work.
+- **Out of the palace windows:** the Ford-folk refugee camp outside the north gate. It's a good place to stage the escape, or to lose pursuers.
+
 ## Status
 
 Outline only. Flesh out with the one-shot template in `world/dm-notes.md`.

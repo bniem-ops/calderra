@@ -35,6 +35,13 @@ Who the heroes accuse.
 
 - Whoever the heroes accuse loses standing; getting it wrong matters.
 
+## Harrow's Ford echoes
+
+*Optional. Drop one if it fits; none of them changes the session.*
+
+- **The first course** is ruined when Brenna and Lysander start on Harrow's Ford. *"You sent swords into my March."* *"Someone had to. Yours were on the wall."* Both of them look at any Lantern-sworn who were there.
+- **Clue colour:** a Sunward guest in mourning grey is from **House Dane**. Her son died at the Ford. She has a reason to hate both Lysander and Brenna, which makes her a good red herring.
+
 ## Status
 
 Outline only. Flesh out with the one-shot template in `world/dm-notes.md`.

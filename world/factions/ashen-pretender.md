@@ -127,7 +127,7 @@ The Host has no single faith: each clan keeps its own gods. What they share:
 | --- | --- | --- |
 | The Regency | **Revenge** | Lysander exiled them, bought their silence and let his mother die forgotten. |
 | House Ironhart | **Inherited enemy** | The Thornwall walled out the clans who make up half the Host. |
-| War-mother Ushra and the clans beyond | **Courting** | He offers what Corwen Ironhart promised and broke: the high pastures back. His first gift was boats around the Thornwall; the price was a raid on the March. She took the boats but hasn't eaten from the loaf. |
+| War-mother Ushra and the clans beyond | **Allied, not sworn** | He offers what Corwen Ironhart promised and broke: the high pastures back. His first gift was boats around the Thornwall; the price was a raid on the March. After Harrow's Ford he keeps the clans' north bank supplied by boat. She takes his help but still hasn't eaten from the loaf. |
 | Stonecrown Holds | **Target** | Starve them by burning the grain road, then buy them. |
 | Saltreach Compact | **Supplier** | Hargrove's ships sell him arms through a western cove, on the promise he'll honour the Sun Bonds. |
 | Greenhollow | **Complicated** | His mother's homeland. He burns its roads anyway, and spares Millhaven. |
@@ -241,7 +241,7 @@ This is his campaign across the three acts. Each piece comes from a faction alre
 
 | Target | Weak point | His move | When |
 | --- | --- | --- | --- |
-| House Ironhart | The Thorn Pact; the hollow towers; Garrick | Courts Ushra with the high pastures; ships her warband around the wall by sea; writes to Garrick offering peace if the March stays out | Act I |
+| House Ironhart | The Thorn Pact; the hollow towers; Garrick | Courts Ushra with the high pastures; ships her warband around the wall by sea; **supplies the clans' north bank at Harrow's Ford, cutting the wall off from the south** (played); writes to Garrick offering peace if the March stays out | Act I |
 | Stonecrown Holds | They can't feed themselves | Burns the Greenhollow grain road before winter, then offers grain for gold, smiths and silence | Act I–II |
 | The Regency | The bread price; the eight dark years | Cuts the grain so the Morning Price doubles; arrives with cheap bread; exposes the forged years at the right moment | Act II–III |
 | Saltreach Compact | The Sun Bonds | Buys arms from Hargrove on a promise to honour the bonds; can split the Tide Table by making the deal public | Act II |
@@ -250,6 +250,7 @@ This is his campaign across the three acts. Each piece comes from a faction alre
 ## Hooks for one-shots
 
 - **The Line at Harrow's Ford:** the raiders are Ushra's clans, carried around the Thornwall's west end on the Host's boats, with two **Cinders** riding along to make sure the raid is worth the fare. The voyage is a down payment on Ushra's loyalty; whether she swears at the Hearth depends on whether her son Varn comes home. A captured Cinder says, "The Heir doesn't want your bridge. He wants to see how long it takes Brenna to come."
+- **Played: Harrow's Ford (session 1).** The heroes charmed Varn and promised him the north bank. The Regency broke the promise, and Varn burned the Ford and the bridge. The Heir got all of it for the price of a few boatloads of pitch and food: Brenna isolated, the Regency and the March blaming each other, and his best line yet, *"The empire breaks every promise it makes to you. I keep mine."* Ushra is closer, but **still hasn't eaten from the loaf.** The Cinders tell Kestrel the Lantern-sworn win with tricks. See `ledger/sessions/01-harrows-ford.md`.
 - **The Regent's Vault:** the Host has its own team going after the acknowledgement on the same night. Two heists, one vault.
 - **The Pretender's Mask:** the heroes can steal the Will gem, turn him, or leave it (see `world/sunfire-crown.md`). They witness the Hearth, the one loaf and the names. Whoever sees him unmasked sees the ash-burn and his father's face. The choice to depose him or turn him should now feel genuinely hard.
 - **The Forging:** if he wasn't turned, he comes to Kharag with the Will gem and an army.

@@ -109,7 +109,7 @@ flowchart TD
 | Group | Relationship | Why |
 | --- | --- | --- |
 | Greenhollow | **Dependent and taking it for granted** | Their grain feeds Solace. The Solari barely know where Greenhollow is. |
-| House Ironhart | **Mutual blame** | Wall pay ran late and short in the emperor's last years. Brenna blames Lysander. Lysander thinks the March costs more than it's worth. |
+| House Ironhart | **Mutual blame** | Wall pay ran late and short in the emperor's last years. Brenna blames Lysander. Lysander thinks the March costs more than it's worth. Since Harrow's Ford, there's also a dead Regency company in Brenna's March that she never asked for. |
 | Stonecrown Holds | **Leverage** | The dwarves owe imperial taxes and claim independence. <!-- secret -->Lysander knows about the dragon fraud.<!-- /secret --> |
 | Saltreach Compact | **Necessary rivals** | The Compact's ships bring everything Solace imports. Their independence is a direct loss of tax and pride. |
 | Prince-Merchants of Vareth | **Distrust** | They'd buy the throne if it were for sale, and the Regency suspects it might be. |
@@ -218,6 +218,13 @@ The Heart holds its bearer to their deepest promise. Lysander's is the one he ma
 - **The Feast of Banners:** Lady Corisande wants Lysander dead before the Council. The poison was meant for him, and hit someone else.
 - **The Millhaven Harvest:** one of the two armies wanting Millhaven's grain could be the Regency's, desperate to refill the Granaries.
 - **The Council of Banners:** the High Prelate demands the gems be laid on the table. Lysander has to decide whether to reveal his.
+
+### Harrow's Ford (after session 1)
+
+- A Lantern-sworn ranger's rider asked the Regency, not the duchess, to help hold Harrow's Ford. Lysander saw a cheap chance to be the one who protected the Ford-folk. He sent **Captain Aurel Dane** with about a dozen hired swords under a sun banner and a Quill writ to "retake the north bank." He didn't tell Brenna.
+- Nobody in Solace knew a promise had been made at the river. Dane refused Varn's challenge and died with his whole company. The Ford burned, and the survivors now **camp outside Solace's north gate**, visible from the palace.
+- **What Lysander does with it:** he blames Brenna's empty garrisons, quietly. The Quill files the company's pay as a loss to the March account. It's the same trick as the wall pay, in reverse.
+- **Echo hooks:** Dane's writ is a copy in the Quill archive (and in the vault ledger; see *The Regent's Vault*). The north-gate camp is a powder keg if the Morning Price climbs. Dane's family, a minor Sunward House, wants someone to blame.
 
 ## Private hooks for Solari PCs (hand out in person)
 

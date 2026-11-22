@@ -59,6 +59,39 @@ for (const id of Object.keys(state.factions || {})) {
   if (!factionsCanon.some((f) => f.data.id === id)) errors.push(`ledger/state.yaml: faction "${id}" has no file in world/factions/`);
 }
 
+// ---------- Deferred consequences ----------
+// state.yaml `deferred` holds consequences the players haven't learned yet. Each entry stays off the map
+// until a session file names its `reveal_after` adventure; from then on it is applied on every build.
+// realm_peace and faction standing are deltas; a faction reason or a region's public fields replace the old ones.
+const REGION_PUBLIC = ["held_by", "feel", "rumour"];
+let effectivePeace = Number(state.realm_peace ?? 5);
+const effectiveFactions = structuredClone(state.factions || {});
+const effectiveRegions = structuredClone(regions);
+const deferredRevealed = [];
+const deferredHidden = [];
+for (const [id, d] of Object.entries(state.deferred || {})) {
+  const where = `ledger/state.yaml deferred.${id}`;
+  if (!d.reveal_after || !adventures.some((a) => a.data.id === d.reveal_after)) {
+    errors.push(`${where}: reveal_after "${d.reveal_after}" must be an adventure id`);
+    continue;
+  }
+  for (const fid of Object.keys(d.factions || {})) if (!factionsCanon.some((f) => f.data.id === fid)) errors.push(`${where}: faction "${fid}" has no file in world/factions/`);
+  for (const rid of Object.keys(d.regions || {})) {
+    if (!regions[rid]) errors.push(`${where}: region "${rid}" has no file in world/regions/`);
+    for (const k of Object.keys(d.regions[rid] || {})) if (!REGION_PUBLIC.includes(k)) errors.push(`${where}: regions.${rid}.${k} isn't a public region field (${REGION_PUBLIC.join(", ")})`);
+  }
+  if (!sessionByAdventure[d.reveal_after]) { deferredHidden.push([id, d]); continue; }
+  deferredRevealed.push(id);
+  effectivePeace += Number(d.realm_peace || 0);
+  for (const [fid, change] of Object.entries(d.factions || {})) {
+    const f = (effectiveFactions[fid] ??= { standing: 0 });
+    f.standing = Number(f.standing ?? 0) + Number(change.standing || 0);
+    if (change.reason) f.reason = change.reason;
+    if (change.known_to_players !== undefined) f.known_to_players = change.known_to_players;
+  }
+  for (const [rid, fields] of Object.entries(d.regions || {})) if (effectiveRegions[rid]) Object.assign(effectiveRegions[rid], fields);
+}
+
 // ---------- Public projection ----------
 const isPlayed = (a) => Boolean(sessionByAdventure[a.data.id]);
 const next = adventures.find((a) => !isPlayed(a));
@@ -68,7 +101,7 @@ const REP = { "-2": "Hostile", "-1": "Wary", "0": "Neutral", "1": "Friendly", "2
 const out = {
   generated: new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" }),
   intro,
-  realm_peace: Math.max(0, Math.min(10, Number(state.realm_peace ?? 5))),
+  realm_peace: Math.max(0, Math.min(10, effectivePeace)),
   acts: [
     { id: "Prologue", name: "Prologue" },
     { id: "I", name: "Act I · Banners Rise" },
@@ -100,9 +133,9 @@ const out = {
       players: s ? (s.data.players || []).map(String) : [],
     };
   }),
-  regions: Object.values(regions).map((r) => ({ id: r.id, name: r.name, held_by: r.held_by, feel: r.feel, rumour: r.rumour })),
+  regions: Object.values(effectiveRegions).map((r) => ({ id: r.id, name: r.name, held_by: r.held_by, feel: r.feel, rumour: r.rumour })),
   factions: factionsCanon.map(({ data: f }) => {
-    const st = (state.factions || {})[f.id] || { standing: 0 };
+    const st = effectiveFactions[f.id] || { standing: 0 };
     const known = st.known_to_players !== false;
     return {
       id: f.id,
@@ -145,6 +178,13 @@ for (const s of sessions) {
   for (const r of s.data.ripples || []) pushText(`ledger/sessions/${s.file} ripples`, r);
 }
 for (const [id, f] of Object.entries(state.factions || {})) pushText(`ledger/state.yaml factions.${id}.reason`, f.reason);
+for (const [id, d] of Object.entries(state.deferred || {})) {
+  pushText(`ledger/state.yaml deferred.${id}.note`, d.note);
+  for (const [fid, c] of Object.entries(d.factions || {})) pushText(`ledger/state.yaml deferred.${id}.factions.${fid}.reason`, c.reason);
+}
+for (const [id, d] of deferredHidden) {
+  for (const [rid, fields] of Object.entries(d.regions || {})) for (const [k, v] of Object.entries(fields || {})) pushText(`ledger/state.yaml deferred.${id}.regions.${rid}.${k} (not revealed yet)`, v);
+}
 for (const [id, g] of Object.entries(state.gems || {})) {
   if (!g.revealed) { pushText(`ledger/state.yaml gems.${id}.location`, g.location); pushText(`ledger/state.yaml gems.${id}.holder`, g.holder); }
   pushText(`ledger/state.yaml gems.${id}.known_by`, g.known_by);
@@ -184,6 +224,7 @@ for (const dir of ["world", "world/factions", "world/regions"]) {
 pushSecret("world/sunfire-crown.md", readFileSync(p("world/sunfire-crown.md"), "utf8"));
 for (const a of adventures) pushSecret(`adventures/${a.folder} body`, a.body.replace(/^#.*$/gm, ""));
 for (const s of sessions) { pushSecret(`ledger/sessions/${s.file} body`, s.body); pushSecret(`ledger/sessions/${s.file} outcome`, s.data.outcome); (s.data.ripples || []).forEach((r) => pushSecret(`ledger/sessions/${s.file} ripples`, r)); }
+for (const [id, d] of deferredHidden) { pushSecret(`ledger/state.yaml deferred.${id}.note`, d.note); for (const fields of Object.values(d.regions || {})) for (const v of Object.values(fields || {})) pushSecret(`ledger/state.yaml deferred.${id} (not revealed yet)`, v); }
 for (const [id, g] of Object.entries(state.gems || {})) if (!g.revealed) { pushSecret(`ledger/state.yaml gems.${id}.location`, g.location); pushSecret(`ledger/state.yaml gems.${id}.holder`, g.holder); }
 
 function leakScan(outputText, sources, where) {
@@ -257,3 +298,5 @@ if (guideOut.length) mkdirSync(p("map/peoples"), { recursive: true });
 for (const g of guideOut) writeFileSync(p("map/peoples", g.id + ".html"), g.html);
 const played = out.sessions.filter((s) => s.status === "played").length;
 console.log(`map/data.json written: ${out.sessions.length} sessions (${played} played), next: ${out.next_session ?? "none"}. Guides: ${guideOut.map((g) => "peoples/" + g.id + ".html").join(", ") || "none"}. Leak check passed.`);
+for (const id of deferredRevealed) console.log(`Deferred "${id}": revealed, applied to the map.`);
+for (const [id, d] of deferredHidden) console.log(`Deferred "${id}": hidden until "${d.reveal_after}" is logged.`);
