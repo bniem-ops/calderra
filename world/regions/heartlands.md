@@ -5,6 +5,12 @@ held_by: "Regent Lysander Vael, the late emperor's chancellor"
 feel: "Marble palaces, masked politics, nervous crowds"
 trouble: "Every claimant has spies here."
 rumour: "The Regent keeps a crown on a cushion in the throne room. Everyone knows it's a fake."
+# PUBLIC: shown in the map's dossiers.
+about: "The old heart of the empire around Solace, the marble capital on the southern bay. Every road in Calderra meets at its gates, and every claimant has spies inside them. South of the city, alone on its hill, stands the Lanternhold."
+landmarks:
+  - "Solace and the palace dome's eternal flame"
+  - "The Lanternhold, a day's ride away"
+  - "The hilltop pyres at sunset"
 ---
 
 # The Heartlands

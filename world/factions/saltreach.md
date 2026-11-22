@@ -6,6 +6,17 @@ face: "Guildmistress Odessa Reef"
 public_blurb: "A merchant republic on the east coast that has declared its independence."
 # Words that must never appear in player guides or on the map.
 secret_terms: ["Sun Bonds", "Sun Bond", "imperial debt", "bondholders", "bondholder", "arms to the west", "western cove", "Hargrove's crates"]
+# PUBLIC: shown in the map's dossiers.
+dossier:
+  people: "Reachers"
+  called: "Coin-gulls, by lowlanders. \"Free hulls,\" in their own toasts"
+  homeland: saltreach
+  about: "The people of the east coast's harbours and salt marshes, who declared a free republic the week the emperor died. Reacher ships carry almost everything Solace imports, and Reacher salt fish feeds half of Calderra's armies through winter. Every ship-owner sits at the Tide Table, with votes weighed by tonnage."
+  known_for:
+    - "The Wreck Wall, where contract-breakers' names are painted in every harbour"
+    - "Bond-sailors who work off a debt and rise to own a share of a ship"
+    - "Never renaming a ship, and paying every debt the night before sailing"
+  saying: "Square your tally."
 ---
 
 # Saltreach Compact

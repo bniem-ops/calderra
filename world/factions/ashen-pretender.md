@@ -6,6 +6,17 @@ face: "Unknown — masked"
 public_blurb: "A masked warlord in the far west who claims to be the emperor's secret heir."
 # Words that must never appear in player guides or on the map.
 secret_terms: ["Rowan", "Marit", "his uncle", "MAX's sister", "spare Millhaven", "lockbox", "Will gem", "ash-burn", "ash-burned", "burning from the inside", "his father's face", "Quill courier", "exiled him"]
+# PUBLIC: shown in the map's dossiers.
+dossier:
+  people: "Ashfolk and the Ashen Host"
+  called: "The Host, by its own. Everyone else has worse names"
+  homeland: ashen-frontier
+  about: "The burnt far west was never rebuilt after the empire's first wars, and it became the place the empire's outcasts ended up. Now they have an army, the Ashen Host, and a masked young leader who claims to be the Last Sun's son. His herald, Kestrel, speaks for him in public."
+  known_for:
+    - "A banner with the imperial sun turned upside down"
+    - "Tearing one loaf of bread at the war council's fire. Breaking bread is a vow"
+    - "Camping in the open, never behind walls"
+  saying: "Nothing is wasted."
 ---
 
 # The Ashen Pretender

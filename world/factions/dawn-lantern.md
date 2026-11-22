@@ -6,6 +6,16 @@ face: "Ser Maren Aldwyn"
 public_blurb: "A small sworn order of knights, loyal to the realm rather than any claimant. They recruit Lantern-sworn heroes for one job at a time."
 # Words that must never appear in player guides or on the map.
 secret_terms: ["Ellis Wren", "the mole", "Ellis is", "Wardens of the Seal", "first charter", "the old charter", "remake it", "never wear it", "Maren's visions"]
+# PUBLIC: shown in the map's dossiers.
+dossier:
+  people: "The Lantern-sworn"
+  called: "Lamplighters, fondly. Claimants call them \"Maren's people.\""
+  about: "About forty knights from every people in Calderra, sworn to the realm and to no ruler. The Order is too small to be everywhere, so it swears in heroes for one job at a time. Their hall, the Lanternhold, stands alone on a hill south of Solace, and every claimant still treats it as neutral ground."
+  known_for:
+    - "A lantern lit from the first flame, which has burned in their hall since the Order was founded"
+    - "Knights put out and sent away for swearing to a claimant, taking land or abandoning someone in need"
+    - "Lamps in village windows all over Calderra, left for the Order's friends"
+  saying: "Light the road; don't claim it."
 ---
 
 # Order of the Dawn Lantern

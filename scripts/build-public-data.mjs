@@ -92,6 +92,11 @@ for (const [id, d] of Object.entries(state.deferred || {})) {
   for (const [rid, fields] of Object.entries(d.regions || {})) if (effectiveRegions[rid]) Object.assign(effectiveRegions[rid], fields);
 }
 
+for (const { data: f } of factionsCanon) {
+  const h = f.dossier && f.dossier.homeland;
+  if (h && !regions[h]) errors.push(`world/factions: ${f.id} dossier.homeland "${h}" has no file in world/regions/`);
+}
+
 // ---------- Public projection ----------
 const isPlayed = (a) => Boolean(sessionByAdventure[a.data.id]);
 const next = adventures.find((a) => !isPlayed(a));
@@ -133,7 +138,11 @@ const out = {
       players: s ? (s.data.players || []).map(String) : [],
     };
   }),
-  regions: Object.values(effectiveRegions).map((r) => ({ id: r.id, name: r.name, held_by: r.held_by, feel: r.feel, rumour: r.rumour })),
+  regions: Object.values(effectiveRegions).map((r) => ({
+    id: r.id, name: r.name, held_by: r.held_by, feel: r.feel, rumour: r.rumour,
+    about: r.about || null,
+    landmarks: (r.landmarks || []).map(String),
+  })),
   factions: factionsCanon.map(({ data: f }) => {
     const st = effectiveFactions[f.id] || { standing: 0 };
     const known = st.known_to_players !== false;
@@ -144,6 +153,16 @@ const out = {
       face: f.face,
       blurb: f.public_blurb,
       reputation: known ? REP[String(Math.max(-2, Math.min(2, st.standing ?? 0)))] : "Unknown",
+      dossier: f.dossier
+        ? {
+            people: f.dossier.people || null,
+            called: f.dossier.called || null,
+            homeland: f.dossier.homeland || null,
+            about: f.dossier.about || null,
+            known_for: (f.dossier.known_for || []).map(String),
+            saying: f.dossier.saying || null,
+          }
+        : null,
     };
   }),
   gems: Object.values(state.gems || {}).map((g) =>

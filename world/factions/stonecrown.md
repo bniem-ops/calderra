@@ -6,6 +6,17 @@ face: "Thane Durgan Stonecrown"
 public_blurb: "The dwarven holds of the Ironspine, who want out of the empire entirely."
 # Words that must never appear in player guides or on the map.
 secret_terms: ["Kharagax", "Deepfall", "Deep Archive", "forged seal", "forged seals", "tribute seal", "tribute seals", "fraud", "dragon egg", "hatchling"]
+# PUBLIC: shown in the map's dossiers.
+dossier:
+  people: "Holdfast dwarves"
+  called: "Spiners, when lowlanders think they can't hear"
+  homeland: ironspine
+  about: "The dwarves of the Ironspine, who say they were here before Calderra and will be here after. Five clans live in cities carved deep into the mountain, ruled by a Thane the Moot elects for life. The Spine gives iron, silver and stone, but no bread: every loaf comes up the passes from Greenhollow, bought with metal."
+  known_for:
+    - "Keeping their word, even to lowlanders. Lowlanders say they keep score"
+    - "The Hall of Names, where honoured dead are carved into the mountain"
+    - "Kharag Dark, a stout so thick it's poured with a spoon"
+  saying: "Stone remembers."
 ---
 
 # Stonecrown Holds

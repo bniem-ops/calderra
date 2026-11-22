@@ -6,6 +6,17 @@ face: "Regent Lysander Vael"
 public_blurb: "The late emperor's chancellor, holding the capital and calling for the empire to stay whole under a council."
 # Words that must never appear in player guides or on the map.
 secret_terms: ["stipend", "frontier garrison", "hush money", "acknowledgement", "acknowledged the boy", "Heart gem", "Sun-Sickness", "sun-sick", "ruled in his name", "the eight dark years", "dark years", "exile order", "the Quiet Seal", "tribute ledgers", "kept paying"]
+# PUBLIC: shown in the map's dossiers.
+dossier:
+  people: "Solari"
+  called: "\"The Gilt\" or \"bread-masters,\" by provincials"
+  homeland: heartlands
+  about: "The people of Solace, the marble capital where every road in Calderra meets. The Regent, a dockworker's son who rose through the Quill's exams, governs until the Council of Banners names a new ruler. Bread is the empire's business here, and every dawn a crier calls the Morning Price of a loaf. Lately it has been going up."
+  known_for:
+    - "The Quill, the imperial civil service, where a nobody can become somebody by exam"
+    - "Masks at every public event, and politics done in the public baths"
+    - "Guests at a Solari wedding throw grain, to the horror of provincials"
+  saying: "The Sun rests."
 ---
 
 # The Regency

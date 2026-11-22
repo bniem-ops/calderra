@@ -5,6 +5,12 @@ held_by: "The Prince-Merchants of Vareth"
 feel: "Silk, canals, decadence, duels at dawn"
 trouble: "Buying soldiers to back whoever pays best."
 rumour: "A Vareth prince is offering a palace to whoever brings him one of the Crown gems."
+# PUBLIC: shown in the map's dossiers.
+about: "Where the Sunwater splits into seven mouths and meets the sea in the south-east. Vareth, the canal city at its head, is ruled by twelve Prince-Merchants with silk, money and duels at dawn. The Delta grows half of Calderra's grain and sits on the capital's only way to the sea. No claimant holds it. All of them want its gold."
+landmarks:
+  - "Vareth, the canal city"
+  - "The Exchange, where debts and favours are bought and sold"
+  - "The Golden Chain across the deep channel, where every ship pays"
 ---
 
 # The Gilded Delta
