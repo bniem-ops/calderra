@@ -35,7 +35,6 @@ Which army, if either, leaves with grain, and who leaves with the gem.
 
 ## Ripples
 
-- **Logging this session reveals the Harrow's Ford aftermath on the map** (Realm's Peace -2, Ironhart -1, a new March rumour). That happens whatever else happens here.
 
 - Whichever army leaves with grain gets stronger for Act II.
 - Whoever holds the Mind gem: update `ledger/state.yaml`. Every claimant hears about it before the Feast of Banners.
@@ -53,7 +52,7 @@ The Host has been told to spare Millhaven: MAX is the Heir's uncle. If the Host'
 ## The news from the Ford (Act I's closing beat)
 
 <!-- secret -->
-This is where the players learn what happened after Harrow's Ford. Until now they believe it ended in peace. The full aftermath is in `ledger/sessions/01-harrows-ford.md`.
+The players know the headlines from the map: the Ford burned, and a Regency company died first. This is where they get the story from someone who was there. The full aftermath is in `ledger/sessions/01-harrows-ford.md`.
 
 **Edda is here.** The Millhaven carter brought her down the back lanes with a column of Ford-folk. She washes pots at the Broken Antler for MAX and keeps her tally stick on the bar. It has new notches.
 
@@ -70,7 +69,7 @@ This is where the players learn what happened after Harrow's Ford. Until now the
 
 **If they ask about Varn:** *"Went west along the river with the smoke. Took his cord with him."*
 
-**After she's told them:** the Realm's Peace drop shows on the map once you log this session (it's deferred in `ledger/state.yaml`). Read it as Act I's last line: *the peace you made lasted until someone else broke it.*
+**Act I's last line:** *the peace you made lasted until someone else broke it.*
 <!-- /secret -->
 
 ## Harrow's Ford echoes

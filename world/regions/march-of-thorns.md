@@ -4,8 +4,7 @@ name: "The March of Thorns"
 held_by: "Duchess Brenna Ironhart"
 feel: "Walls, watchtowers, frost, soldiers"
 trouble: "Clans hold the river's north bank behind the Thornwall, and the wall's bread road is cut."
-rumour: "The orcs at Harrow's Ford went home across the river and left the bridge standing. They say the Lantern-sworn talked them out of a war."
-# After Millhaven is logged, the map shows the rumour in ledger/state.yaml deferred.harrows-ford-aftermath instead.
+rumour: "Harrow's Ford burned, bridge and all. Refugees on the north road say a Regency company crossed the river first, and none of them came back."
 ---
 
 # The March of Thorns
@@ -71,4 +70,4 @@ Everything in the March faces north. Towers, doors and graves all point that way
 
 - Ironhart Keep, the Sea Tower, the stone border markers and Garrick's crossroads are new. Keep, cut or rename?
 - The rest of the twelve towers are unnamed. Name them when a session needs them, or now?
-- The public `rumour` shows what the players believe after session 1. The aftermath's rumour is deferred in `ledger/state.yaml` and replaces it once The Millhaven Harvest is logged.
+- ~~After Harrow's Ford is logged, the public `rumour` will be out of date.~~ Updated with the aftermath.

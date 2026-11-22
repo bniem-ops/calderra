@@ -4,7 +4,7 @@
 
 # PUBLIC. 0–10, starts at 5. +1 when heroes protect people, make peace or stop a warlord;
 # -1 for a burnt town, a dead claimant or a broken treaty.
-realm_peace: 6
+realm_peace: 4
 
 # standing: -2 enemy … +2 ally. PUBLIC as a reputation word (Hostile/Wary/Neutral/Friendly/Allied)
 # unless known_to_players is false, which shows "Unknown". `reason` is private.
@@ -14,10 +14,10 @@ factions:
     reason: MAX vouches for the Lantern-sworn after the Festival.
   regency:
     standing: 0
-    reason: Not met yet.
+    reason: Not met yet. Answered Gromm's call for help at Harrow's Ford and lost the company it sent (Captain Aurel Dane). Lysander blames Brenna's empty garrisons.
   ironhart:
-    standing: 0
-    reason: Saved the bridge and the wall's winter bread, but promised Varn the land north of the river with no authority to do it. The Ford-folk are grateful. Brenna will not be once she hears.
+    standing: -1
+    reason: The heroes promised Varn her north bank. Gromm sent for the Regent's soldiers instead of hers, the Regent's company started a war in her March, and Harrow's Ford burned. Brenna blames Lysander first and the Lantern-sworn second.
   saltreach:
     standing: 0
     reason: Not met yet.
@@ -63,24 +63,7 @@ items:
     holder: Given to the Festival heroes. If no Festival PC returns for The Millhaven Harvest, they left it with Ser Maren at the Lanternhold.
     opens: Marit's lockbox at the Broken Antler (world/factions/ashen-pretender.md)
 
-# Consequences the players haven't learned yet. Private until the session for `reveal_after` is logged;
-# from then on the build applies them on top of the values above, every build. Don't fold them in by hand.
-# realm_peace and a faction's standing are deltas (+1, -2). A faction reason or a region's public field
-# (held_by, feel, rumour) replaces the old one. `note` is private and never shown.
-deferred:
-  harrows-ford-aftermath:
-    reveal_after: millhaven-harvest
-    note: The Regency's company tried to retake the north bank, Varn killed them, burned Harrow's Ford and destroyed the bridge. Edda tells the heroes in Millhaven. Full story in ledger/sessions/01-harrows-ford.md.
-    realm_peace: -2   # a burned village and a broken treaty
-    factions:
-      ironhart:
-        standing: -1
-        reason: The heroes promised Varn her north bank. Gromm sent for the Regent's soldiers instead of hers, the Regent's company started a war in her March, and Harrow's Ford burned. Brenna blames Lysander first and the Lantern-sworn second.
-      regency:
-        reason: Answered Gromm's call for help at Harrow's Ford and lost the company it sent (Captain Aurel Dane). Lysander blames Brenna's empty garrisons.
-    regions:
-      march-of-thorns:
-        rumour: "Harrow's Ford burned, bridge and all. Refugees on the north road say a Regency company crossed the river first, and none of them came back."
+deferred: {}   # Consequences to reveal later; see CLAUDE.md. Harrow's Ford's aftermath was revealed straight away.
 
 # PUBLIC. Retired PCs who may return as NPCs.
 # - name: "Character name"

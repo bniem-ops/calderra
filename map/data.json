@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-21",
   "intro": "Six months ago, Emperor Castellan VII, the Last Sun, died without an heir. That same night the Sunfire Crown vanished from his brow, and its three gems were scattered. The legions went home, and every duke, guild and warlord with an army began calling themselves the rightful successor. By imperial law, the next ruler will be named at the Council of Banners in Solace, one year after the emperor's death.",
-  "realm_peace": 6,
+  "realm_peace": 4,
   "acts": [
     {
       "id": "Prologue",
@@ -241,7 +241,7 @@
       "name": "The March of Thorns",
       "held_by": "Duchess Brenna Ironhart",
       "feel": "Walls, watchtowers, frost, soldiers",
-      "rumour": "The orcs at Harrow's Ford went home across the river and left the bridge standing. They say the Lantern-sworn talked them out of a war."
+      "rumour": "Harrow's Ford burned, bridge and all. Refugees on the north road say a Regency company crossed the river first, and none of them came back."
     },
     {
       "id": "saltreach",
@@ -274,7 +274,7 @@
       "seat": "March of Thorns",
       "face": "Duchess Brenna Ironhart",
       "blurb": "The duchess holding the northern wall against orc and giant clans, and claiming the throne.",
-      "reputation": "Neutral"
+      "reputation": "Wary"
     },
     {
       "id": "saltreach",

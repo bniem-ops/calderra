@@ -12,12 +12,11 @@ players:
 # Everything from here to `public_record` is private.
 outcome: held, by treaty. The bridge stands and Varn went home alive, but the terms were made under Charm Person.
 public_record: "The Lantern-sworn held the last bridge at Harrow's Ford against an orc warband from beyond the Thornwall. When the defenders began to tire, the warband's champion called a duel under clan law. The fight ended in terms agreed on the bridge. The warband went back north across the river and left the bridge standing."
-# The session only. The aftermath (-2 peace, Ironhart -1) is deferred in ledger/state.yaml
-# and reaches the map when The Millhaven Harvest is logged.
+# Net of the session (+1 peace) and its aftermath (-2 peace, Ironhart -1). See "Aftermath" below.
 changes:
-  realm_peace: 1
+  realm_peace: -1
   factions:
-    ironhart: 0
+    ironhart: -1
 ripples:
   - The bridge at Harrow's Ford is gone. Varn's warband destroyed it after the Regency broke the terms. The wall's bread now goes the long way round, and the March's south is cut off from its north.
   - The village of Harrow's Ford was burned. Edda and the survivors are refugees. Edda went to Millhaven with the carter, and most of the others went down the north road to Solace.
@@ -54,11 +53,7 @@ Private DM notes for this session. Held, but not the way the adventure planned i
 
 ## Aftermath (canon, between sessions)
 
-This happened off-screen after the party left. **The players don't know yet.** As far as they know, Varn and Ushra see the Calderrans as allies, and the map shows the peace going up.
-
-- **Reveal:** at the end of Act I, in *The Millhaven Harvest*. Edda is in Millhaven and tells them (see that adventure's "The news from the Ford").
-- **On the map:** the Realm's Peace drop, Ironhart's change and the new March rumour are in `ledger/state.yaml` under `deferred.harrows-ford-aftermath`. The build shows them automatically once a Millhaven session file exists.
-- **Before the reveal:** hints only, nothing that tells the story. After it, the echoes in Act II and III adventures are fair game.
+This happened off-screen after the party left. **It's public now**: the map shows Realm's Peace at 4, Ironhart as Wary and the Ford-burned rumour. Players know the headlines (the Ford burned, and a Regency company died first). They don't know the details, like the charm or Varn's reasons. Edda tells them those in *The Millhaven Harvest* ("The news from the Ford"). The echoes in other adventures can be used straight away.
 
 ### What happened, in order
 
@@ -92,5 +87,5 @@ The mole is still there. Not pushing it for now. If it's ever wanted, the Cinder
 ## Open questions
 
 - Is a second allowed to cast at all? The duel rules say a second "can't strike," and a charm isn't a strike. The party found a gap in clan law. Decide whether the clans see it that way. *(The aftermath assumes Varn treats it as a southern trick but still keeps his word.)*
-- ~~What does the party hear, and when?~~ Decided: Edda tells them in Millhaven at the end of Act I.
+- ~~What does the party hear, and when?~~ The headlines go on the map straight away. Edda gives them her side in Millhaven.
 - Does Edda blame the Lantern-sworn? She's an easy NPC to bring back angry, grateful, or both.

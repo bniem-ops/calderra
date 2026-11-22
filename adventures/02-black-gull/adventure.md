@@ -33,9 +33,10 @@ cold_open: "The Saltreach Compact will pay a fortune to whoever sinks the Black 
 
 ## Harrow's Ford echoes
 
-*Before the reveal: foreshadow only. The players believe Harrow's Ford ended in peace, and they learn otherwise in The Millhaven Harvest.*
+*Optional. Drop one if it fits; none of them changes the session.*
 
-- **Option B's log** has a new entry since session 1: two more runs from the western cove up the river mouth carrying *"pitch, timber, salt pork, forty spears."* A friendly warband doesn't need forty spears. Let the players wonder why.
+- **Option B's log** has a new entry since session 1: two more runs from the western cove up the river mouth carrying *"pitch, timber, salt pork, forty spears."* They're bound for the clans' north bank at Harrow's Ford.
+- **Harbour gossip:** a sailor swears he fished a Regency sun banner out of the river mouth, *"Clean through with an axe."*
 
 ## Status
 
